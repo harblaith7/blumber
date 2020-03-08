@@ -32,7 +32,9 @@ class Slider extends Component {
     }
 
     componentDidMount(){
-        //setInterval(this.autoTransition(), 3000)
+        setInterval(() => {
+            this.autoTransition()
+        }, 5000)
     }
 
     displaySlides = () => {
@@ -51,10 +53,15 @@ class Slider extends Component {
         slider.style.transition = "transform 0.4s ease-in-out";
 
         let btnState = [false, false, false, false]
-        btnState[position || e.target.id] = true
+        if(e){
+            btnState[parseInt(e.target.id)] = true
+        } else {
+            btnState[position] = true
+        }
+        
 
         this.setState({
-            counter : position || e.target.id,
+            counter : e ? parseInt(e.target.id) : position,
             btnState : btnState
         }, () => {
             slider.style.transform = `translateX(${-this.state.size * this.state.counter}rem)`
