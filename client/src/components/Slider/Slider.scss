@@ -1,0 +1,264 @@
+@import '../../sass/variables.scss';
+
+
+.Slider {
+    width: 50rem;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    overflow: hidden;
+    color: $black;
+
+    &__slide {
+        width: 250rem;
+        display: flex;
+        position: relative;
+    }
+
+    &__content {
+        width: 50rem;
+        height: 15rem;
+        text-align: center;
+        
+    }
+
+    &__title {
+        font-size: 4rem;
+        margin-bottom: 1rem;
+    }
+
+    &__description {
+        font-size: 2rem;
+        line-height: 2.75rem;
+    }
+
+    &__button-container {
+        text-align: center;
+        width: 50%;
+        margin: 0 auto
+    }
+
+    &__btn {
+        padding: 1rem;
+        margin: 0 0.75rem;
+        border-radius: 0.3rem;
+        cursor: pointer;
+        border: none;
+        background-color: rgba(255, 255, 255, 0.404);
+        box-shadow: 0.1rem 0.1rem 1rem rgba(0, 0, 0, 0.185);
+
+        &:focus {
+            outline: none
+        }
+
+        &--active {
+            background-color: white;
+        }
+    }
+
+    &__sign-in-container {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__sign-in{
+        margin-top: 2rem;
+        padding: 1.25rem 5rem;
+        border: 0.1rem solid rgba(29, 28, 28, 0.445);
+        background-color: transparent;
+        border-radius: 0.5rem;
+        color: rgb(29, 28, 28);
+        font-weight: 700;
+        transition: all 0.5s;
+        cursor: pointer;
+        letter-spacing: 0.2rem;
+        position: relative;
+
+        &:focus {
+            outline: none
+        }
+        
+
+        &:hover {
+            color: rgb(70, 68, 68);
+         
+        }
+
+        &::before {
+            content: "";
+            width: 0%;
+            height: 100%;
+            background-color: rgb(255, 255, 255);
+            position: absolute;
+            top: 50%;
+            left: 0%;
+            transform: translate(0%,-50%);
+            transition: all 1s cubic-bezier(.42,.72,.01,1.04);
+            z-index: -2;
+            clip-path: polygon(0 0, 85% 50%, 85%, 50%, 0 100%);
+        }
+
+        &:hover::before {
+            width: 100%
+        }
+    }
+
+    &__graduation-img-container {
+        display: flex;
+        justify-content: center;
+        position: relative;
+    }
+
+    &__graduation-hat {
+        width: 12rem;
+        animation: floating 4s infinite alternate;
+        
+    }  
+}
+
+@keyframes floating {
+    0% {
+        transform: translateY(0rem);
+    }
+    100% {
+        transform: translateY(-0.5rem);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.Slider {
+    height: 20rem;
+    width: 50%;
+    color: $black;
+    background-color: red;
+
+    &__container {
+        width: 100%;
+        margin-top: 3rem;
+        display: flex;
+        justify-content: center;
+        font-family: 'Lato';
+    }
+
+    &__slide {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+        
+    &__heading{
+            font-weight: 400;
+            font-size: 3rem;
+            margin-bottom: 2rem;
+        }
+        
+        &__explanation {
+         
+            font-size: 1.25rem;
+            line-height: 2rem;
+        }
+        
+        &__sign-up{
+            margin-top: 2rem;
+            padding: 1rem 4rem;
+            border: 0.1rem solid white;
+            background-color: transparent;
+            border-radius: 0.4rem;
+            color: rgb(255, 255, 255);
+            font-weight: 700;
+            transition: all 0.5s;
+            cursor: pointer;
+            text-transform: uppercase;
+            letter-spacing: 0.2rem;
+            position: relative;
+        }
+        
+        &__sign-up:hover {
+            color: rgb(70, 68, 68)
+        }
+        
+        &__sign-up::before {
+            content: "";
+            width: 0%;
+            height: 100%;
+            background-color: rgb(255, 255, 255);
+            position: absolute;
+            top: 50%;
+            left: 0%;
+            transform: translate(0%,-50%);
+            transition: all 1s cubic-bezier(.42,.72,.01,1.04);
+            z-index: -2;
+            clip-path: polygon(0 0, 85% 50%, 85%, 50%, 0 100%);
+        }
+        
+        &__sign-up:hover::before {
+            width: 100%
+        }
+        
+        &__btn-container{
+            margin-top: 2.5rem;
+            display: flex;
+            justify-content: center;
+        }
+        
+        &__btn {
+            width: 1rem;
+            height: 1rem;
+            border: none;
+            border-radius: 0.1rem;
+            box-shadow: 0.1rem 0.1rem 0.2rem rgba(0, 0, 0, 0.075);
+            margin-right: 1rem;
+            cursor: pointer;
+            background-color: rgb(196, 196, 196);
+            transition: 0.5s
+        }
+        
+        &__btn:focus {
+            outline: none
+        }
+        
+        &__btn--active {
+            transform: scale(1.1);
+            background-color: white;
+            box-shadow: 0.1rem 0.1rem 0.2rem rgba(0, 0, 0, 0.185);
+        }
+        
+        
+    }
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

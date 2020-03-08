@@ -1,0 +1,15 @@
+.Header {
+    background-color: rgba(255, 255, 0, 0.178);
+    height: 90vh;
+    clip-path: polygon(0 0, 100% 0%, 100% 78%, 0 100%);
+    position: relative;
+
+    
+
+    &__image {
+        width: 47.5rem;
+        position: absolute;
+        top: 15%;
+        left: 7.5%
+    }
+}
