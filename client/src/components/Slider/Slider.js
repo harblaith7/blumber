@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './Slider.scss';
-import graduationHat from '../../assets/graduation-hat.svg'
+import graduationHat from '../../assets/graduation-hat.svg';
+import Modal from '../Modal/Modal'
 
 class Slider extends Component {
 
@@ -95,9 +96,7 @@ class Slider extends Component {
                     <button className={`Slider__btn ${this.state.btnState[3] && "Slider__btn--active"}`} onClick={this.transitionSlide} id="3"></button>
                 </div>
                 <div className="Slider__sign-in-container">
-                    <button className="Slider__sign-in">
-                        Sign In
-                    </button>
+                    <Modal/>
                 </div>
                 
             </div>

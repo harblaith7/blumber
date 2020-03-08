@@ -3,7 +3,10 @@ import PropTypes from 'prop-types';
 import { makeStyles } from '@material-ui/core/styles';
 import Modal from '@material-ui/core/Modal';
 import Backdrop from '@material-ui/core/Backdrop';
-import { useSpring, animated } from 'react-spring/web.cjs'; // web.cjs is required for IE 11 support
+import { useSpring, animated } from 'react-spring'; // web.cjs is required for IE 11 support
+import './Modal.scss';
+import googleBtn from '../../assets/google-sign-in-btn.png'
+import facebookBtn from '../../assets/facebook-sign-in-button.png'
 
 const useStyles = makeStyles(theme => ({
   modal: {
@@ -63,9 +66,9 @@ export default function SpringModal() {
   };
 
   return (
-    <div>
-      <button type="button" onClick={handleOpen}>
-        react-spring
+    <div className="Modal">
+      <button type="button" onClick={handleOpen} className="Modal__sign-in">
+        Sign In
       </button>
       <Modal
         aria-labelledby="spring-modal-title"
@@ -80,9 +83,28 @@ export default function SpringModal() {
         }}
       >
         <Fade in={open}>
-          <div className={classes.paper}>
-            <h2 id="spring-modal-title">Spring modal</h2>
-            <p id="spring-modal-description">react-spring animates me.</p>
+          <div className="Modal__modal">
+              <div className="Modal__heading-container">
+                <h3 className="Modal__heading">
+                  Sign in to 
+                </h3>
+                <h2 className="Modal__logo">
+                  Blumber
+                </h2>
+              </div>
+              <div className="Modal__description-container">
+                <p className="Modal__description">
+                  Log into Blumber to access your current courses or buy new ones
+                </p>
+              </div>
+              <div className="Modal__btns-container">
+                  <div className="Modal__btn-container">
+                   
+                  </div>
+                  <div className="Modal__btn-container">
+                    hi
+                  </div>
+              </div>
           </div>
         </Fade>
       </Modal>
