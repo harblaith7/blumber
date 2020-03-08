@@ -1,8 +1,11 @@
+@import '../../sass/variables.scss';
+
 .Header {
-    background-color: rgba(255, 255, 0, 0.178);
+    background-color: $light-yellow;
     height: 90vh;
     clip-path: polygon(0 0, 100% 0%, 100% 78%, 0 100%);
     position: relative;
+    
 
     
 
