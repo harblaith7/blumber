@@ -1,0 +1,30 @@
+.InnerNav {
+    border-bottom: 0.1rem solid grey;
+
+    &__list {
+        display: flex;
+        height: 4rem;
+        width: 80%
+
+    }
+    
+    &__list-item {
+        list-style: none;
+        margin-right: 4rem;
+        font-size: 2rem;
+        width: 100%;
+        text-align: center;
+
+        &--active {
+            border-bottom: 0.15rem solid black;
+        }
+    }
+
+    &__link {
+        color: rgb(53, 52, 52);
+        font-weight: 700;
+        text-decoration: none;
+
+        
+    }
+}
