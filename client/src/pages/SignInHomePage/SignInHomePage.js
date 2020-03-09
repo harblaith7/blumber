@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import Header from '../../components/Header/Header'
 import CourseDisplay from '../../components/CourseDisplay/CourseDisplay';
-import Testinomails from '../../components/Testinomials/Testinomials'
+import Testinomails from '../../components/Testinomials/Testinomials';
+import InfoSection from '../../components/InfoSection/InfoSection'
 
 class SignInHomePage extends Component {
     render() {
@@ -10,6 +11,7 @@ class SignInHomePage extends Component {
                 <Header />
                 <CourseDisplay/>
                 <Testinomails/>
+                <InfoSection/>
             </>
         );
     }

@@ -1,0 +1,140 @@
+@import '../../sass/variables.scss';
+
+.InfoSection {
+    height: 80vh;
+
+
+    &__container {
+        height: 100%;
+        display: flex;
+    }
+
+    &__info-container {
+        width: 45%;
+        height: 100%
+    }
+
+    &__heading-container {
+        width: 90%;
+        margin: 0 auto;
+        padding-top: 5rem;
+    }
+
+    &__heading {
+        font-size: 3.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    &__description {
+        font-size: 2rem;
+        line-height: 3rem;
+        color: $grey
+    }
+
+    &__subjects-container {
+        margin-top: 2rem;
+    }
+
+    &__subject {
+        margin-bottom: 3rem;
+        font-size: 2rem;
+        font-weight: 400;
+
+        & span {
+            font-weight: 700;
+        }
+    }
+
+    &__cube-container {
+        width: 55%;
+        height: 100%;
+        position: relative;
+    }
+
+    &__cube-box {
+        height: 28rem;
+        width: 28rem;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        perspective: 80rem; 
+    }
+    
+    &__cube {
+        transition: transform 2s ease-in;
+          transform-style: preserve-3d;
+          width: 30rem;
+          height: 30rem;
+          margin: 5rem 0;
+          position: relative;
+          transform: rotateY(20deg);
+          animation: horizontal-spin 15s infinite linear;
+    }
+    
+    &__cube-face {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        color: $black;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        font-family: 'Roboto', sans-serif;
+        font-size: 3rem;
+        font-weight: 500;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: orchid;
+        transform-style: preserve-3d;
+        border: 0.2rem solid rgba(212, 116, 6, 0.808);
+        
+    }
+    
+    &__cube-face--front{
+        background-color: $dark-orange;
+        transform: translateZ(15rem);
+    }
+    
+    &__cube-face--back{
+        background-color: $dark-orange;
+        transform: translateZ(-15rem) rotateY(180deg);
+    }
+    
+    &__cube-face--top{
+        background-color: $dark-orange;
+        transform: rotateX(90deg) translateZ(17.5rem) ;
+    }
+    
+    &__cube-face--bottom{
+        background-color: $dark-orange;
+        transform: rotateX(-90deg) translateZ(17.5rem) ;
+    }
+    
+    &__cube-face--right{
+        background-color: $dark-orange;
+        transform: rotateY(-90deg) translateZ(17.5rem) ;
+    }
+    
+    &__cube-face--left{
+        background-color: $dark-orange;
+        transform: rotateY(90deg) translateZ(17.5rem) ;
+    }
+    
+    &__cube-face img {
+        height: 15rem;
+        opacity: 0.75;
+    }
+}
+
+@keyframes horizontal-spin {
+    from {
+      transform: rotateY(0);
+    }
+    to {
+      transform: rotateY(360deg);
+    }
+  }

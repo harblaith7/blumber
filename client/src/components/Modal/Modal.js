@@ -94,7 +94,7 @@ export default function SpringModal() {
               </div>
               <div className="Modal__description-container">
                 <p className="Modal__description">
-                  Log into Blumber to access your current courses or buy new ones
+                  Log into Blumber to access your current courses or to buy new ones
                 </p>
               </div>
               <div className="Modal__btns-container">
