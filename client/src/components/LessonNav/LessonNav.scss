@@ -1,0 +1,16 @@
+@import '../../sass/variables.scss';
+
+.LessonNav {
+    &__lesson-navigation-container {
+        overflow-y: auto;
+        width: 20%
+    }
+
+    &__toggle-container {
+        width: 100%;
+        background-color: pink;
+        height: 100%
+    }
+
+    
+}

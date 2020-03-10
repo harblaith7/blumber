@@ -1,0 +1,29 @@
+@import '../../sass/variables.scss';
+
+.LoggedInHeader {
+    background-color: $light-yellow;
+    height: 90vh;
+    clip-path: ellipse(66% 62% at 48% 36%);
+    position: relative;
+
+    &__heading-container {
+        background-color: blue;
+        position: absolute;
+        top: 35%;
+        left: 20%;
+        transform: translate(-50%, -50%);
+        font-family: "Baloo";
+        color: $white;
+    }
+
+    &__heading {
+        font-size: 12rem;
+        display: flex;
+        flex-direction: column; 
+
+        & span {
+            font-size: 5rem;
+            
+        }
+    }
+}
