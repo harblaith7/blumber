@@ -14,7 +14,22 @@ class LessonBox extends Component {
     toggleLessons = () => {
         this.setState({
             isOpen : !this.state.isOpen,
-            
+        })
+    }
+
+    displayLessons = () => {
+        return this.props.lessonInfo.sectionInfo.map(videoSection => {
+            return (
+                <div className="LessonBox__lesson-container">
+                    <input type="checkbox" className="LessonBox__checkbox"/>
+                    <h5 className="LessonBox__lesson-title">
+                        {videoSection.title}
+                    </h5>
+                    <h6 className="LessonBox__lesson-time">
+                        {videoSection.time}
+                    </h6>
+                </div>
+            )
         })
     }
 
@@ -29,25 +44,17 @@ class LessonBox extends Component {
                     </h4>
                     <div className="LessonBox__section-info">
                         <p className="LessonBox__info">
-                            0/6
+                            {this.props.lessonInfo && this.props.lessonInfo.mainInfo.courses}
                         </p>
                         <p className="LessonBox__info">
-                            33min
+                            {this.props.lessonInfo && this.props.lessonInfo.mainInfo.time}
                         </p>
                     </div>
                     <img src={dropDownArrow} alt="" className="LessonBox__dropdown-icon"/>
                 </div>
 
                 <div className={`LessonBox__lessons-container ${this.state.isOpen && "LessonBox__lessons-container--active"}`} >
-                    <div className="LessonBox__lesson-container">
-                        <input type="checkbox" className="LessonBox__checkbox"/>
-                        <h5 className="LessonBox__lesson-title">
-                            About the instructor
-                        </h5>
-                        <h6 className="LessonBox__lesson-time">
-                            9min
-                        </h6>
-                    </div>
+                    {this.props.lessonInfo && this.displayLessons()}
                 </div>
             </> 
         );
