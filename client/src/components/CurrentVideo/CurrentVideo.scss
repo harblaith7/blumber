@@ -24,7 +24,11 @@
         height: 100%;
         width: 80%;
         background-color: darkcyan;
-        
     } 
+
+    &__header {
+        font-size: 2rem;
+        margin-bottom: -3rem;
+    }
 
 }

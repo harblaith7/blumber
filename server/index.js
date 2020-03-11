@@ -6,10 +6,14 @@ const app = express()
 
 // CORS //
 const cors = require('cors');
+
+/*
 const corsConfig = {
     origin: ["http://localhost:3000"]
   };
 app.use(cors(corsConfig));
+*/
+
 app.use(cors())
   
 require('./services/passport')
@@ -23,10 +27,15 @@ app.get('/', (req, res) => {
     res.send('This is working currently')
 })
 
-app.get('/:user/:courseId', (req, res) => {
-    console.log(req.params.courseId)
-    console.log('Running')
-    res.send(courseData)
+app.get('/course/:user/:courseId', (req, res) => {
+    
+    const found = courseData.some(course => course.courseId === req.params.courseId)
+
+    if(found){
+        res.json(courseData.filter(course => course.courseId === req.params.courseId))
+    } else {
+        res.status(400).json({msg: `No course with the id of ${req.params.courseId}`})
+    }
 })
 
 const PORT = 8080

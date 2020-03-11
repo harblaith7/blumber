@@ -8,78 +8,21 @@ const API_URL = 'http://localhost:8080'
 
 class CurrentVideo extends Component {
 
-    
-
     constructor(props){
         super(props)
         this.state = {
-            lessonsInfo : [
-                {
-                    mainInfo : {
-                        title: "Section 1: Introduction",
-                        courses: "0/4",
-                        time: "33min"
-                    },
-                    sectionInfo: [
-                        {
-                            title: "About the instructor",
-                            time: "9min"
-                        },
-                        {
-                            title: "What we will be learning",
-                            time: "12min"
-                        },
-                        {
-                            title: "CHEM 112 overview",
-                            time: "8min"
-                        },
-                        {
-                            title: "How to get help",
-                            time: "4min"
-                        },
-                    ]   
-                },
-                {
-                    mainInfo : {
-                        title: "Section 2: Chemistry Review",
-                        courses: "0/6",
-                        time: "1hour 47min"
-                    },
-                    sectionInfo: [
-                        {
-                            title: "The structure of the atom",
-                            time: "16min"
-                        },
-                        {
-                            title: "What we will be learning",
-                            time: "12min"
-                        },
-                        {
-                            title: "CHEM 112 overview",
-                            time: "8min"
-                        },
-                        {
-                            title: "How to get help",
-                            time: "4min"
-                        },
-                        {
-                            title: "CHEM 112 overview",
-                            time: "8min"
-                        },
-                    ]   
-                }
-            ],
-            testData : ""
+            lessonsInfo : ""
         }
     }
 
     componentDidMount(){
-       axios.get(`${API_URL}/laith/321`)
+       axios.get(`${API_URL}/course/laith/953942234480`)
         .then(response => {
-            // console.log(response.data);
+
             this.setState({
-                testData : response.data
+                lessonsInfo : response.data
             })
+
         }).catch (e => {
             console.log('Wrong')
         })
@@ -88,12 +31,15 @@ class CurrentVideo extends Component {
     render() {
         return (
             <div className="CurrentVideo">
+                <h2 className="CurrentVideo__header">
+                    {this.state.lessonsInfo && this.state.lessonsInfo[0].courseName}
+                </h2>
                 <div className="CurrentVideo__container">
                     <div className="CurrentVideo__video-container">
                         <div className="CurrentVideo__video">
                             hi
                         </div>
-                        <LessonNav lessonsInfo={this.state.lessonsInfo}/>
+                        {this.state.lessonsInfo && <LessonNav lessonsInfo={this.state.lessonsInfo[0].courseMaterial}/>}
                     </div>
                 </div>
             </div>
