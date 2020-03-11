@@ -1,24 +1,24 @@
 const express = require('express')
-const passport = require('passport')
-const GoogleStrategy = require('passport-google-oauth20').Strategy;
 const keys = require('./config/keys')
 const courseData = require('./data/courses.json')
 
 const app = express()
+
+// CORS //
 const cors = require('cors');
-
-app.use(cors());
-
+const corsConfig = {
+    origin: ["http://localhost:3000"]
+  };
+app.use(cors(corsConfig));
+app.use(cors())
+  
 require('./services/passport')
 
-app.get('/auth/google', passport.authenticate('google', {
-    scope: ['profile', 'email']
-}))
 
-app.get('/auth/google/callback', passport.authenticate("google"))
+// AUTH ROUTES //
+require('./routes/authRoutes')(app)
 
-///
-
+// OTHER ROUTES //
 app.get('/', (req, res) => {
     res.send('This is working currently')
 })

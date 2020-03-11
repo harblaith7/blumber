@@ -68,7 +68,7 @@ export default function SpringModal() {
 
   
   const signInGoogle = () => {
-    axios.get('localhost:8080/auth/google')
+    axios.get('https://github.com/Rob--W/cors-anywhere/localhost:8080/auth/google')
       .then(response => {
         console.log(response)
       })

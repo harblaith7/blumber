@@ -2,18 +2,24 @@
 
 .LoggedInHeader {
     background-color: $light-yellow;
-    height: 90vh;
-    clip-path: ellipse(66% 62% at 48% 36%);
+    height: 60vh;
+    overflow: hidden;
     position: relative;
+    //clip-path: ellipse(66% 62% at 48% 36%);
+
+    &__background-color {
+        position: absolute;
+        left: 0%;
+        width: 100rem
+    }
 
     &__heading-container {
-        background-color: blue;
         position: absolute;
-        top: 35%;
-        left: 20%;
+        top: 40%;
+        left: 15%;
         transform: translate(-50%, -50%);
         font-family: "Baloo";
-        color: $white;
+        color: $black;
     }
 
     &__heading {
