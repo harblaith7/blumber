@@ -1,14 +1,16 @@
 [
     {
-        "courseName" : "CHEM112 - General Chemistry",
+        "courseName" : "CHEM 222 - Methods of Structure Determination",
         "courseId": "9539262480",
-        "thumbnail": "url",
+        "thumbnail": "https://www.scitecheuropa.eu/wp-content/uploads/2018/06/ST27-McGillU1-image-%C2%A9-iStock-Garsya.jpg",
         "courseInfo": {
             "courseLength" : "15 hours",
             "courseAuthor": "Post Malone",
             "courseRating": "4.2",
             "coursePrice": "$28.99"
         },
+        "purchased": true,
+        "university": "Queens",
         "courseMaterial" : [
             {
                "mainInfo":{
@@ -62,21 +64,25 @@
                      "title":"CHEM 112 overview",
                      "time":"8min"
                   }
-               ]
-            }
-         ]
-    },
+            ]
+         }
+      ]
+   },
 
-    {
+
+
+   {
       "courseName" : "PHYS 117 - Introductory Physics",
       "courseId": "953942234480",
-      "thumbnail": "url",
+      "thumbnail": "https://astronomy.com/-/media/Images/News%20and%20Observing/News/2018/09/PhysicsNobel.jpg?mw=600",
       "courseInfo": {
           "courseLength" : "15 hours",
-          "courseAuthor": "Post Malone",
+          "courseAuthor": "Dwight Howard",
           "courseRating": "4.2",
           "coursePrice": "$28.99"
       },
+      "purchased": false,
+      "university": "Queens",
       "courseMaterial" : [
           {
              "mainInfo":{
@@ -133,5 +139,637 @@
              ]
           }
        ]
-  }
+   },
+
+   {
+      "courseName" : "ECON 110  - Introductory Economics",
+      "courseId": "42432477231",
+      "thumbnail": "https://news.yale.edu/sites/default/files/styles/featured_media/public/adobestock_257957753_ynews.jpeg?itok=I9HGiWNW&c=07307e7d6a991172b9f808eb83b18804",
+      "courseInfo": {
+          "courseLength" : "14 hours",
+          "courseAuthor": "Arthur Paker",
+          "courseRating": "4.2",
+          "coursePrice": "$28.99"
+      },
+      "purchased" : true,
+      "university": "Queens",
+      "courseMaterial" : [
+          {
+             "mainInfo":{
+                "title":"Section 1: Introduction",
+                "courses":"0/4",
+                "time":"33min"
+             },
+             "sectionInfo": [
+                {
+                   "title":"About the instructor",
+                   "time":"9min"
+                },
+                {
+                   "title":"What we will be learning",
+                   "time":"12min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                },
+                {
+                   "title":"How to get help",
+                   "time":"4min"
+                }
+             ]
+          },
+          {
+             "mainInfo":{
+                "title":"Section 2: Chemistry Review",
+                "courses":"0/6",
+                "time":"1hour 47min"
+             },
+             "sectionInfo":[
+                {
+                   "title":"The structure of the atom",
+                   "time":"16min"
+                },
+                {
+                   "title":"What we will be learning",
+                   "time":"12min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                },
+                {
+                   "title":"How to get help",
+                   "time":"4min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                }
+             ]
+          }
+       ]
+   },
+
+   {
+      "courseName" : "CHEM 223 - Organic Chemistry",
+      "courseId": "12321312723",
+      "thumbnail": "https://store-images.s-microsoft.com/image/apps.33325.14369444307494184.16fbe8f7-06c4-4e13-b0a2-3483175db1af.c33ff13e-f234-4a5e-9c9b-f1bc2e5dc479?mode=scale&q=90&h=720&w=1280",
+      "courseInfo": {
+          "courseLength" : "24 hours",
+          "courseAuthor": "Delone West",
+          "courseRating": "4.2",
+          "coursePrice": "$28.99"
+      },
+      "purchased" : true,
+      "university": "Queens",
+      "courseMaterial" : [
+          {
+             "mainInfo":{
+                "title":"Section 1: Introduction",
+                "courses":"0/4",
+                "time":"33min"
+             },
+             "sectionInfo": [
+                {
+                   "title":"About the instructor",
+                   "time":"9min"
+                },
+                {
+                   "title":"What we will be learning",
+                   "time":"12min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                },
+                {
+                   "title":"How to get help",
+                   "time":"4min"
+                }
+             ]
+          },
+          {
+             "mainInfo":{
+                "title":"Section 2: Chemistry Review",
+                "courses":"0/6",
+                "time":"1hour 47min"
+             },
+             "sectionInfo":[
+                {
+                   "title":"The structure of the atom",
+                   "time":"16min"
+                },
+                {
+                   "title":"What we will be learning",
+                   "time":"12min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                },
+                {
+                   "title":"How to get help",
+                   "time":"4min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                }
+             ]
+          }
+       ]
+   },
+
+   {
+      "courseName" : "PHYS 217 - Quantum Mechanics",
+      "courseId": "3523777525",
+      "thumbnail": "https://cdn.britannica.com/s:900x675/50/190450-131-527BAEF7/series-Elementary-Particles-subject-forms-nuclear-physics.jpg",
+      "courseInfo": {
+          "courseLength" : "7 hours",
+          "courseAuthor": "Diefer Salomy",
+          "courseRating": "4.2",
+          "coursePrice": "$28.99"
+      },
+      "purchased": false,
+      "university" : "Queens",
+      "courseMaterial" : [
+          {
+             "mainInfo":{
+                "title":"Section 1: Introduction",
+                "courses":"0/4",
+                "time":"33min"
+             },
+             "sectionInfo": [
+                {
+                   "title":"About the instructor",
+                   "time":"9min"
+                },
+                {
+                   "title":"What we will be learning",
+                   "time":"12min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                },
+                {
+                   "title":"How to get help",
+                   "time":"4min"
+                }
+             ]
+          },
+          {
+             "mainInfo":{
+                "title":"Section 2: Chemistry Review",
+                "courses":"0/6",
+                "time":"1hour 47min"
+             },
+             "sectionInfo":[
+                {
+                   "title":"The structure of the atom",
+                   "time":"16min"
+                },
+                {
+                   "title":"What we will be learning",
+                   "time":"12min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                },
+                {
+                   "title":"How to get help",
+                   "time":"4min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                }
+             ]
+          }
+       ]
+   },
+
+   {
+      "courseName" : "Math 121 - Calculus and Integral Algebra",
+      "courseId": "7334772480",
+      "thumbnail": "https://online-learning.harvard.edu/sites/default/files/styles/header/public/course/bigstock-123382757-1280x640.jpg?itok=73Kijdht",
+      "courseInfo": {
+          "courseLength" : "24 hours",
+          "courseAuthor": "Kobe Bean Bryant",
+          "courseRating": "2.4",
+          "coursePrice": "$28.99"
+      },
+      "purchased": true,
+      "university": "Queens",
+      "courseMaterial" : [
+          {
+             "mainInfo":{
+                "title":"Section 1: Introduction",
+                "courses":"0/4",
+                "time":"33min"
+             },
+             "sectionInfo": [
+                {
+                   "title":"About the instructor",
+                   "time":"9min"
+                },
+                {
+                   "title":"What we will be learning",
+                   "time":"12min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                },
+                {
+                   "title":"How to get help",
+                   "time":"4min"
+                }
+             ]
+          },
+          {
+             "mainInfo":{
+                "title":"Section 2: Chemistry Review",
+                "courses":"0/6",
+                "time":"1hour 47min"
+             },
+             "sectionInfo":[
+                {
+                   "title":"The structure of the atom",
+                   "time":"16min"
+                },
+                {
+                   "title":"What we will be learning",
+                   "time":"12min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                },
+                {
+                   "title":"How to get help",
+                   "time":"4min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                }
+             ]
+          }
+       ]
+   },
+
+   {
+      "courseName" : "COMM 200 - Business Fundamentals",
+      "courseId": "636742234480",
+      "thumbnail": "https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Falejandrocremades%2Ffiles%2F2018%2F07%2Fdesk-3139127_1920-1200x773.jpg",
+      "courseInfo": {
+          "courseLength" : "15 hours",
+          "courseAuthor": "Post Malone",
+          "courseRating": "4.2",
+          "coursePrice": "$28.99"
+      },
+      "purchased" : true,
+      "university": "Queens",
+      "courseMaterial" : [
+          {
+             "mainInfo":{
+                "title":"Section 1: Introduction",
+                "courses":"0/4",
+                "time":"33min"
+             },
+             "sectionInfo": [
+                {
+                   "title":"About the instructor",
+                   "time":"9min"
+                },
+                {
+                   "title":"What we will be learning",
+                   "time":"12min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                },
+                {
+                   "title":"How to get help",
+                   "time":"4min"
+                }
+             ]
+          },
+          {
+             "mainInfo":{
+                "title":"Section 2: Chemistry Review",
+                "courses":"0/6",
+                "time":"1hour 47min"
+             },
+             "sectionInfo":[
+                {
+                   "title":"The structure of the atom",
+                   "time":"16min"
+                },
+                {
+                   "title":"What we will be learning",
+                   "time":"12min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                },
+                {
+                   "title":"How to get help",
+                   "time":"4min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                }
+             ]
+          }
+       ]
+   },
+
+   {
+      "courseName" : "CHEM 221 - Inorganic Chemistry",
+      "courseId": "26253942234480",
+      "thumbnail": "https://steemitimages.com/DQmaB2pxWs9orkNVVJMoTYh7ybhVDCFuArKzy9R1x3vCcmH/imagen.png",
+      "courseInfo": {
+          "courseLength" : "17.5 hours",
+          "courseAuthor": "Fevin Filler",
+          "courseRating": "4.2",
+          "coursePrice": "$28.99"
+      },
+      "purchased": false,
+      "university": "Queens",
+      "courseMaterial" : [
+          {
+             "mainInfo":{
+                "title":"Section 1: Introduction",
+                "courses":"0/4",
+                "time":"33min"
+             },
+             "sectionInfo": [
+                {
+                   "title":"About the instructor",
+                   "time":"9min"
+                },
+                {
+                   "title":"What we will be learning",
+                   "time":"12min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                },
+                {
+                   "title":"How to get help",
+                   "time":"4min"
+                }
+             ]
+          },
+          {
+             "mainInfo":{
+                "title":"Section 2: Chemistry Review",
+                "courses":"0/6",
+                "time":"1hour 47min"
+             },
+             "sectionInfo":[
+                {
+                   "title":"The structure of the atom",
+                   "time":"16min"
+                },
+                {
+                   "title":"What we will be learning",
+                   "time":"12min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                },
+                {
+                   "title":"How to get help",
+                   "time":"4min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                }
+             ]
+          }
+       ]
+   },
+
+   {
+      "courseName" : "BCHM 313 - Molecular Biochemistry",
+      "courseId": "67552942234480",
+      "thumbnail": "https://www.ox.ac.uk/sites/files/oxford/styles/ow_large_feature/public/field/field_image_main/Biochemistry.jpg?itok=awzrGSPA",
+      "courseInfo": {
+          "courseLength" : "8 hours",
+          "courseAuthor": "Matteo Sis",
+          "courseRating": "4.2",
+          "coursePrice": "$28.99"
+      },
+      "purchased" : true,
+      "university": "Queens",
+      "courseMaterial" : [
+          {
+             "mainInfo":{
+                "title":"Section 1: Introduction",
+                "courses":"0/4",
+                "time":"33min"
+             },
+             "sectionInfo": [
+                {
+                   "title":"About the instructor",
+                   "time":"9min"
+                },
+                {
+                   "title":"What we will be learning",
+                   "time":"12min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                },
+                {
+                   "title":"How to get help",
+                   "time":"4min"
+                }
+             ]
+          },
+          {
+             "mainInfo":{
+                "title":"Section 2: Chemistry Review",
+                "courses":"0/6",
+                "time":"1hour 47min"
+             },
+             "sectionInfo":[
+                {
+                   "title":"The structure of the atom",
+                   "time":"16min"
+                },
+                {
+                   "title":"What we will be learning",
+                   "time":"12min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                },
+                {
+                   "title":"How to get help",
+                   "time":"4min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                }
+             ]
+          }
+       ]
+   },
+
+   {
+      "courseName" : "BCHM 315 - Proteins and Enzymes",
+      "courseId": "553942223430",
+      "thumbnail": "https://www.researchgate.net/profile/Robbie_Joosten/publication/238609063/figure/fig1/AS:669561787518987@1536647378812/The-four-levels-of-protein-structure-The-primary-structure-describes-how-amino-acid.jpg",
+      "courseInfo": {
+          "courseLength" : "45 hours",
+          "courseAuthor": "Penil Campbell",
+          "courseRating": "4.2",
+          "coursePrice": "$28.99"
+      },
+      "purchased" : false,
+      "university":"Queens",
+      "courseMaterial" : [
+          {
+             "mainInfo":{
+                "title":"Section 1: Introduction",
+                "courses":"0/4",
+                "time":"33min"
+             },
+             "sectionInfo": [
+                {
+                   "title":"About the instructor",
+                   "time":"9min"
+                },
+                {
+                   "title":"What we will be learning",
+                   "time":"12min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                },
+                {
+                   "title":"How to get help",
+                   "time":"4min"
+                }
+             ]
+          },
+          {
+             "mainInfo":{
+                "title":"Section 2: Chemistry Review",
+                "courses":"0/6",
+                "time":"1hour 47min"
+             },
+             "sectionInfo":[
+                {
+                   "title":"The structure of the atom",
+                   "time":"16min"
+                },
+                {
+                   "title":"What we will be learning",
+                   "time":"12min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                },
+                {
+                   "title":"How to get help",
+                   "time":"4min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                }
+             ]
+          }
+       ]
+   },
+
+   {
+      "courseName" : "BCHM 316 - Metabolism",
+      "courseId": "9645635480",
+      "thumbnail": "https://2012books.lardbucket.org/books/an-introduction-to-nutrition/section_14/162d91c78c4bfdaeade6c0c77d0b9ee5.jpg",
+      "courseInfo": {
+          "courseLength" : "5 hours",
+          "courseAuthor": "Kost Malone",
+          "courseRating": "4.2",
+          "coursePrice": "$28.99"
+      },
+      "purchased": "true",
+      "university": "Queens",
+      "courseMaterial" : [
+          {
+             "mainInfo":{
+                "title":"Section 1: Introduction",
+                "courses":"0/4",
+                "time":"33min"
+             },
+             "sectionInfo": [
+                {
+                   "title":"About the instructor",
+                   "time":"9min"
+                },
+                {
+                   "title":"What we will be learning",
+                   "time":"12min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                },
+                {
+                   "title":"How to get help",
+                   "time":"4min"
+                }
+             ]
+          },
+          {
+             "mainInfo":{
+                "title":"Section 2: Chemistry Review",
+                "courses":"0/6",
+                "time":"1hour 47min"
+             },
+             "sectionInfo":[
+                {
+                   "title":"The structure of the atom",
+                   "time":"16min"
+                },
+                {
+                   "title":"What we will be learning",
+                   "time":"12min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                },
+                {
+                   "title":"How to get help",
+                   "time":"4min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                }
+             ]
+          }
+       ]
+   }
+
+  
 ]
