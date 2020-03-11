@@ -7,6 +7,7 @@ import { useSpring, animated } from 'react-spring'; // web.cjs is required for I
 import './Modal.scss';
 import googleBtn from '../../assets/google-sign-in-btn.png'
 import facebookBtn from '../../assets/facebook-sign-in-button.png'
+import axios from 'axios'
 
 const useStyles = makeStyles(theme => ({
   modal: {
@@ -65,6 +66,18 @@ export default function SpringModal() {
     setOpen(false);
   };
 
+  
+  const signInGoogle = () => {
+    axios.get('localhost:8080/auth/google')
+      .then(response => {
+        console.log(response)
+      })
+      .catch(e => {
+        console.log(e)
+      })
+  }
+  
+
   return (
     <div className="Modal">
       <button type="button" onClick={handleOpen} className="Modal__sign-in">
@@ -98,8 +111,8 @@ export default function SpringModal() {
                 </p>
               </div>
               <div className="Modal__btns-container">
-                  <div className="Modal__btn-container">
-                   
+                  <div className="Modal__btn-container" onClick={signInGoogle}>
+                    Sign In with Google
                   </div>
                   <div className="Modal__btn-container">
                     hi

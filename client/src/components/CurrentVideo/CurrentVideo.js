@@ -76,9 +76,10 @@ class CurrentVideo extends Component {
     componentDidMount(){
        axios.get(`${API_URL}/laith/321`)
         .then(response => {
-            this.setState = {
+            // console.log(response.data);
+            this.setState({
                 testData : response.data
-            }
+            })
         }).catch (e => {
             console.log('Wrong')
         })
