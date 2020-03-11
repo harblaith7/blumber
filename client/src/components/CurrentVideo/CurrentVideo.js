@@ -1,8 +1,14 @@
 import React, { Component } from 'react';
 import "./CurrentVideo.scss";
-import LessonNav from '../LessonNav/LessonNav'
+import LessonNav from '../LessonNav/LessonNav';
+import axios from 'axios';
+
+
+const API_URL = 'http://localhost:8080'
 
 class CurrentVideo extends Component {
+
+    
 
     constructor(props){
         super(props)
@@ -62,8 +68,20 @@ class CurrentVideo extends Component {
                         },
                     ]   
                 }
-            ]
+            ],
+            testData : ""
         }
+    }
+
+    componentDidMount(){
+       axios.get(`${API_URL}/laith/321`)
+        .then(response => {
+            this.setState = {
+                testData : response.data
+            }
+        }).catch (e => {
+            console.log('Wrong')
+        })
     }
 
     render() {
@@ -78,7 +96,8 @@ class CurrentVideo extends Component {
                     </div>
                 </div>
             </div>
-        );
+        
+            );
     }
 }
 

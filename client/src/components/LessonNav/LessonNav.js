@@ -3,11 +3,12 @@ import './LessonNav.scss';
 import LessonBox from '../LessonBox/LessonBox'
 
 
+
 class LessonNav extends Component {
 
     displayLessonBox = () => {
         return this.props.lessonsInfo.map(lesson => {
-            return <LessonBox lessonInfo = {lesson}/>
+            return <LessonBox lessonInfo = {lesson} />
         })
     }
 

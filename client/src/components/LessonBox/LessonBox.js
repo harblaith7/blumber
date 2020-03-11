@@ -34,8 +34,6 @@ class LessonBox extends Component {
     }
 
     render() {
-
-        console.log(this.props.lessonInfo)
         return (
             <>
                 <div className="LessonBox__toggle" onClick={this.toggleLessons}>
