@@ -8,6 +8,19 @@ const mongoose = require('mongoose')
 const User = mongoose.model('users')
 
 
+// SETS IDENTIFYING INFO FROM DONE METHOD TO COOKIE
+passport.serializeUser((user,done) => {
+    done(null,user.id)
+})
+
+// GETS INDENTIFYING INFO COOKIE AND TURNS IT INTO A USER 
+passport.deserializeUser((id,done) => {
+    User.findById(id)
+        .then(user => {
+            done(null, user)
+        })
+})
+
 passport.use(
     new GoogleStrategy({
         clientID: keys.googleClientId,
@@ -15,17 +28,28 @@ passport.use(
         callbackURL: "/auth/google/callback"
     },
     (accessToken, refreshToken, profile, done) => {
-        console.log(profile)
-        console.log(profile.emails[0].value)
-        new User({
-            googleId: profile.id,
-            name: profile.name.givenName,
-            fullName: profile.displayName,
-            email: profile.emails[0].value,
-            photo: profile.photos[0].value
-        })
-        .save()
-        .then(user => done(null, user))
-    }
-  ) 
+        
+        // CHECKING IF USER ALREADY EXISTS 
+        User.findOne({googleId: profile.id})
+            .then(existingUser => {
+                if(existingUser){
+                    // USER ALREADY EXISTS
+                    console.log('The user already exists')
+                    done(null, existingUser)
+                } else {
+                    // CREATE NEW USER RECORD 
+                    console.log("User doesn't exist, let's create a new one")
+                    new User({
+                        googleId: profile.id,
+                        name: profile.name.givenName,
+                        fullName: profile.displayName,
+                        email: profile.emails[0].value,
+                        photo: profile.photos[0].value
+                    })
+                    .save()
+                    .then(user => done(null, user))
+                }
+            })
+        }
+    ) 
 )
