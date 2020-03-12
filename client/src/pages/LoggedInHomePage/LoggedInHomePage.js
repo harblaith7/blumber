@@ -11,6 +11,7 @@ class LoggedInHomePage extends Component {
         this.state = {
             currentCourseId : null
         }
+        this.pageRef = React.createRef()  
     }
 
     getCurrentVideo = (id) => {
@@ -20,9 +21,18 @@ class LoggedInHomePage extends Component {
         })
     }
 
+    componentDidUpdate(){
+       /* window.scrollTo({
+            bottom: -500,
+            behavior: 'smooth'
+          }) */
+
+          window.scrollTo(100, this.pageRef.current.offsetTop)
+    }
+
     render() {
         return (
-            <div className="LoggedInHomePage">
+            <div className="LoggedInHomePage" ref={this.pageRef}>
                 <LoggedInHeader/>
                 <MyCourses transferCurrentId = {this.getCurrentVideo}/>
                 <CurrentVideo currentVideoId = {this.state.currentCourseId}/>

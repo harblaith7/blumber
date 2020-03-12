@@ -23,12 +23,19 @@
     &__video {
         height: 100%;
         width: 80%;
-        background-color: darkcyan;
+        background-color: $black-pure;
+        display: flex;
+        justify-content: center;
     } 
 
     &__header {
         font-size: 2rem;
         margin-bottom: -3rem;
+    }
+
+    &__thumbnail {
+        width: 80%;
+        height: 100%;
     }
 
 }

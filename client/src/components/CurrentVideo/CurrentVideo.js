@@ -51,7 +51,10 @@ class CurrentVideo extends Component {
                 <div className="CurrentVideo__container">
                     <div className="CurrentVideo__video-container">
                         <div className="CurrentVideo__video">
-                            hi
+                            <img 
+                                src={this.state.lessonsInfo && this.state.lessonsInfo[0].thumbnail} 
+                                alt="" 
+                                className="CurrentVideo__thumbnail"/>
                         </div>
                         {this.state.lessonsInfo && <LessonNav lessonsInfo={this.state.lessonsInfo[0].courseMaterial}/>}
                     </div>
