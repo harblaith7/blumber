@@ -780,7 +780,289 @@
              ]
           }
        ]
-   }
+   },
 
-  
+   {
+      "courseName" : "Biochemistry 2288A - Biochemistry and Molecular Biology",
+      "courseId": "W42366335480",
+      "thumbnail": "https://online.stanford.edu/sites/default/files/styles/figure_default/public/2018-03/genetics_fundamentals-of-genetics_xgen101.jpg?itok=UQ2TN86m",
+      "courseInfo": {
+          "courseLength" : "5 hours",
+          "courseAuthor": "Traver Brader",
+          "courseRating": "4.2",
+          "coursePrice": "$28.99",
+          "coursePercentage": 32
+      },
+      "purchased": false,
+      "university": "Western",
+      "courseMaterial" : [
+          {
+             "mainInfo":{
+                "title":"Section 1: Introduction",
+                "courses":"0/4",
+                "time":"33min"
+             },
+             "sectionInfo": [
+                {
+                   "title":"About the instructor",
+                   "time":"9min"
+                },
+                {
+                   "title":"What we will be learning",
+                   "time":"12min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                },
+                {
+                   "title":"How to get help",
+                   "time":"4min"
+                }
+             ]
+          },
+          {
+             "mainInfo":{
+                "title":"Section 2: Chemistry Review",
+                "courses":"0/6",
+                "time":"1hour 47min"
+             },
+             "sectionInfo":[
+                {
+                   "title":"The structure of the atom",
+                   "time":"16min"
+                },
+                {
+                   "title":"What we will be learning",
+                   "time":"12min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                },
+                {
+                   "title":"How to get help",
+                   "time":"4min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                }
+             ]
+          }
+       ]
+   },
+
+   {
+      "courseName" : "Biochemistry 3381A - Biological Macromolecules",
+      "courseId": "W3632135480",
+      "thumbnail": "https://i0.wp.com/images-prod.healthline.com/hlcmsresource/images/AN_images/sucrose-glucose-fructose-1296x728-feature.jpg?w=1155&h=1528",
+      "courseInfo": {
+          "courseLength" : "9 hours",
+          "courseAuthor": "Applo Jamer",
+          "courseRating": "4.2",
+          "coursePrice": "$28.99",
+          "coursePercentage": 32
+      },
+      "purchased": false,
+      "university": "Western",
+      "courseMaterial" : [
+          {
+             "mainInfo":{
+                "title":"Section 1: Introduction",
+                "courses":"0/4",
+                "time":"33min"
+             },
+             "sectionInfo": [
+                {
+                   "title":"About the instructor",
+                   "time":"9min"
+                },
+                {
+                   "title":"What we will be learning",
+                   "time":"12min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                },
+                {
+                   "title":"How to get help",
+                   "time":"4min"
+                }
+             ]
+          },
+          {
+             "mainInfo":{
+                "title":"Section 2: Chemistry Review",
+                "courses":"0/6",
+                "time":"1hour 47min"
+             },
+             "sectionInfo":[
+                {
+                   "title":"The structure of the atom",
+                   "time":"16min"
+                },
+                {
+                   "title":"What we will be learning",
+                   "time":"12min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                },
+                {
+                   "title":"How to get help",
+                   "time":"4min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                }
+             ]
+          }
+       ]
+   },
+
+   {
+      "courseName" : "Biochemistry 3385A - Human Biochemistry",
+      "courseId": "W3635544480",
+      "thumbnail": "https://cdn.mos.cms.futurecdn.net/ssZGg3at5Tad2PpEyUCKh3-320-80.jpg",
+      "courseInfo": {
+          "courseLength" : "14 hours",
+          "courseAuthor": "Kjamar loler",
+          "courseRating": "4.2",
+          "coursePrice": "$28.99",
+          "coursePercentage": 32
+      },
+      "purchased": false,
+      "university": "Western",
+      "courseMaterial" : [
+          {
+             "mainInfo":{
+                "title":"Section 1: Introduction",
+                "courses":"0/4",
+                "time":"33min"
+             },
+             "sectionInfo": [
+                {
+                   "title":"About the instructor",
+                   "time":"9min"
+                },
+                {
+                   "title":"What we will be learning",
+                   "time":"12min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                },
+                {
+                   "title":"How to get help",
+                   "time":"4min"
+                }
+             ]
+          },
+          {
+             "mainInfo":{
+                "title":"Section 2: Chemistry Review",
+                "courses":"0/6",
+                "time":"1hour 47min"
+             },
+             "sectionInfo":[
+                {
+                   "title":"The structure of the atom",
+                   "time":"16min"
+                },
+                {
+                   "title":"What we will be learning",
+                   "time":"12min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                },
+                {
+                   "title":"How to get help",
+                   "time":"4min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                }
+             ]
+          }
+       ]
+   },
+
+   {
+      "courseName" : "Biochemistry 4410A - Molecular Biology of DNA and RNA",
+      "courseId": "W963553280",
+      "thumbnail": "https://www.sciencemag.org/sites/default/files/styles/article_main_large/public/rna_1280p.jpg?itok=TGz34TWt",
+      "courseInfo": {
+          "courseLength" : "15 hours",
+          "courseAuthor": "Kalar Solman",
+          "courseRating": "4.2",
+          "coursePrice": "$28.99",
+          "coursePercentage": 32
+      },
+      "purchased": false,
+      "university": "Western",
+      "courseMaterial" : [
+          {
+             "mainInfo":{
+                "title":"Section 1: Introduction",
+                "courses":"0/4",
+                "time":"33min"
+             },
+             "sectionInfo": [
+                {
+                   "title":"About the instructor",
+                   "time":"9min"
+                },
+                {
+                   "title":"What we will be learning",
+                   "time":"12min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                },
+                {
+                   "title":"How to get help",
+                   "time":"4min"
+                }
+             ]
+          },
+          {
+             "mainInfo":{
+                "title":"Section 2: Chemistry Review",
+                "courses":"0/6",
+                "time":"1hour 47min"
+             },
+             "sectionInfo":[
+                {
+                   "title":"The structure of the atom",
+                   "time":"16min"
+                },
+                {
+                   "title":"What we will be learning",
+                   "time":"12min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                },
+                {
+                   "title":"How to get help",
+                   "time":"4min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                }
+             ]
+          }
+       ]
+   }
 ]
