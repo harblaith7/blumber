@@ -1064,5 +1064,1216 @@
              ]
           }
        ]
+   },
+
+   {
+      "courseName" : "Math 0110A - Introductory Calculus",
+      "courseId": "W635534253280",
+      "thumbnail": "https://static01.nyt.com/images/2019/08/02/science/02EQUATION1/merlin_158743359_ff291f8a-d473-4849-9d81-9762826b55f4-superJumbo.jpg",
+      "courseInfo": {
+          "courseLength" : "14 hours",
+          "courseAuthor": "Joe Biden",
+          "courseRating": "4.2",
+          "coursePrice": "$28.99",
+          "coursePercentage": 32
+      },
+      "purchased": false,
+      "university": "Western",
+      "courseMaterial" : [
+          {
+             "mainInfo":{
+                "title":"Section 1: Introduction",
+                "courses":"0/4",
+                "time":"33min"
+             },
+             "sectionInfo": [
+                {
+                   "title":"About the instructor",
+                   "time":"9min"
+                },
+                {
+                   "title":"What we will be learning",
+                   "time":"12min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                },
+                {
+                   "title":"How to get help",
+                   "time":"4min"
+                }
+             ]
+          },
+          {
+             "mainInfo":{
+                "title":"Section 2: Chemistry Review",
+                "courses":"0/6",
+                "time":"1hour 47min"
+             },
+             "sectionInfo":[
+                {
+                   "title":"The structure of the atom",
+                   "time":"16min"
+                },
+                {
+                   "title":"What we will be learning",
+                   "time":"12min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                },
+                {
+                   "title":"How to get help",
+                   "time":"4min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                }
+             ]
+          }
+       ]
+   },
+
+   {
+      "courseName" : "Math 1225B - Methods of Calculus",
+      "courseId": "W3355342534",
+      "thumbnail": "https://images.theconversation.com/files/207820/original/file-20180226-140213-yox11e.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=926&fit=clip",
+      "courseInfo": {
+          "courseLength" : "19 hours",
+          "courseAuthor": "Danill Roberto",
+          "courseRating": "4.2",
+          "coursePrice": "$28.99",
+          "coursePercentage": 32
+      },
+      "purchased": false,
+      "university": "Western",
+      "courseMaterial" : [
+          {
+             "mainInfo":{
+                "title":"Section 1: Introduction",
+                "courses":"0/4",
+                "time":"33min"
+             },
+             "sectionInfo": [
+                {
+                   "title":"About the instructor",
+                   "time":"9min"
+                },
+                {
+                   "title":"What we will be learning",
+                   "time":"12min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                },
+                {
+                   "title":"How to get help",
+                   "time":"4min"
+                }
+             ]
+          },
+          {
+             "mainInfo":{
+                "title":"Section 2: Chemistry Review",
+                "courses":"0/6",
+                "time":"1hour 47min"
+             },
+             "sectionInfo":[
+                {
+                   "title":"The structure of the atom",
+                   "time":"16min"
+                },
+                {
+                   "title":"What we will be learning",
+                   "time":"12min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                },
+                {
+                   "title":"How to get help",
+                   "time":"4min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                }
+             ]
+          }
+       ]
+   },
+
+   {
+      "courseName" : "Web Developer 1225B - Intro to Basic CSS",
+      "courseId": "W5325342534",
+      "thumbnail": "https://prod-discovery.edx-cdn.org/media/course/image/d64fa565-a848-4f82-8c07-f2a2d98c3e4e-1cf577279324.small.jpeg",
+      "courseInfo": {
+          "courseLength" : "19 hours",
+          "courseAuthor": "Rafay Ali",
+          "courseRating": "1.7",
+          "coursePrice": "$28.99",
+          "coursePercentage": 32
+      },
+      "purchased": false,
+      "university": "Western",
+      "courseMaterial" : [
+          {
+             "mainInfo":{
+                "title":"Section 1: Introduction",
+                "courses":"0/4",
+                "time":"33min"
+             },
+             "sectionInfo": [
+                {
+                   "title":"About the instructor",
+                   "time":"9min"
+                },
+                {
+                   "title":"What we will be learning",
+                   "time":"12min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                },
+                {
+                   "title":"How to get help",
+                   "time":"4min"
+                }
+             ]
+          },
+          {
+             "mainInfo":{
+                "title":"Section 2: Chemistry Review",
+                "courses":"0/6",
+                "time":"1hour 47min"
+             },
+             "sectionInfo":[
+                {
+                   "title":"The structure of the atom",
+                   "time":"16min"
+                },
+                {
+                   "title":"What we will be learning",
+                   "time":"12min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                },
+                {
+                   "title":"How to get help",
+                   "time":"4min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                }
+             ]
+          }
+       ]
+   },
+   
+   {
+      "courseName" : "Economics 1021A - Principles of Microeconomics",
+      "courseId": "W2329344434",
+      "thumbnail": "https://www.thegreatcourses.com/media/catalog/product/cache/1/plus_image/800x451/0f396e8a55728e79b48334e699243c07/5/6/5657-plus-title-image.1563827165.jpg",
+      "courseInfo": {
+          "courseLength" : "40 hours",
+          "courseAuthor": "Laith Harb",
+          "courseRating": "5.0",
+          "coursePrice": "$28.99",
+          "coursePercentage": 32
+      },
+      "purchased": false,
+      "university": "Western",
+      "courseMaterial" : [
+          {
+             "mainInfo":{
+                "title":"Section 1: Introduction",
+                "courses":"0/4",
+                "time":"33min"
+             },
+             "sectionInfo": [
+                {
+                   "title":"About the instructor",
+                   "time":"9min"
+                },
+                {
+                   "title":"What we will be learning",
+                   "time":"12min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                },
+                {
+                   "title":"How to get help",
+                   "time":"4min"
+                }
+             ]
+          },
+          {
+             "mainInfo":{
+                "title":"Section 2: Chemistry Review",
+                "courses":"0/6",
+                "time":"1hour 47min"
+             },
+             "sectionInfo":[
+                {
+                   "title":"The structure of the atom",
+                   "time":"16min"
+                },
+                {
+                   "title":"What we will be learning",
+                   "time":"12min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                },
+                {
+                   "title":"How to get help",
+                   "time":"4min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                }
+             ]
+          }
+       ]
+   },
+   
+   {
+      "courseName" : "CHM135H1 - Physical Principles",
+      "courseId": "UT2329344434",
+      "thumbnail": "https://i0.wp.com/sevenstar.org/wp-content/uploads/2019/04/physical_science.png?fit=786%2C442&ssl=1",
+      "courseInfo": {
+          "courseLength" : "32 hours",
+          "courseAuthor": "Rakesh Chino",
+          "courseRating": "5.0",
+          "coursePrice": "$28.99",
+          "coursePercentage": 32
+      },
+      "purchased": false,
+      "university": "University of Toronto",
+      "courseMaterial" : [
+          {
+             "mainInfo":{
+                "title":"Section 1: Introduction",
+                "courses":"0/4",
+                "time":"33min"
+             },
+             "sectionInfo": [
+                {
+                   "title":"About the instructor",
+                   "time":"9min"
+                },
+                {
+                   "title":"What we will be learning",
+                   "time":"12min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                },
+                {
+                   "title":"How to get help",
+                   "time":"4min"
+                }
+             ]
+          },
+          {
+             "mainInfo":{
+                "title":"Section 2: Chemistry Review",
+                "courses":"0/6",
+                "time":"1hour 47min"
+             },
+             "sectionInfo":[
+                {
+                   "title":"The structure of the atom",
+                   "time":"16min"
+                },
+                {
+                   "title":"What we will be learning",
+                   "time":"12min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                },
+                {
+                   "title":"How to get help",
+                   "time":"4min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                }
+             ]
+          }
+       ]
+   },
+
+   {
+      "courseName" : "CHM151Y1 - The Molecular Science",
+      "courseId": "UT23559344564",
+      "thumbnail": "https://sms.asu.edu/sites/default/files/styles/uto_carousel_thumbnail/public/general/basic_large.jpg?itok=v1JTG--R",
+      "courseInfo": {
+          "courseLength" : "17 hours",
+          "courseAuthor": "John Blooder",
+          "courseRating": "3.4",
+          "coursePrice": "$28.99",
+          "coursePercentage": 32
+      },
+      "purchased": false,
+      "university": "University of Toronto",
+      "courseMaterial" : [
+          {
+             "mainInfo":{
+                "title":"Section 1: Introduction",
+                "courses":"0/4",
+                "time":"33min"
+             },
+             "sectionInfo": [
+                {
+                   "title":"About the instructor",
+                   "time":"9min"
+                },
+                {
+                   "title":"What we will be learning",
+                   "time":"12min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                },
+                {
+                   "title":"How to get help",
+                   "time":"4min"
+                }
+             ]
+          },
+          {
+             "mainInfo":{
+                "title":"Section 2: Chemistry Review",
+                "courses":"0/6",
+                "time":"1hour 47min"
+             },
+             "sectionInfo":[
+                {
+                   "title":"The structure of the atom",
+                   "time":"16min"
+                },
+                {
+                   "title":"What we will be learning",
+                   "time":"12min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                },
+                {
+                   "title":"How to get help",
+                   "time":"4min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                }
+             ]
+          }
+       ]
+   },
+
+   {
+      "courseName" : "ECO101H1 - Principles of Microeconomics",
+      "courseId": "UT573534434564",
+      "thumbnail": "https://previews.123rf.com/images/radiantskies/radiantskies1211/radiantskies121102449/16528568-abstract-word-cloud-for-microeconomics-with-related-tags-and-terms.jpg",
+      "courseInfo": {
+          "courseLength" : "14 hours",
+          "courseAuthor": "Shelby Salamandar",
+          "courseRating": "4.4",
+          "coursePrice": "$28.99",
+          "coursePercentage": 32
+      },
+      "purchased": false,
+      "university": "University of Toronto",
+      "courseMaterial" : [
+          {
+             "mainInfo":{
+                "title":"Section 1: Introduction",
+                "courses":"0/4",
+                "time":"33min"
+             },
+             "sectionInfo": [
+                {
+                   "title":"About the instructor",
+                   "time":"9min"
+                },
+                {
+                   "title":"What we will be learning",
+                   "time":"12min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                },
+                {
+                   "title":"How to get help",
+                   "time":"4min"
+                }
+             ]
+          },
+          {
+             "mainInfo":{
+                "title":"Section 2: Chemistry Review",
+                "courses":"0/6",
+                "time":"1hour 47min"
+             },
+             "sectionInfo":[
+                {
+                   "title":"The structure of the atom",
+                   "time":"16min"
+                },
+                {
+                   "title":"What we will be learning",
+                   "time":"12min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                },
+                {
+                   "title":"How to get help",
+                   "time":"4min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                }
+             ]
+          }
+       ]
+   },
+
+   {
+      "courseName" : "MGT220H5- Financial Accounting",
+      "courseId": "UT556474434564",
+      "thumbnail": "https://online.virginia.edu/sites/online.virginia.edu/files/Screen%20Shot%202018-09-18%20at%202.12.14%20PM.png",
+      "courseInfo": {
+          "courseLength" : "7 hours",
+          "courseAuthor": "G Wagon",
+          "courseRating": "4.4",
+          "coursePrice": "$28.99",
+          "coursePercentage": 32
+      },
+      "purchased": false,
+      "university": "University of Toronto",
+      "courseMaterial" : [
+          {
+             "mainInfo":{
+                "title":"Section 1: Introduction",
+                "courses":"0/4",
+                "time":"33min"
+             },
+             "sectionInfo": [
+                {
+                   "title":"About the instructor",
+                   "time":"9min"
+                },
+                {
+                   "title":"What we will be learning",
+                   "time":"12min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                },
+                {
+                   "title":"How to get help",
+                   "time":"4min"
+                }
+             ]
+          },
+          {
+             "mainInfo":{
+                "title":"Section 2: Chemistry Review",
+                "courses":"0/6",
+                "time":"1hour 47min"
+             },
+             "sectionInfo":[
+                {
+                   "title":"The structure of the atom",
+                   "time":"16min"
+                },
+                {
+                   "title":"What we will be learning",
+                   "time":"12min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                },
+                {
+                   "title":"How to get help",
+                   "time":"4min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                }
+             ]
+          }
+       ]
+   },
+
+   {
+      "courseName" : "BCH 261 - Biochemistry",
+      "courseId": "R556474434564",
+      "thumbnail": "https://cdn.kastatic.org/ka-perseus-images/453bb048ca337d2042268fed53be2cab6df7d089.png",
+      "courseInfo": {
+          "courseLength" : "32 hours",
+          "courseAuthor": "Triller Tralo",
+          "courseRating": "4.4",
+          "coursePrice": "$28.99",
+          "coursePercentage": 32
+      },
+      "purchased": false,
+      "university": "Ryerson",
+      "courseMaterial" : [
+          {
+             "mainInfo":{
+                "title":"Section 1: Introduction",
+                "courses":"0/4",
+                "time":"33min"
+             },
+             "sectionInfo": [
+                {
+                   "title":"About the instructor",
+                   "time":"9min"
+                },
+                {
+                   "title":"What we will be learning",
+                   "time":"12min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                },
+                {
+                   "title":"How to get help",
+                   "time":"4min"
+                }
+             ]
+          },
+          {
+             "mainInfo":{
+                "title":"Section 2: Chemistry Review",
+                "courses":"0/6",
+                "time":"1hour 47min"
+             },
+             "sectionInfo":[
+                {
+                   "title":"The structure of the atom",
+                   "time":"16min"
+                },
+                {
+                   "title":"What we will be learning",
+                   "time":"12min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                },
+                {
+                   "title":"How to get help",
+                   "time":"4min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                }
+             ]
+          }
+       ]
+   }, 
+
+   {
+      "courseName" : "BCH 463 - Advanced Biochemistry II",
+      "courseId": "R556882434564",
+      "thumbnail": "https://dr282zn36sxxg.cloudfront.net/datastreams/f-d%3A21eb08bf8f5237a7e8c8ff22c216876df4b5a080b8ee01c25f922c0e%2BIMAGE_TINY%2BIMAGE_TINY.1",
+      "courseInfo": {
+          "courseLength" : "32 hours",
+          "courseAuthor": "Trevor Apollo",
+          "courseRating": "4.4",
+          "coursePrice": "$28.99",
+          "coursePercentage": 32
+      },
+      "purchased": false,
+      "university": "Ryerson",
+      "courseMaterial" : [
+          {
+             "mainInfo":{
+                "title":"Section 1: Introduction",
+                "courses":"0/4",
+                "time":"33min"
+             },
+             "sectionInfo": [
+                {
+                   "title":"About the instructor",
+                   "time":"9min"
+                },
+                {
+                   "title":"What we will be learning",
+                   "time":"12min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                },
+                {
+                   "title":"How to get help",
+                   "time":"4min"
+                }
+             ]
+          },
+          {
+             "mainInfo":{
+                "title":"Section 2: Chemistry Review",
+                "courses":"0/6",
+                "time":"1hour 47min"
+             },
+             "sectionInfo":[
+                {
+                   "title":"The structure of the atom",
+                   "time":"16min"
+                },
+                {
+                   "title":"What we will be learning",
+                   "time":"12min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                },
+                {
+                   "title":"How to get help",
+                   "time":"4min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                }
+             ]
+          }
+       ]
+   },
+
+   {
+      "courseName" : "BCH 463 - Advanced Biochemistry II",
+      "courseId": "R556882434564",
+      "thumbnail": "https://dr282zn36sxxg.cloudfront.net/datastreams/f-d%3A21eb08bf8f5237a7e8c8ff22c216876df4b5a080b8ee01c25f922c0e%2BIMAGE_TINY%2BIMAGE_TINY.1",
+      "courseInfo": {
+          "courseLength" : "21 hours",
+          "courseAuthor": "Trevor Apollo",
+          "courseRating": "4.4",
+          "coursePrice": "$28.99",
+          "coursePercentage": 32
+      },
+      "purchased": false,
+      "university": "Ryerson",
+      "courseMaterial" : [
+          {
+             "mainInfo":{
+                "title":"Section 1: Introduction",
+                "courses":"0/4",
+                "time":"33min"
+             },
+             "sectionInfo": [
+                {
+                   "title":"About the instructor",
+                   "time":"9min"
+                },
+                {
+                   "title":"What we will be learning",
+                   "time":"12min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                },
+                {
+                   "title":"How to get help",
+                   "time":"4min"
+                }
+             ]
+          },
+          {
+             "mainInfo":{
+                "title":"Section 2: Chemistry Review",
+                "courses":"0/6",
+                "time":"1hour 47min"
+             },
+             "sectionInfo":[
+                {
+                   "title":"The structure of the atom",
+                   "time":"16min"
+                },
+                {
+                   "title":"What we will be learning",
+                   "time":"12min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                },
+                {
+                   "title":"How to get help",
+                   "time":"4min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                }
+             ]
+          }
+       ]
+   },
+
+   {
+      "courseName" : "BCH 463 - Advanced Biochemistry II",
+      "courseId": "R556882434564",
+      "thumbnail": "https://dr282zn36sxxg.cloudfront.net/datastreams/f-d%3A21eb08bf8f5237a7e8c8ff22c216876df4b5a080b8ee01c25f922c0e%2BIMAGE_TINY%2BIMAGE_TINY.1",
+      "courseInfo": {
+          "courseLength" : "21 hours",
+          "courseAuthor": "Trevor Apollo",
+          "courseRating": "4.4",
+          "coursePrice": "$28.99",
+          "coursePercentage": 32
+      },
+      "purchased": false,
+      "university": "Ryerson",
+      "courseMaterial" : [
+          {
+             "mainInfo":{
+                "title":"Section 1: Introduction",
+                "courses":"0/4",
+                "time":"33min"
+             },
+             "sectionInfo": [
+                {
+                   "title":"About the instructor",
+                   "time":"9min"
+                },
+                {
+                   "title":"What we will be learning",
+                   "time":"12min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                },
+                {
+                   "title":"How to get help",
+                   "time":"4min"
+                }
+             ]
+          },
+          {
+             "mainInfo":{
+                "title":"Section 2: Chemistry Review",
+                "courses":"0/6",
+                "time":"1hour 47min"
+             },
+             "sectionInfo":[
+                {
+                   "title":"The structure of the atom",
+                   "time":"16min"
+                },
+                {
+                   "title":"What we will be learning",
+                   "time":"12min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                },
+                {
+                   "title":"How to get help",
+                   "time":"4min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                }
+             ]
+          }
+       ]
+   },
+
+   {
+      "courseName" : "ACC 406 - Introductory Management Accounting",
+      "courseId": "R426624554564",
+      "thumbnail": "https://img.business.com/rc/300x200/aHR0cHM6Ly93d3cuYnVzaW5lc3MuY29tL2ltYWdlcy9jb250ZW50LzVjYS8zY2IyNTVhMjE1ZThhNDU4YjRhYTQvMC04MDAt",
+      "courseInfo": {
+          "courseLength" : "17 hours",
+          "courseAuthor": "Indy Parker",
+          "courseRating": "4.6",
+          "coursePrice": "$28.99",
+          "coursePercentage": 32
+      },
+      "purchased": false,
+      "university": "Ryerson",
+      "courseMaterial" : [
+          {
+             "mainInfo":{
+                "title":"Section 1: Introduction",
+                "courses":"0/4",
+                "time":"33min"
+             },
+             "sectionInfo": [
+                {
+                   "title":"About the instructor",
+                   "time":"9min"
+                },
+                {
+                   "title":"What we will be learning",
+                   "time":"12min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                },
+                {
+                   "title":"How to get help",
+                   "time":"4min"
+                }
+             ]
+          },
+          {
+             "mainInfo":{
+                "title":"Section 2: Chemistry Review",
+                "courses":"0/6",
+                "time":"1hour 47min"
+             },
+             "sectionInfo":[
+                {
+                   "title":"The structure of the atom",
+                   "time":"16min"
+                },
+                {
+                   "title":"What we will be learning",
+                   "time":"12min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                },
+                {
+                   "title":"How to get help",
+                   "time":"4min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                }
+             ]
+          }
+       ]
+   },
+
+   {
+      "courseName" : "BIOC 212 - Molecular Mechanisms of Cell Function",
+      "courseId": "MC426624554564",
+      "thumbnail": "https://scx1.b-cdn.net/csz/news/800/2019/cells.jpg",
+      "courseInfo": {
+          "courseLength" : "27 hours",
+          "courseAuthor": "Lonee Parent",
+          "courseRating": "3.3",
+          "coursePrice": "$28.99",
+          "coursePercentage": 32
+      },
+      "purchased": false,
+      "university": "McGill",
+      "courseMaterial" : [
+          {
+             "mainInfo":{
+                "title":"Section 1: Introduction",
+                "courses":"0/4",
+                "time":"33min"
+             },
+             "sectionInfo": [
+                {
+                   "title":"About the instructor",
+                   "time":"9min"
+                },
+                {
+                   "title":"What we will be learning",
+                   "time":"12min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                },
+                {
+                   "title":"How to get help",
+                   "time":"4min"
+                }
+             ]
+          },
+          {
+             "mainInfo":{
+                "title":"Section 2: Chemistry Review",
+                "courses":"0/6",
+                "time":"1hour 47min"
+             },
+             "sectionInfo":[
+                {
+                   "title":"The structure of the atom",
+                   "time":"16min"
+                },
+                {
+                   "title":"What we will be learning",
+                   "time":"12min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                },
+                {
+                   "title":"How to get help",
+                   "time":"4min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                }
+             ]
+          }
+       ]
+   },
+
+   {
+      "courseName" : "BIOC 311 - Metabolic Biochemistry",
+      "courseId": "MC42536554564",
+      "thumbnail": "https://i0.wp.com/cdn-prod.medicalnewstoday.com/content/images/articles/327/327486/phages-attacking-bacterium.jpg?w=1155&h=1512",
+      "courseInfo": {
+          "courseLength" : "6 hours",
+          "courseAuthor": "Lonie Walker",
+          "courseRating": "3.3",
+          "coursePrice": "$28.99",
+          "coursePercentage": 32
+      },
+      "purchased": false,
+      "university": "McGill",
+      "courseMaterial" : [
+          {
+             "mainInfo":{
+                "title":"Section 1: Introduction",
+                "courses":"0/4",
+                "time":"33min"
+             },
+             "sectionInfo": [
+                {
+                   "title":"About the instructor",
+                   "time":"9min"
+                },
+                {
+                   "title":"What we will be learning",
+                   "time":"12min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                },
+                {
+                   "title":"How to get help",
+                   "time":"4min"
+                }
+             ]
+          },
+          {
+             "mainInfo":{
+                "title":"Section 2: Chemistry Review",
+                "courses":"0/6",
+                "time":"1hour 47min"
+             },
+             "sectionInfo":[
+                {
+                   "title":"The structure of the atom",
+                   "time":"16min"
+                },
+                {
+                   "title":"What we will be learning",
+                   "time":"12min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                },
+                {
+                   "title":"How to get help",
+                   "time":"4min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                }
+             ]
+          }
+       ]
+   },
+
+   {
+      "courseName" : "CPL2 561 - North America and Global Economy",
+      "courseId": "MC6738824564",
+      "thumbnail": "https://www.incimages.com/uploaded_files/image/970x450/getty_813402032_339661.jpg",
+      "courseInfo": {
+          "courseLength" : "13 hours",
+          "courseAuthor": "Finch Parker",
+          "courseRating": "3.3",
+          "coursePrice": "$28.99",
+          "coursePercentage": 32
+      },
+      "purchased": false,
+      "university": "McGill",
+      "courseMaterial" : [
+          {
+             "mainInfo":{
+                "title":"Section 1: Introduction",
+                "courses":"0/4",
+                "time":"33min"
+             },
+             "sectionInfo": [
+                {
+                   "title":"About the instructor",
+                   "time":"9min"
+                },
+                {
+                   "title":"What we will be learning",
+                   "time":"12min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                },
+                {
+                   "title":"How to get help",
+                   "time":"4min"
+                }
+             ]
+          },
+          {
+             "mainInfo":{
+                "title":"Section 2: Chemistry Review",
+                "courses":"0/6",
+                "time":"1hour 47min"
+             },
+             "sectionInfo":[
+                {
+                   "title":"The structure of the atom",
+                   "time":"16min"
+                },
+                {
+                   "title":"What we will be learning",
+                   "time":"12min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                },
+                {
+                   "title":"How to get help",
+                   "time":"4min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                }
+             ]
+          }
+       ]
+   },
+
+   {
+      "courseName" : "CHEM 502 - Advanced Bio-Organic Chemistry ",
+      "courseId": "MC5425534",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQp8h5RtYFDvTD7JTXKyUdR68RRsQeXtDbqixaCqlKYymcEWYi-",
+      "courseInfo": {
+          "courseLength" : "3 hours",
+          "courseAuthor": "Fincher Labo",
+          "courseRating": "3.3",
+          "coursePrice": "$28.99",
+          "coursePercentage": 32
+      },
+      "purchased": false,
+      "university": "McGill",
+      "courseMaterial" : [
+          {
+             "mainInfo":{
+                "title":"Section 1: Introduction",
+                "courses":"0/4",
+                "time":"33min"
+             },
+             "sectionInfo": [
+                {
+                   "title":"About the instructor",
+                   "time":"9min"
+                },
+                {
+                   "title":"What we will be learning",
+                   "time":"12min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                },
+                {
+                   "title":"How to get help",
+                   "time":"4min"
+                }
+             ]
+          },
+          {
+             "mainInfo":{
+                "title":"Section 2: Chemistry Review",
+                "courses":"0/6",
+                "time":"1hour 47min"
+             },
+             "sectionInfo":[
+                {
+                   "title":"The structure of the atom",
+                   "time":"16min"
+                },
+                {
+                   "title":"What we will be learning",
+                   "time":"12min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                },
+                {
+                   "title":"How to get help",
+                   "time":"4min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                }
+             ]
+          }
+       ]
    }
+
+
+
+
 ]
