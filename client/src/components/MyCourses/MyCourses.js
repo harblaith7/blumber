@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import "./MyCourses.scss";
 import LinearProgressBar from "../LinearProgressBar/LinearProgressBar"
 import axios from 'axios'
+import MyCourse from '../MyCourse/MyCourse'
 
 const API_URL = 'http://localhost:8080'
 
@@ -20,10 +21,6 @@ class MyCourses extends Component {
             .then(response => {
                 this.setState({
                     myCourses : response.data
-                }, () => {
-                    console.log(this.state.myCourses[0].thumbnail)
-                    console.log(this.state.myCourses[0].courseName)
-                    console.log(this.state.myCourses[0].courseInfo.courseAuthor)
                 })
             })
             .catch(e => {
@@ -31,24 +28,16 @@ class MyCourses extends Component {
             })
     }
 
-    transferId = () => {
-        this.props.transferCurrentId(this.courseRef.current.id)
-        console.log('Inside MyCourses: ', this.courseRef.current.id)
+    transferId = (id) => {
+        console.log('Inside MyCourses: ', id)
+        this.props.transferCurrentId(id)
+        
     }
 
     displayUsersCourses = () => {
         return this.state.myCourses.map(course => {
             return (
-                <div className="MyCourses__course-card" key={course.courseId} id={course.courseId} onClick={this.transferId} ref={this.courseRef}>
-                    <img src={course.thumbnail} alt="" className="MyCourses__card-img"/>
-                    <div className="MyCourses__info-container">
-                        <h4 className="MyCourses__card-title">{course.courseName}</h4>
-                        <p className="MyCourses__instructor">{course.courseInfo.courseAuthor}</p>
-                        <div className="MyCourses__progress-bar-container" >
-                            <LinearProgressBar percentage={course.courseInfo.coursePercentage}/>
-                        </div>
-                    </div>
-                </div>
+                <MyCourse key={course.courseId} course={course} transferCurrentId={this.transferId}/>
             )
         })
     }

@@ -18,7 +18,6 @@ class CurrentVideo extends Component {
     componentDidMount(){
        axios.get(`${API_URL}/course/laith/9539262480`)
         .then(response => {
-
             this.setState({
                 lessonsInfo : response.data
             })
@@ -26,6 +25,21 @@ class CurrentVideo extends Component {
         }).catch (e => {
             console.log('Wrong')
         })
+    }
+
+    componentDidUpdate(prevProps){
+        console.log('From update', this.props.currentVideoId)
+        if(this.props.currentVideoId !== prevProps.currentVideoId){
+            axios.get(`${API_URL}/course/laith/${this.props.currentVideoId}`)
+                .then(response => {
+                    this.setState({
+                        lessonsInfo : response.data
+                    })
+                })
+                .catch(e => {
+                    console.log('Error')
+                })
+        }  
     }
 
     render() {

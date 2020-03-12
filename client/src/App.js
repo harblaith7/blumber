@@ -12,7 +12,6 @@ class App extends Component {
           <Route path="/log" component={LoggedInHomePage}/>
           <Route exact strict path="/" component={SignInHomePage}/>
         </Switch>
-        
       </div>
     );
   }

@@ -14,6 +14,7 @@ class LoggedInHomePage extends Component {
     }
 
     getCurrentVideo = (id) => {
+        console.log('Inside LoggedInHomePage: ', id)
         this.setState({
             currentCourseId : id
         })
