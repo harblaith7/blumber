@@ -7,7 +7,8 @@
             "courseLength" : "15 hours",
             "courseAuthor": "Post Malone",
             "courseRating": "4.2",
-            "coursePrice": "$28.99"
+            "coursePrice": "$28.99",
+            "coursePercentage": 32
         },
         "purchased": true,
         "university": "Queens",
@@ -79,7 +80,8 @@
           "courseLength" : "15 hours",
           "courseAuthor": "Dwight Howard",
           "courseRating": "4.2",
-          "coursePrice": "$28.99"
+          "coursePrice": "$28.99",
+          "coursePercentage": 73
       },
       "purchased": false,
       "university": "Queens",
@@ -149,7 +151,8 @@
           "courseLength" : "14 hours",
           "courseAuthor": "Arthur Paker",
           "courseRating": "4.2",
-          "coursePrice": "$28.99"
+          "coursePrice": "$28.99",
+          "coursePercentage": 10
       },
       "purchased" : true,
       "university": "Queens",
@@ -212,14 +215,15 @@
    },
 
    {
-      "courseName" : "CHEM 223 - Organic Chemistry",
+      "courseName" : "CHEM 223 - Organic Chemical Reactions",
       "courseId": "12321312723",
       "thumbnail": "https://store-images.s-microsoft.com/image/apps.33325.14369444307494184.16fbe8f7-06c4-4e13-b0a2-3483175db1af.c33ff13e-f234-4a5e-9c9b-f1bc2e5dc479?mode=scale&q=90&h=720&w=1280",
       "courseInfo": {
           "courseLength" : "24 hours",
           "courseAuthor": "Delone West",
           "courseRating": "4.2",
-          "coursePrice": "$28.99"
+          "coursePrice": "$28.99",
+          "coursePercentage": 68
       },
       "purchased" : true,
       "university": "Queens",
@@ -289,7 +293,8 @@
           "courseLength" : "7 hours",
           "courseAuthor": "Diefer Salomy",
           "courseRating": "4.2",
-          "coursePrice": "$28.99"
+          "coursePrice": "$28.99",
+          "coursePercentage": 20
       },
       "purchased": false,
       "university" : "Queens",
@@ -359,7 +364,8 @@
           "courseLength" : "24 hours",
           "courseAuthor": "Kobe Bean Bryant",
           "courseRating": "2.4",
-          "coursePrice": "$28.99"
+          "coursePrice": "$28.99",
+          "coursePercentage": 87
       },
       "purchased": true,
       "university": "Queens",
@@ -429,7 +435,8 @@
           "courseLength" : "15 hours",
           "courseAuthor": "Post Malone",
           "courseRating": "4.2",
-          "coursePrice": "$28.99"
+          "coursePrice": "$28.99",
+          "coursePercentage": 4
       },
       "purchased" : true,
       "university": "Queens",
@@ -499,7 +506,8 @@
           "courseLength" : "17.5 hours",
           "courseAuthor": "Fevin Filler",
           "courseRating": "4.2",
-          "coursePrice": "$28.99"
+          "coursePrice": "$28.99",
+          "coursePercentage": 32
       },
       "purchased": false,
       "university": "Queens",
@@ -569,7 +577,8 @@
           "courseLength" : "8 hours",
           "courseAuthor": "Matteo Sis",
           "courseRating": "4.2",
-          "coursePrice": "$28.99"
+          "coursePrice": "$28.99",
+          "coursePercentage": 78
       },
       "purchased" : true,
       "university": "Queens",
@@ -639,7 +648,8 @@
           "courseLength" : "45 hours",
           "courseAuthor": "Penil Campbell",
           "courseRating": "4.2",
-          "coursePrice": "$28.99"
+          "coursePrice": "$28.99",
+          "coursePercentage": 20
       },
       "purchased" : false,
       "university":"Queens",
@@ -709,7 +719,8 @@
           "courseLength" : "5 hours",
           "courseAuthor": "Kost Malone",
           "courseRating": "4.2",
-          "coursePrice": "$28.99"
+          "coursePrice": "$28.99",
+          "coursePercentage": 32
       },
       "purchased": "true",
       "university": "Queens",

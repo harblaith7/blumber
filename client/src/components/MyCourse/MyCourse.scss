@@ -1,0 +1,45 @@
+.CourseInfo {
+        background-color: $white;
+        height: 30rem;
+        width: 20%;
+        border: 0.1rem solid $grey;
+        overflow: hidden;
+        box-shadow: 0.1rem 0.1rem 2rem $black-transparent;
+        border-radius: 0.3rem;
+        position: relative;
+        cursor: pointer;
+        margin-right: 5rem;
+        margin-bottom: 5rem;
+    
+
+    &__card-img {
+        width: 105%;
+        height: 15rem;
+        margin-left: -0.4rem;
+    }
+
+    &__info-container {
+       
+        width: 90%;
+        margin: 0 auto
+    }
+
+    &__card-title {
+        font-size: 1.5rem;
+        color: $grey-dark;
+        margin-top: 0.75rem;
+        line-height: 2rem;
+    }
+
+    &__instructor {
+        font-size: 1.2rem;
+        margin-top: 0.2rem;
+        color: $grey;
+        margin-bottom: 2rem;
+    }
+
+    &__progress-bar-container {
+        background-color: yellow;
+        
+    }
+}

@@ -12,6 +12,7 @@ class MyCourses extends Component {
         this.state = {
             myCourses : ""
         }
+        this.courseRef = React.createRef()
     }
 
     componentDidMount(){
@@ -30,16 +31,21 @@ class MyCourses extends Component {
             })
     }
 
+    transferId = () => {
+        this.props.transferCurrentId(this.courseRef.current.id)
+        console.log('Inside MyCourses: ', this.courseRef.current.id)
+    }
+
     displayUsersCourses = () => {
         return this.state.myCourses.map(course => {
             return (
-                <div className="MyCourses__course-card" key={course.courseId} id={course.courseId}>
+                <div className="MyCourses__course-card" key={course.courseId} id={course.courseId} onClick={this.transferId} ref={this.courseRef}>
                     <img src={course.thumbnail} alt="" className="MyCourses__card-img"/>
                     <div className="MyCourses__info-container">
                         <h4 className="MyCourses__card-title">{course.courseName}</h4>
                         <p className="MyCourses__instructor">{course.courseInfo.courseAuthor}</p>
                         <div className="MyCourses__progress-bar-container" >
-                            <LinearProgressBar/>
+                            <LinearProgressBar percentage={course.courseInfo.coursePercentage}/>
                         </div>
                     </div>
                 </div>

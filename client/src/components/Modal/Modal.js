@@ -111,9 +111,9 @@ export default function SpringModal() {
                 </p>
               </div>
               <div className="Modal__btns-container">
-                  <div className="Modal__btn-container" onClick={signInGoogle}>
+                  <a className="Modal__btn-container" href="http://localhost:8080/auth/google">
                     Sign In with Google
-                  </div>
+                  </a>
                   <div className="Modal__btn-container">
                     hi
                   </div>

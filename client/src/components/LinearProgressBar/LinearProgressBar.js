@@ -64,7 +64,7 @@ const useStyles = makeStyles(theme => ({
   },
 }));
 
-export default function CustomizedProgressBars() {
+export default function CustomizedProgressBars(props) {
   const classes = useStyles();
 
   return (
@@ -74,7 +74,7 @@ export default function CustomizedProgressBars() {
         className={classes.margin, "width: 100%"}
         variant="determinate"
         color="secondary"
-        value={50}
+        value={props.percentage}
       />
     
     </div>
