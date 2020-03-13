@@ -1,0 +1,36 @@
+.Course {
+     height: 10rem;
+     width: 25rem;
+     height: 100%;
+     display: flex;
+     flex-direction: column;
+
+    &__thumbnail {
+        width: 90%;
+        height: 12rem;
+        margin: 0 auto;
+    
+        border-radius: 0.3rem;
+    }
+
+    &__description-container {
+        width: 90%;
+        margin: 0 auto
+    }
+
+    &__course-title {
+        font-size: 1.75rem;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    &__course-author {
+        font-size: 1.25rem;
+        color: rgb(182, 177, 177);
+        margin-bottom: 1rem;
+    }
+
+    &__course-price {
+        font-size: 1.5rem;
+    }
+}
