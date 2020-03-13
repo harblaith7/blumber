@@ -4,17 +4,17 @@
     
 
     &__container {
-        
+        color: $black
     }
 
     
     &__header-container {
         background-color: $light-yellow;
-        height: 50vh;
+        height: 45vh;
     }
 
     &__info-container {
-        background-color: blue;
+     
         width: 85%;
         height: 100%;
         margin: 0 auto;
@@ -24,7 +24,7 @@
     }
 
     &__text-info-container {
-        background-color: green;
+
         width: 70%;
         padding: 0 1rem
     }
@@ -57,9 +57,86 @@
         }
     }
 
-    &__purchase-container {
-        background-color: yellow;
-        width: 30%
+    &__author {
+        margin-top: 2rem;
+        font-size: 1.2rem;
+        color: $grey-dark;
+        letter-spacing: 0.3rem;
     }
 
+    &__purchase-container {
+        background-color: $off-white;
+        border: 0.1rem solid $grey-light;
+        padding: 1rem;
+        width: 30%;
+        height: 45rem
+    }
+
+    &__course-thumbnail {
+        width: 100%;
+        height: 22.5rem;
+        margin-bottom: 1rem;
+    }
+
+    &__purchase-btn {
+        margin-top: 1.5rem;
+        width: 100%;
+        padding: 1.5rem 0;
+        cursor: pointer;
+    }
+
+    &__refund-policy {
+        margin-top: 1.5rem;
+        font-size: 1.25rem;
+        text-align: center;
+    }
+
+    &__description-container {
+        width: 85%;
+        margin: 0 auto
+    }
+
+    &__heading {
+        padding-top: 5rem;
+        font-size: 3rem;
+    }
+
+    &__description-text-container {
+        width: 65%;
+        margin-top: 1.5rem;
+    }
+
+    &__description-text {
+        font-size: 1.5rem;
+        line-height: 2.25rem;
+    }
+
+    &__reviews-container {
+        @extend .CourseDescription__description-container
+    }
+
+    &__review-container {
+        margin-top: 1.5rem;
+        width: 85%;
+        padding: 2rem 0;
+        border-top: 0.1rem solid $light-yellow;
+    }
+
+    &__review-title {
+        font-size: 1.75rem;
+        margin-bottom: 0.5rem;
+        display: flex;
+        align-items: center;
+        & span {
+            color: $text-grey;
+            font-size: 1.4rem;
+            margin-left: 0.5rem;
+        }
+    }
+
+    &__review {
+        font-size: 1.5rem;
+        margin-top: 1rem;
+        line-height: 2.5rem;
+    }
 }
