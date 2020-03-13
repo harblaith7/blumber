@@ -6,7 +6,7 @@
         "courseInfo": {
             "courseLength" : "15 hours",
             "courseAuthor": "Post Malone",
-            "courseRating": "4.2",
+            "courseRating": "4.6",
             "coursePrice": "$28.99",
             "coursePercentage": 32
         },
@@ -79,7 +79,7 @@
       "courseInfo": {
           "courseLength" : "15 hours",
           "courseAuthor": "Dwight Howard",
-          "courseRating": "4.2",
+          "courseRating": "4.9",
           "coursePrice": "$28.99",
           "coursePercentage": 73
       },
@@ -221,7 +221,7 @@
       "courseInfo": {
           "courseLength" : "24 hours",
           "courseAuthor": "Delone West",
-          "courseRating": "4.2",
+          "courseRating": "4.5",
           "coursePrice": "$28.99",
           "coursePercentage": 68
       },
@@ -292,7 +292,7 @@
       "courseInfo": {
           "courseLength" : "7 hours",
           "courseAuthor": "Diefer Salomy",
-          "courseRating": "4.2",
+          "courseRating": "3.8",
           "coursePrice": "$28.99",
           "coursePercentage": 20
       },
@@ -363,7 +363,7 @@
       "courseInfo": {
           "courseLength" : "24 hours",
           "courseAuthor": "Kobe Bean Bryant",
-          "courseRating": "2.4",
+          "courseRating": "5",
           "coursePrice": "$28.99",
           "coursePercentage": 87
       },
@@ -434,7 +434,7 @@
       "courseInfo": {
           "courseLength" : "15 hours",
           "courseAuthor": "Post Malone",
-          "courseRating": "4.2",
+          "courseRating": "4.7",
           "coursePrice": "$28.99",
           "coursePercentage": 4
       },
@@ -576,7 +576,7 @@
       "courseInfo": {
           "courseLength" : "8 hours",
           "courseAuthor": "Matteo Sis",
-          "courseRating": "4.2",
+          "courseRating": "4.7",
           "coursePrice": "$28.99",
           "coursePercentage": 78
       },
@@ -647,7 +647,7 @@
       "courseInfo": {
           "courseLength" : "45 hours",
           "courseAuthor": "Penil Campbell",
-          "courseRating": "4.2",
+          "courseRating": "4.5",
           "coursePrice": "$28.99",
           "coursePercentage": 20
       },
@@ -718,7 +718,7 @@
       "courseInfo": {
           "courseLength" : "5 hours",
           "courseAuthor": "Kost Malone",
-          "courseRating": "4.2",
+          "courseRating": "3.7",
           "coursePrice": "$28.99",
           "coursePercentage": 32
       },

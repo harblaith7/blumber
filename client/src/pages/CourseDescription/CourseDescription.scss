@@ -1,0 +1,65 @@
+@import "../../sass/variables.scss";
+
+.CourseDescription {
+    
+
+    &__container {
+        
+    }
+
+    
+    &__header-container {
+        background-color: $light-yellow;
+        height: 50vh;
+    }
+
+    &__info-container {
+        background-color: blue;
+        width: 85%;
+        height: 100%;
+        margin: 0 auto;
+        padding: 5rem 0;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__text-info-container {
+        background-color: green;
+        width: 70%;
+        padding: 0 1rem
+    }
+
+    &__header {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+    }
+
+    &__short-description {
+        font-size: 2rem;
+    }
+
+    &__stats-container {
+        display: flex;
+        align-items: center;
+        margin-top: 2rem;
+    }
+
+    &__stats-info {
+        font-size: 1.5rem;
+        margin-left: 1rem;
+
+        &--margin {
+            margin-left: 6rem;
+
+            & span {
+                font-weight: 700;
+            }
+        }
+    }
+
+    &__purchase-container {
+        background-color: yellow;
+        width: 30%
+    }
+
+}
