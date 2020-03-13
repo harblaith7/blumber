@@ -16,7 +16,7 @@ class CurrentVideo extends Component {
     }
 
     componentDidMount(){
-       axios.get(`${API_URL}/course/laith/9539262480`)
+       axios.get(`${API_URL}/course/current/laith/9539262480`)
         .then(response => {
             this.setState({
                 lessonsInfo : response.data

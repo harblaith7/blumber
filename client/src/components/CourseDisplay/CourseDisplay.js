@@ -4,6 +4,20 @@ import InnerNav from '../InnerNav/InnerNav'
 import CourseList from '../CourseList/CourseList'
 
 class CourseDisplay extends Component {
+
+    constructor(props){
+        super(props)
+        this.state = {
+            currentUni : ""
+        }
+    }
+
+    getUniName = (univeryName) => {
+        this.setState({
+            currentUni : univeryName
+        })
+    }
+
     render() {
         return (
             <div className="CourseDisplay">
@@ -17,8 +31,8 @@ class CourseDisplay extends Component {
                         </p>
                     </div>
                     <div className="CourseDisplay__course-display-container">
-                        <InnerNav/>
-                        <CourseList/>
+                        <InnerNav transferUniName = {this.getUniName}/>
+                        <CourseList currentUni = {this.state.currentUni}/>
                     </div>
                 </div>
             </div>

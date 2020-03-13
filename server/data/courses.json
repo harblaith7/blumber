@@ -11,7 +11,7 @@
             "coursePercentage": 32
         },
         "purchased": true,
-        "university": "Queens",
+        "university": "queens",
         "courseMaterial" : [
             {
                "mainInfo":{
@@ -84,7 +84,7 @@
           "coursePercentage": 73
       },
       "purchased": false,
-      "university": "Queens",
+      "university": "queens",
       "courseMaterial" : [
           {
              "mainInfo":{
@@ -155,7 +155,7 @@
           "coursePercentage": 10
       },
       "purchased" : true,
-      "university": "Queens",
+      "university": "queens",
       "courseMaterial" : [
           {
              "mainInfo":{
@@ -226,7 +226,7 @@
           "coursePercentage": 68
       },
       "purchased" : true,
-      "university": "Queens",
+      "university": "queens",
       "courseMaterial" : [
           {
              "mainInfo":{
@@ -297,7 +297,7 @@
           "coursePercentage": 20
       },
       "purchased": false,
-      "university" : "Queens",
+      "university" : "queens",
       "courseMaterial" : [
           {
              "mainInfo":{
@@ -368,7 +368,7 @@
           "coursePercentage": 87
       },
       "purchased": true,
-      "university": "Queens",
+      "university": "queens",
       "courseMaterial" : [
           {
              "mainInfo":{
@@ -439,7 +439,7 @@
           "coursePercentage": 4
       },
       "purchased" : true,
-      "university": "Queens",
+      "university": "queens",
       "courseMaterial" : [
           {
              "mainInfo":{
@@ -510,7 +510,7 @@
           "coursePercentage": 32
       },
       "purchased": false,
-      "university": "Queens",
+      "university": "queens",
       "courseMaterial" : [
           {
              "mainInfo":{
@@ -581,7 +581,7 @@
           "coursePercentage": 78
       },
       "purchased" : true,
-      "university": "Queens",
+      "university": "queens",
       "courseMaterial" : [
           {
              "mainInfo":{
@@ -652,7 +652,7 @@
           "coursePercentage": 20
       },
       "purchased" : false,
-      "university":"Queens",
+      "university":"queens",
       "courseMaterial" : [
           {
              "mainInfo":{
@@ -723,7 +723,7 @@
           "coursePercentage": 32
       },
       "purchased": "true",
-      "university": "Queens",
+      "university": "queens",
       "courseMaterial" : [
           {
              "mainInfo":{
@@ -794,7 +794,7 @@
           "coursePercentage": 32
       },
       "purchased": false,
-      "university": "Western",
+      "university": "western",
       "courseMaterial" : [
           {
              "mainInfo":{
@@ -865,7 +865,7 @@
           "coursePercentage": 32
       },
       "purchased": false,
-      "university": "Western",
+      "university": "western",
       "courseMaterial" : [
           {
              "mainInfo":{
@@ -936,7 +936,7 @@
           "coursePercentage": 32
       },
       "purchased": false,
-      "university": "Western",
+      "university": "western",
       "courseMaterial" : [
           {
              "mainInfo":{
@@ -1007,7 +1007,7 @@
           "coursePercentage": 32
       },
       "purchased": false,
-      "university": "Western",
+      "university": "western",
       "courseMaterial" : [
           {
              "mainInfo":{
@@ -1078,7 +1078,7 @@
           "coursePercentage": 32
       },
       "purchased": false,
-      "university": "Western",
+      "university": "western",
       "courseMaterial" : [
           {
              "mainInfo":{
@@ -1149,7 +1149,7 @@
           "coursePercentage": 32
       },
       "purchased": false,
-      "university": "Western",
+      "university": "western",
       "courseMaterial" : [
           {
              "mainInfo":{
@@ -1220,7 +1220,7 @@
           "coursePercentage": 32
       },
       "purchased": false,
-      "university": "Western",
+      "university": "western",
       "courseMaterial" : [
           {
              "mainInfo":{
@@ -1291,7 +1291,7 @@
           "coursePercentage": 32
       },
       "purchased": false,
-      "university": "Western",
+      "university": "western",
       "courseMaterial" : [
           {
              "mainInfo":{
@@ -1362,7 +1362,7 @@
           "coursePercentage": 32
       },
       "purchased": false,
-      "university": "University of Toronto",
+      "university": "uft",
       "courseMaterial" : [
           {
              "mainInfo":{
@@ -1433,7 +1433,7 @@
           "coursePercentage": 32
       },
       "purchased": false,
-      "university": "University of Toronto",
+      "university": "uft",
       "courseMaterial" : [
           {
              "mainInfo":{
@@ -1504,7 +1504,7 @@
           "coursePercentage": 32
       },
       "purchased": false,
-      "university": "University of Toronto",
+      "university": "uft",
       "courseMaterial" : [
           {
              "mainInfo":{
@@ -1575,7 +1575,7 @@
           "coursePercentage": 32
       },
       "purchased": false,
-      "university": "University of Toronto",
+      "university": "uft",
       "courseMaterial" : [
           {
              "mainInfo":{
@@ -1646,7 +1646,7 @@
           "coursePercentage": 32
       },
       "purchased": false,
-      "university": "Ryerson",
+      "university": "ryerson",
       "courseMaterial" : [
           {
              "mainInfo":{
@@ -1717,7 +1717,7 @@
           "coursePercentage": 32
       },
       "purchased": false,
-      "university": "Ryerson",
+      "university": "ryerson",
       "courseMaterial" : [
           {
              "mainInfo":{
@@ -1788,7 +1788,7 @@
           "coursePercentage": 32
       },
       "purchased": false,
-      "university": "Ryerson",
+      "university": "ryerson",
       "courseMaterial" : [
           {
              "mainInfo":{
@@ -1859,7 +1859,7 @@
           "coursePercentage": 32
       },
       "purchased": false,
-      "university": "Ryerson",
+      "university": "ryerson",
       "courseMaterial" : [
           {
              "mainInfo":{
@@ -1930,7 +1930,7 @@
           "coursePercentage": 32
       },
       "purchased": false,
-      "university": "Ryerson",
+      "university": "ryerson",
       "courseMaterial" : [
           {
              "mainInfo":{
@@ -2001,7 +2001,7 @@
           "coursePercentage": 32
       },
       "purchased": false,
-      "university": "McGill",
+      "university": "mcgill",
       "courseMaterial" : [
           {
              "mainInfo":{
@@ -2072,7 +2072,7 @@
           "coursePercentage": 32
       },
       "purchased": false,
-      "university": "McGill",
+      "university": "mcgill",
       "courseMaterial" : [
           {
              "mainInfo":{
@@ -2143,7 +2143,7 @@
           "coursePercentage": 32
       },
       "purchased": false,
-      "university": "McGill",
+      "university": "mcgill",
       "courseMaterial" : [
           {
              "mainInfo":{
@@ -2214,7 +2214,790 @@
           "coursePercentage": 32
       },
       "purchased": false,
-      "university": "McGill",
+      "university": "mcgill",
+      "courseMaterial" : [
+          {
+             "mainInfo":{
+                "title":"Section 1: Introduction",
+                "courses":"0/4",
+                "time":"33min"
+             },
+             "sectionInfo": [
+                {
+                   "title":"About the instructor",
+                   "time":"9min"
+                },
+                {
+                   "title":"What we will be learning",
+                   "time":"12min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                },
+                {
+                   "title":"How to get help",
+                   "time":"4min"
+                }
+             ]
+          },
+          {
+             "mainInfo":{
+                "title":"Section 2: Chemistry Review",
+                "courses":"0/6",
+                "time":"1hour 47min"
+             },
+             "sectionInfo":[
+                {
+                   "title":"The structure of the atom",
+                   "time":"16min"
+                },
+                {
+                   "title":"What we will be learning",
+                   "time":"12min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                },
+                {
+                   "title":"How to get help",
+                   "time":"4min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                }
+             ]
+          }
+       ]
+   },
+
+   {
+      "courseName" : "CHEM 2203‎ - ‎Organic Chemistry I",
+      "courseId": "CR54253534",
+      "thumbnail": "https://lh3.googleusercontent.com/proxy/G7GTx3z_wgI0U4n24RmpH6wu5J2UPS9f2XzVj-B2H_rz3cYW2YryoynwhLBii7Kn_uvFjqPVnOk1MXpAeaGJZS-MUpx-looGsyvu0IHL-pkZNzUCcQoQoxzLDo0ggKrospQ_sgeYRJMaGbsJnl9i68xqqzzMwxPrDAyoO8gAYJPB",
+      "courseInfo": {
+          "courseLength" : "27 hours",
+          "courseAuthor": "Linda Hu",
+          "courseRating": "4.3",
+          "coursePrice": "$28.99",
+          "coursePercentage": 32
+      },
+      "purchased": false,
+      "university": "carleton",
+      "courseMaterial" : [
+          {
+             "mainInfo":{
+                "title":"Section 1: Introduction",
+                "courses":"0/4",
+                "time":"33min"
+             },
+             "sectionInfo": [
+                {
+                   "title":"About the instructor",
+                   "time":"9min"
+                },
+                {
+                   "title":"What we will be learning",
+                   "time":"12min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                },
+                {
+                   "title":"How to get help",
+                   "time":"4min"
+                }
+             ]
+          },
+          {
+             "mainInfo":{
+                "title":"Section 2: Chemistry Review",
+                "courses":"0/6",
+                "time":"1hour 47min"
+             },
+             "sectionInfo":[
+                {
+                   "title":"The structure of the atom",
+                   "time":"16min"
+                },
+                {
+                   "title":"What we will be learning",
+                   "time":"12min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                },
+                {
+                   "title":"How to get help",
+                   "time":"4min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                }
+             ]
+          }
+       ]
+   },
+
+   {
+      "courseName" : "CHEM 2103‎: ‎Physical Chemistry ",
+      "courseId": "CR555853534",
+      "thumbnail": "https://previews.123rf.com/images/luchschen/luchschen1707/luchschen170701742/82903725-instruments-in-the-laboratory-of-physical-chemistry.jpg",
+      "courseInfo": {
+          "courseLength" : "18 hours",
+          "courseAuthor": "Kendall Hupp",
+          "courseRating": "4.3",
+          "coursePrice": "$28.99",
+          "coursePercentage": 32
+      },
+      "purchased": false,
+      "university": "carleton",
+      "courseMaterial" : [
+          {
+             "mainInfo":{
+                "title":"Section 1: Introduction",
+                "courses":"0/4",
+                "time":"33min"
+             },
+             "sectionInfo": [
+                {
+                   "title":"About the instructor",
+                   "time":"9min"
+                },
+                {
+                   "title":"What we will be learning",
+                   "time":"12min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                },
+                {
+                   "title":"How to get help",
+                   "time":"4min"
+                }
+             ]
+          },
+          {
+             "mainInfo":{
+                "title":"Section 2: Chemistry Review",
+                "courses":"0/6",
+                "time":"1hour 47min"
+             },
+             "sectionInfo":[
+                {
+                   "title":"The structure of the atom",
+                   "time":"16min"
+                },
+                {
+                   "title":"What we will be learning",
+                   "time":"12min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                },
+                {
+                   "title":"How to get help",
+                   "time":"4min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                }
+             ]
+          }
+       ]
+   },
+
+   {
+      "courseName" : "COMP 3000 - Operating Systems",
+      "courseId": "CR566353534",
+      "thumbnail": "https://images.idgesg.net/images/article/2019/03/javaworld_jvm_jdk_jre_explainer_java_development_kit_write_3x2_2400x1600_by_idg_oracle_vasabii_gettyimages-100790551-large.jpg",
+      "courseInfo": {
+          "courseLength" : "39 hours",
+          "courseAuthor": "Shelby Boell",
+          "courseRating": "4.3",
+          "coursePrice": "$28.99",
+          "coursePercentage": 32
+      },
+      "purchased": false,
+      "university": "carleton",
+      "courseMaterial" : [
+          {
+             "mainInfo":{
+                "title":"Section 1: Introduction",
+                "courses":"0/4",
+                "time":"33min"
+             },
+             "sectionInfo": [
+                {
+                   "title":"About the instructor",
+                   "time":"9min"
+                },
+                {
+                   "title":"What we will be learning",
+                   "time":"12min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                },
+                {
+                   "title":"How to get help",
+                   "time":"4min"
+                }
+             ]
+          },
+          {
+             "mainInfo":{
+                "title":"Section 2: Chemistry Review",
+                "courses":"0/6",
+                "time":"1hour 47min"
+             },
+             "sectionInfo":[
+                {
+                   "title":"The structure of the atom",
+                   "time":"16min"
+                },
+                {
+                   "title":"What we will be learning",
+                   "time":"12min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                },
+                {
+                   "title":"How to get help",
+                   "time":"4min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                }
+             ]
+          }
+       ]
+   },
+
+   {
+      "courseName" : "BIO1130 - Introductory Cancer",
+      "courseId": "UO5664813534",
+      "thumbnail": "https://opinionstage-res.cloudinary.com/image/upload/c_lfill,dpr_3.0,f_auto,fl_lossy,q_auto:good,w_400/v1/polls/hpergprnba97yadcz6j9",
+      "courseInfo": {
+          "courseLength" : "22 hours",
+          "courseAuthor": "Matt Scheinder",
+          "courseRating": "4.3",
+          "coursePrice": "$28.99",
+          "coursePercentage": 32
+      },
+      "purchased": false,
+      "university": "uottawa",
+      "courseMaterial" : [
+          {
+             "mainInfo":{
+                "title":"Section 1: Introduction",
+                "courses":"0/4",
+                "time":"33min"
+             },
+             "sectionInfo": [
+                {
+                   "title":"About the instructor",
+                   "time":"9min"
+                },
+                {
+                   "title":"What we will be learning",
+                   "time":"12min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                },
+                {
+                   "title":"How to get help",
+                   "time":"4min"
+                }
+             ]
+          },
+          {
+             "mainInfo":{
+                "title":"Section 2: Chemistry Review",
+                "courses":"0/6",
+                "time":"1hour 47min"
+             },
+             "sectionInfo":[
+                {
+                   "title":"The structure of the atom",
+                   "time":"16min"
+                },
+                {
+                   "title":"What we will be learning",
+                   "time":"12min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                },
+                {
+                   "title":"How to get help",
+                   "time":"4min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                }
+             ]
+          }
+       ]
+   },
+
+   {
+      "courseName" : "CHM2123 - Medical Chemistry",
+      "courseId": "UO5674813534",
+      "thumbnail": "https://article.images.consumerreports.org/f_auto/prod/content/dam/CRO%20Images%202019/Health/04April/CR-Health-InlineHero-should-you-stop-taking-that-medication-resize-4-19",
+      "courseInfo": {
+          "courseLength" : "22 hours",
+          "courseAuthor": "Dother Kober",
+          "courseRating": "4.3",
+          "coursePrice": "$28.99",
+          "coursePercentage": 32
+      },
+      "purchased": false,
+      "university": "uottawa",
+      "courseMaterial" : [
+          {
+             "mainInfo":{
+                "title":"Section 1: Introduction",
+                "courses":"0/4",
+                "time":"33min"
+             },
+             "sectionInfo": [
+                {
+                   "title":"About the instructor",
+                   "time":"9min"
+                },
+                {
+                   "title":"What we will be learning",
+                   "time":"12min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                },
+                {
+                   "title":"How to get help",
+                   "time":"4min"
+                }
+             ]
+          },
+          {
+             "mainInfo":{
+                "title":"Section 2: Chemistry Review",
+                "courses":"0/6",
+                "time":"1hour 47min"
+             },
+             "sectionInfo":[
+                {
+                   "title":"The structure of the atom",
+                   "time":"16min"
+                },
+                {
+                   "title":"What we will be learning",
+                   "time":"12min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                },
+                {
+                   "title":"How to get help",
+                   "time":"4min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                }
+             ]
+          }
+       ]
+   },
+
+   {
+      "courseName" : "MAT2379 - Intro to Statistics",
+      "courseId": "UO5674899034",
+      "thumbnail": "https://miro.medium.com/max/927/1*lJqmv5MH1LO87hXesjx27A.png",
+      "courseInfo": {
+          "courseLength" : "29 hours",
+          "courseAuthor": "Lesley Dent",
+          "courseRating": "4.3",
+          "coursePrice": "$28.99",
+          "coursePercentage": 32
+      },
+      "purchased": false,
+      "university": "uottawa",
+      "courseMaterial" : [
+          {
+             "mainInfo":{
+                "title":"Section 1: Introduction",
+                "courses":"0/4",
+                "time":"33min"
+             },
+             "sectionInfo": [
+                {
+                   "title":"About the instructor",
+                   "time":"9min"
+                },
+                {
+                   "title":"What we will be learning",
+                   "time":"12min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                },
+                {
+                   "title":"How to get help",
+                   "time":"4min"
+                }
+             ]
+          },
+          {
+             "mainInfo":{
+                "title":"Section 2: Chemistry Review",
+                "courses":"0/6",
+                "time":"1hour 47min"
+             },
+             "sectionInfo":[
+                {
+                   "title":"The structure of the atom",
+                   "time":"16min"
+                },
+                {
+                   "title":"What we will be learning",
+                   "time":"12min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                },
+                {
+                   "title":"How to get help",
+                   "time":"4min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                }
+             ]
+          }
+       ]
+   },
+
+
+   {
+      "courseName" : "BIOC 555 - Membrane Proteins",
+      "courseId": "UBC5674899034",
+      "thumbnail": "https://www.creative-biolabs.com/blog/wp-content/uploads/2017/08/Iintegral-membrane-protein-type.png",
+      "courseInfo": {
+          "courseLength" : "9 hours",
+          "courseAuthor": "Topical Tom",
+          "courseRating": "4.3",
+          "coursePrice": "$28.99",
+          "coursePercentage": 32
+      },
+      "purchased": false,
+      "university": "ubc",
+      "courseMaterial" : [
+          {
+             "mainInfo":{
+                "title":"Section 1: Introduction",
+                "courses":"0/4",
+                "time":"33min"
+             },
+             "sectionInfo": [
+                {
+                   "title":"About the instructor",
+                   "time":"9min"
+                },
+                {
+                   "title":"What we will be learning",
+                   "time":"12min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                },
+                {
+                   "title":"How to get help",
+                   "time":"4min"
+                }
+             ]
+          },
+          {
+             "mainInfo":{
+                "title":"Section 2: Chemistry Review",
+                "courses":"0/6",
+                "time":"1hour 47min"
+             },
+             "sectionInfo":[
+                {
+                   "title":"The structure of the atom",
+                   "time":"16min"
+                },
+                {
+                   "title":"What we will be learning",
+                   "time":"12min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                },
+                {
+                   "title":"How to get help",
+                   "time":"4min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                }
+             ]
+          }
+       ]
+   },
+
+   {
+      "courseName" : "BIOC 559 - Advanced Topics in Lipid Biology",
+      "courseId":"UBC567487464",
+      "thumbnail": "https://magazine.medlineplus.gov/images/uploads/main_images/cholesterol-sp18.jpg",
+      "courseInfo": {
+          "courseLength" : "19 hours",
+          "courseAuthor": "Konner McGreggor",
+          "courseRating": "4.3",
+          "coursePrice": "$28.99",
+          "coursePercentage": 32
+      },
+      "purchased": false,
+      "university": "ubc",
+      "courseMaterial" : [
+          {
+             "mainInfo":{
+                "title":"Section 1: Introduction",
+                "courses":"0/4",
+                "time":"33min"
+             },
+             "sectionInfo": [
+                {
+                   "title":"About the instructor",
+                   "time":"9min"
+                },
+                {
+                   "title":"What we will be learning",
+                   "time":"12min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                },
+                {
+                   "title":"How to get help",
+                   "time":"4min"
+                }
+             ]
+          },
+          {
+             "mainInfo":{
+                "title":"Section 2: Chemistry Review",
+                "courses":"0/6",
+                "time":"1hour 47min"
+             },
+             "sectionInfo":[
+                {
+                   "title":"The structure of the atom",
+                   "time":"16min"
+                },
+                {
+                   "title":"What we will be learning",
+                   "time":"12min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                },
+                {
+                   "title":"How to get help",
+                   "time":"4min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                }
+             ]
+          }
+       ]
+   },
+
+   {
+      "courseName" : "CHEM 211 - Introduction to Chemical Analysis",
+      "courseId": "UBC567634664",
+      "thumbnail": "https://atslab.com/wp-content/uploads/2018/11/chemical-analysis-lab-banner-1024x368.jpg",
+      "courseInfo": {
+          "courseLength" : "19 hours",
+          "courseAuthor": "Sehroz Market",
+          "courseRating": "4.3",
+          "coursePrice": "$28.99",
+          "coursePercentage": 32
+      },
+      "purchased": false,
+      "university": "ubc",
+      "courseMaterial" : [
+          {
+             "mainInfo":{
+                "title":"Section 1: Introduction",
+                "courses":"0/4",
+                "time":"33min"
+             },
+             "sectionInfo": [
+                {
+                   "title":"About the instructor",
+                   "time":"9min"
+                },
+                {
+                   "title":"What we will be learning",
+                   "time":"12min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                },
+                {
+                   "title":"How to get help",
+                   "time":"4min"
+                }
+             ]
+          },
+          {
+             "mainInfo":{
+                "title":"Section 2: Chemistry Review",
+                "courses":"0/6",
+                "time":"1hour 47min"
+             },
+             "sectionInfo":[
+                {
+                   "title":"The structure of the atom",
+                   "time":"16min"
+                },
+                {
+                   "title":"What we will be learning",
+                   "time":"12min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                },
+                {
+                   "title":"How to get help",
+                   "time":"4min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                }
+             ]
+          }
+       ]
+   },
+
+   {
+      "courseName" : "BIOL 1001 - Introduction to Human Pathology",
+      "courseId": "YK567634664",
+      "thumbnail": "https://med.uottawa.ca/pathology/sites/med.uottawa.ca.pathology/files/img2.jpg",
+      "courseInfo": {
+          "courseLength" : "32 hours",
+          "courseAuthor": "Rakesh Lee Jr",
+          "courseRating": "4.3",
+          "coursePrice": "$28.99",
+          "coursePercentage": 32
+      },
+      "purchased": false,
+      "university": "york",
+      "courseMaterial" : [
+          {
+             "mainInfo":{
+                "title":"Section 1: Introduction",
+                "courses":"0/4",
+                "time":"33min"
+             },
+             "sectionInfo": [
+                {
+                   "title":"About the instructor",
+                   "time":"9min"
+                },
+                {
+                   "title":"What we will be learning",
+                   "time":"12min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                },
+                {
+                   "title":"How to get help",
+                   "time":"4min"
+                }
+             ]
+          },
+          {
+             "mainInfo":{
+                "title":"Section 2: Chemistry Review",
+                "courses":"0/6",
+                "time":"1hour 47min"
+             },
+             "sectionInfo":[
+                {
+                   "title":"The structure of the atom",
+                   "time":"16min"
+                },
+                {
+                   "title":"What we will be learning",
+                   "time":"12min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                },
+                {
+                   "title":"How to get help",
+                   "time":"4min"
+                },
+                {
+                   "title":"CHEM 112 overview",
+                   "time":"8min"
+                }
+             ]
+          }
+       ]
+   },
+
+   
+   {
+      "courseName" : "BCHM 2021  - Genetic Factors & Cancer",
+      "courseId": "YK567635464",
+      "thumbnail": "https://med.uottawa.ca/pathology/sites/med.uottawa.ca.pathology/files/img2.jpg",
+      "courseInfo": {
+          "courseLength" : "32 hours",
+          "courseAuthor": "Rakesh Lee Jr",
+          "courseRating": "4.3",
+          "coursePrice": "$28.99",
+          "coursePercentage": 32
+      },
+      "purchased": false,
+      "university": "york",
       "courseMaterial" : [
           {
              "mainInfo":{

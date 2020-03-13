@@ -1,9 +1,18 @@
 .CourseList {
 
     &__container {
-        height: 25rem;
+        height: 30rem;
         display: flex;
-        padding-top: 2rem;
+        padding-top: 2rem;  
+        width: 250rem;
+        
+    }
+
+    &__outer-container {
+        width: 100%;
+        overflow-x: auto;
+        overflow-y: hidden;
+       
     }
 
     &__course-container{
@@ -43,3 +52,9 @@
         font-size: 1.5rem;
     }
 }
+
+
+::-webkit-scrollbar {
+    width: 2px;
+    height: 2px;
+  }

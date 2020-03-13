@@ -5,6 +5,9 @@ import Testinomails from '../../components/Testinomials/Testinomials';
 import InfoSection from '../../components/InfoSection/InfoSection'
 
 class SignInHomePage extends Component {
+
+    
+
     render() {
         return (
             <>
