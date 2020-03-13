@@ -33,9 +33,9 @@ class Slider extends Component {
     }
 
     componentDidMount(){
-        setInterval(() => {
-            this.autoTransition()
-        }, 5000)
+       // setInterval(() => {
+       //     this.autoTransition()
+       // }, 5000)
     }
 
     displaySlides = () => {

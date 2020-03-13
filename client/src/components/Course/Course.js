@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import StarRatings from 'react-star-ratings';
-import './Course.scss'
+import './Course.scss';
+import {Link} from 'react-router-dom';
 
 class Course extends Component {
 
@@ -9,9 +10,13 @@ class Course extends Component {
         this.courseRef = React.createRef()
     }
 
+    test = () => {
+        console.log(this.courseRef.current.id)
+    }
+
     render() {
         return (
-            <div className="Course" id={this.props.course.courseId} ref={this.courseRef}>
+            <Link to={`/course/${this.props.course.courseId}`} className="Course" id={this.props.course.courseId} ref={this.courseRef}  onClick={this.test}>
                 <img src={this.props.course.thumbnail} alt="" className="Course__thumbnail"/>
                 <div className="Course__description-container">
                     <h4 className="Course__course-title">{this.props.course.courseName}</h4>
@@ -26,7 +31,7 @@ class Course extends Component {
                     <h5 className="Course__course-author">{this.props.course.courseInfo.courseAuthor}</h5>
                     <h4 className="Course__course-price">{this.props.course.courseInfo.coursePrice}</h4>
                 </div>
-            </div>
+            </Link>
         );
     }
 }

@@ -9,6 +9,7 @@ router.get('/search/:university', (req, res) => {
 
 // GET COURSE ON CLICK OF PURCHASED COURSES //
 router.get('/current/:user/:courseId', (req, res) => {
+    console.log('Current is running')
     const found = courseData.some(course => course.courseId === req.params.courseId)
 
     if(found){

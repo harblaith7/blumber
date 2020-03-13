@@ -1,9 +1,34 @@
 import React, { Component } from 'react';
 import "./CourseDescription.scss";
-import StarRatings from 'react-star-ratings'
+import StarRatings from 'react-star-ratings';
+import axios from 'axios'
+
+const API_URL = 'http://localhost:8080'
 
 class CourseDescription extends Component {
+
+    constructor(props){
+        super(props)
+        this.state = {
+            courseInfo: ""
+        }
+    }
+
+    componentDidMount(){
+        console.log('From CourseDescription page', this.props.match.params.courseId)
+        axios.get(`${API_URL}/course/current/laith/${this.props.match.params.courseId}`)
+        .then(response => {
+            this.setState({
+                courseInfo : response.data[0]
+            })
+        })
+        .catch(e => {
+            console.log(e)
+        })
+    }
+
     render() {
+        const { courseInfo } = this.state
         return (
             <div className="CourseDescription">
                 <div className="CourseDescription__container">
@@ -12,7 +37,7 @@ class CourseDescription extends Component {
 
                             <div className="CourseDescription__text-info-container">
                                 <h2 className="CourseDescription__header">
-                                    CHEM 222 - Methods of Structure Determination
+                                    {courseInfo && courseInfo.courseName}
                                 </h2>
                                 <p className="CourseDescription__short-description">
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus officiis a corrupti at nam id possimus exercitationem mollitia ipsum laudantium!

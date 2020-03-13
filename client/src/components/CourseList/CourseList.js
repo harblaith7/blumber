@@ -51,8 +51,6 @@ class CourseList extends Component {
 
     render() {
 
-        console.log(this.state.courseList[0])
-
         return (
             <div className="CourseList">
                 <div className="CourseList__outer-container">

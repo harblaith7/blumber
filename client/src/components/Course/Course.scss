@@ -1,9 +1,14 @@
+@import "../../sass/variables.scss";
+
 .Course {
      height: 10rem;
      width: 25rem;
      height: 100%;
      display: flex;
      flex-direction: column;
+     cursor: pointer;
+     text-decoration: none;
+     color: $black;
 
     &__thumbnail {
         width: 90%;
