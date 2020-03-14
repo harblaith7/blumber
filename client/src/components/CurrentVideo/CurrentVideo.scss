@@ -1,14 +1,146 @@
 @import "../../sass/variables.scss";
 
 .CurrentVideo {
-  
+    background-color: $dark-blue;
     height: 90vh;
+    position: relative;
+
+    &__heading {
+        position: absolute;
+        color: $off-white;
+        left: 5%;
+        top: 5%;
+        font-size: 3rem;
+    }
+
+    &__container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__total-container {
+        height: 70%;
+        width: 90%;
+        display: flex;
+    }
+
+    &__video-container {
+        background-color: black;
+        height: 100%;
+        width: 75%;
+        position: relative;
+        overflow: hidden;
+
+        &:hover .CurrentVideo__video-nav {
+            bottom: 0%
+        }
+        
+    }
+
+    &__video {
+        width: 100%;
+        height: 100%;
+    }
+
+    &__video-nav {
+        background-color: rgba(0, 0, 0, 0.856);
+        height: 4rem;
+        position: absolute;
+        z-index: 2;
+        width: 100%;
+        bottom:-12%;
+        transition: 0.5s;
+        display: flex;
+        align-items: center;
+    }
+
+    &__video-nav-container {
+        width: 95%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+      
+    }
+
+    &__icon {
+        width: 2.5rem;
+        cursor: pointer;
+
+        &--full {
+            width: 2rem;
+            margin-left: 2rem
+        }
+    }
+
+    &__progress-bar {
+        background-color: $grey-light;
+        height: 1rem;
+        width: 85%;
+        margin-left: 2rem;
+        border-radius: 100rem;
+        overflow: hidden;
+        margin-right: 2rem
+    }
+
+    &__progress {
+        height: 100%;
+        background-color: orange;
+        width: 30%;
+        border-radius: 100rem;
+    }
+
+    &__nav-container {
+        width: 25%;
+        overflow-y: auto;
+  
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+.CurrentVideo {
+  
+    height: 80vh;
 
     &__container {
         height: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
+        background-color: rgb(0,35,51);
+        color: $white;
         
     }
 
@@ -23,19 +155,26 @@
     &__video {
         height: 100%;
         width: 80%;
-        background-color: $black-pure;
+     
         display: flex;
         justify-content: center;
     } 
 
     &__header {
-        font-size: 2rem;
-        margin-bottom: -3rem;
+        font-size: 3rem;
+        width: 85%;
+        margin: 0 auto;
+        margin-bottom: -4rem;
+    
+        color: $white
     }
 
     &__thumbnail {
-        width: 80%;
+        width: 90%;
         height: 100%;
+        background-image: linear-gradient(to right, black, black);
     }
 
 }
+
+*/

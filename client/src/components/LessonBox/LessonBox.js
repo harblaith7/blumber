@@ -48,7 +48,7 @@ class LessonBox extends Component {
                             {this.props.lessonInfo && this.props.lessonInfo.mainInfo.time}
                         </p>
                     </div>
-                    <img src={dropDownArrow} alt="" className="LessonBox__dropdown-icon"/>
+                    
                 </div>
 
                 <div className={`LessonBox__lessons-container ${this.state.isOpen && "LessonBox__lessons-container--active"}`} >

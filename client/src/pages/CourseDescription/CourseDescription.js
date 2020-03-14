@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import "./CourseDescription.scss";
 import StarRatings from 'react-star-ratings';
 import axios from 'axios'
+import rightArrow from '../../assets/next.svg'
+import backBtn from '../../assets/backBtn.svg';
+import {Link} from 'react-router-dom'
 
 const API_URL = 'http://localhost:8080'
 
@@ -33,6 +36,9 @@ class CourseDescription extends Component {
             <div className="CourseDescription">
                 <div className="CourseDescription__container">
                     <div className="CourseDescription__header-container">
+                        <Link to="/" className="CourseDescription__back-link">
+                            <img src={backBtn} alt="" className="CourseDescription__back-btn"/>
+                        </Link>
                         <div className="CourseDescription__info-container">
 
                             <div className="CourseDescription__text-info-container">
@@ -44,36 +50,40 @@ class CourseDescription extends Component {
                                 </p>
                                 <div className="CourseDescription__stats-container">
                                     <StarRatings
-                                        rating={4.8}
+                                        rating={4.6}
                                         starRatedColor="gold"
                                         starDimension="2rem"
                                         starSpacing="0.2rem"
                                         numberOfStars={5}
                                         name='rating'
                                     />
-                                    <p className="CourseDescription__stats-info">4.8</p>
+                                    <p className="CourseDescription__stats-info">{courseInfo && parseFloat(courseInfo.courseInfo.courseRating)}</p>
                                     <p className="CourseDescription__stats-info CourseDescription__stats-info--margin">
-                                        <span>74%</span> of our students got an A in this course
+                                        <span>74%</span> of our students got an A in this course 
                                     </p>
                                     <p className="CourseDescription__stats-info CourseDescription__stats-info--margin">
-                                        Over <span>15 hours</span> of content
+                                        Over <span>{courseInfo && courseInfo.courseInfo.courseLength}</span> of content
                                     </p>
                                 </div>
                                 <p className="CourseDescription__author">
-                                   Course created by: Darren Rigato
+                                   Course created by: {courseInfo && courseInfo.courseInfo.courseAuthor}
                                 </p>
                             </div>
 
                             <div className="CourseDescription__purchase-container">
                                 <img 
-                                    src="https://www.scitecheuropa.eu/wp-content/uploads/2018/06/ST27-McGillU1-image-%C2%A9-iStock-Garsya.jpg" 
+                                    src={courseInfo && courseInfo.thumbnail} 
                                     alt="" 
                                     className="CourseDescription__course-thumbnail"
                                 />
-                                <button className="CourseDescription__purchase-btn CourseDescription--cart">
-                                    Add to Cart
+                                <h2 className="CourseDescription__price">
+                                    CA {courseInfo && courseInfo.courseInfo.coursePrice}
+                                </h2>
+                                <button className="CourseDescription__purchase-btn CourseDescription__purchase-btn--cart">
+                                    <span>Add to Cart</span>
+                                    <img src={rightArrow} alt=""/>
                                 </button>
-                                <button className="CourseDescription__purchase-btn">
+                                <button className="CourseDescription__purchase-btn CourseDescription__purchase-btn--buy">
                                     Buy Now
                                 </button>
                                 <p className="CourseDescription__refund-policy">

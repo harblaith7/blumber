@@ -1,9 +1,16 @@
 @import '../../sass/variables.scss';
 
+
+.LessonNav {
+    width: 100%;
+}
+
+/*
+
 .LessonNav {
     &__lesson-navigation-container {
         overflow-y: auto;
-        width: 20%
+        width: 100%
     }
 
     &__toggle-container {
@@ -14,3 +21,15 @@
 
     
 }
+
+
+
+
+
+<div className="LessonNav__lesson-navigation-container">
+                <div className="LessonNav__toggle-container"> 
+                    {this.displayLessonBox()}          
+                </div>
+            </div>
+
+            */

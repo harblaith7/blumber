@@ -22,20 +22,19 @@ class LoggedInHomePage extends Component {
     }
 
     componentDidUpdate(){
-       /* window.scrollTo({
-            bottom: -500,
+        window.scrollTo({
+            top: 0,
+            left: 0,
             behavior: 'smooth'
-          }) */
-
-          window.scrollTo(100, this.pageRef.current.offsetTop)
+          })
     }
 
     render() {
         return (
             <div className="LoggedInHomePage" ref={this.pageRef}>
-                <LoggedInHeader/>
-                <MyCourses transferCurrentId = {this.getCurrentVideo}/>
                 <CurrentVideo currentVideoId = {this.state.currentCourseId}/>
+                <MyCourses transferCurrentId = {this.getCurrentVideo}/>
+                
             </div>
         );
     }

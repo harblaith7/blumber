@@ -6,9 +6,12 @@
         "courseInfo": {
             "courseLength" : "15 hours",
             "courseAuthor": "Post Malone",
-            "courseRating": "4.6",
+            "courseRating": 4.6,
             "coursePrice": "$28.99",
-            "coursePercentage": 32
+            "coursePercentage": 32,
+            "courseShortDescription" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint quia laudantium a tempore. Incidunt unde animi ipsa, inventore necessitatibus fuga?",
+            "courseDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam ipsam numquam velit rerum vero sapiente quaerat exercitationem amet mollitia id eligendi assumenda, ipsum obcaecati dolorum quasi eius eveniet sunt, architecto sint voluptas! Ipsam inventore recusandae itaque molestias temporibus incidunt voluptas saepe tenetur, explicabo, dolorem, sint minima odit pariatur libero? Veniam!",
+            "courseSuccessPercentage": 93
         },
         "purchased": true,
         "university": "queens",
@@ -42,7 +45,7 @@
                "mainInfo":{
                   "title":"Section 2: Chemistry Review",
                   "courses":"0/6",
-                  "time":"1hour 47min"
+                  "time":"1h 47min"
                },
                "sectionInfo":[
                   {
@@ -81,7 +84,10 @@
           "courseAuthor": "Dwight Howard",
           "courseRating": "4.9",
           "coursePrice": "$28.99",
-          "coursePercentage": 73
+          "coursePercentage": 73,
+          "courseShortDescription" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint quia laudantium a tempore. Incidunt unde animi ipsa, inventore necessitatibus fuga?",
+          "courseDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam ipsam numquam velit rerum vero sapiente quaerat exercitationem amet mollitia id eligendi assumenda, ipsum obcaecati dolorum quasi eius eveniet sunt, architecto sint voluptas! Ipsam inventore recusandae itaque molestias temporibus incidunt voluptas saepe tenetur, explicabo, dolorem, sint minima odit pariatur libero? Veniam!",
+          "courseSuccessPercentage": 93
       },
       "purchased": false,
       "university": "queens",
@@ -152,7 +158,10 @@
           "courseAuthor": "Arthur Paker",
           "courseRating": "4.2",
           "coursePrice": "$28.99",
-          "coursePercentage": 10
+          "coursePercentage": 10,
+           "courseShortDescription" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint quia laudantium a tempore. Incidunt unde animi ipsa, inventore necessitatibus fuga?",
+            "courseDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam ipsam numquam velit rerum vero sapiente quaerat exercitationem amet mollitia id eligendi assumenda, ipsum obcaecati dolorum quasi eius eveniet sunt, architecto sint voluptas! Ipsam inventore recusandae itaque molestias temporibus incidunt voluptas saepe tenetur, explicabo, dolorem, sint minima odit pariatur libero? Veniam!",
+            "courseSuccessPercentage": 93
       },
       "purchased" : true,
       "university": "queens",
@@ -294,7 +303,10 @@
           "courseAuthor": "Diefer Salomy",
           "courseRating": "3.8",
           "coursePrice": "$28.99",
-          "coursePercentage": 20
+          "coursePercentage": 20,
+           "courseShortDescription" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint quia laudantium a tempore. Incidunt unde animi ipsa, inventore necessitatibus fuga?",
+            "courseDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam ipsam numquam velit rerum vero sapiente quaerat exercitationem amet mollitia id eligendi assumenda, ipsum obcaecati dolorum quasi eius eveniet sunt, architecto sint voluptas! Ipsam inventore recusandae itaque molestias temporibus incidunt voluptas saepe tenetur, explicabo, dolorem, sint minima odit pariatur libero? Veniam!",
+            "courseSuccessPercentage": 93
       },
       "purchased": false,
       "university" : "queens",
@@ -365,7 +377,10 @@
           "courseAuthor": "Kobe Bean Bryant",
           "courseRating": "5",
           "coursePrice": "$28.99",
-          "coursePercentage": 87
+          "coursePercentage": 87,
+           "courseShortDescription" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint quia laudantium a tempore. Incidunt unde animi ipsa, inventore necessitatibus fuga?",
+            "courseDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam ipsam numquam velit rerum vero sapiente quaerat exercitationem amet mollitia id eligendi assumenda, ipsum obcaecati dolorum quasi eius eveniet sunt, architecto sint voluptas! Ipsam inventore recusandae itaque molestias temporibus incidunt voluptas saepe tenetur, explicabo, dolorem, sint minima odit pariatur libero? Veniam!",
+            "courseSuccessPercentage": 93
       },
       "purchased": true,
       "university": "queens",
@@ -436,7 +451,10 @@
           "courseAuthor": "Post Malone",
           "courseRating": "4.7",
           "coursePrice": "$28.99",
-          "coursePercentage": 4
+          "coursePercentage": 4,
+           "courseShortDescription" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint quia laudantium a tempore. Incidunt unde animi ipsa, inventore necessitatibus fuga?",
+            "courseDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam ipsam numquam velit rerum vero sapiente quaerat exercitationem amet mollitia id eligendi assumenda, ipsum obcaecati dolorum quasi eius eveniet sunt, architecto sint voluptas! Ipsam inventore recusandae itaque molestias temporibus incidunt voluptas saepe tenetur, explicabo, dolorem, sint minima odit pariatur libero? Veniam!",
+            "courseSuccessPercentage": 93
       },
       "purchased" : true,
       "university": "queens",
@@ -507,7 +525,10 @@
           "courseAuthor": "Fevin Filler",
           "courseRating": "4.2",
           "coursePrice": "$28.99",
-          "coursePercentage": 32
+          "coursePercentage": 32,
+           "courseShortDescription" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint quia laudantium a tempore. Incidunt unde animi ipsa, inventore necessitatibus fuga?",
+            "courseDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam ipsam numquam velit rerum vero sapiente quaerat exercitationem amet mollitia id eligendi assumenda, ipsum obcaecati dolorum quasi eius eveniet sunt, architecto sint voluptas! Ipsam inventore recusandae itaque molestias temporibus incidunt voluptas saepe tenetur, explicabo, dolorem, sint minima odit pariatur libero? Veniam!",
+            "courseSuccessPercentage": 93
       },
       "purchased": false,
       "university": "queens",
@@ -578,7 +599,10 @@
           "courseAuthor": "Matteo Sis",
           "courseRating": "4.7",
           "coursePrice": "$28.99",
-          "coursePercentage": 78
+          "coursePercentage": 78,
+           "courseShortDescription" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint quia laudantium a tempore. Incidunt unde animi ipsa, inventore necessitatibus fuga?",
+            "courseDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam ipsam numquam velit rerum vero sapiente quaerat exercitationem amet mollitia id eligendi assumenda, ipsum obcaecati dolorum quasi eius eveniet sunt, architecto sint voluptas! Ipsam inventore recusandae itaque molestias temporibus incidunt voluptas saepe tenetur, explicabo, dolorem, sint minima odit pariatur libero? Veniam!",
+            "courseSuccessPercentage": 93
       },
       "purchased" : true,
       "university": "queens",
@@ -649,7 +673,10 @@
           "courseAuthor": "Penil Campbell",
           "courseRating": "4.5",
           "coursePrice": "$28.99",
-          "coursePercentage": 20
+          "coursePercentage": 20,
+           "courseShortDescription" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint quia laudantium a tempore. Incidunt unde animi ipsa, inventore necessitatibus fuga?",
+            "courseDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam ipsam numquam velit rerum vero sapiente quaerat exercitationem amet mollitia id eligendi assumenda, ipsum obcaecati dolorum quasi eius eveniet sunt, architecto sint voluptas! Ipsam inventore recusandae itaque molestias temporibus incidunt voluptas saepe tenetur, explicabo, dolorem, sint minima odit pariatur libero? Veniam!",
+            "courseSuccessPercentage": 93
       },
       "purchased" : false,
       "university":"queens",
@@ -720,7 +747,10 @@
           "courseAuthor": "Kost Malone",
           "courseRating": "3.7",
           "coursePrice": "$28.99",
-          "coursePercentage": 32
+          "coursePercentage": 32,
+           "courseShortDescription" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint quia laudantium a tempore. Incidunt unde animi ipsa, inventore necessitatibus fuga?",
+            "courseDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam ipsam numquam velit rerum vero sapiente quaerat exercitationem amet mollitia id eligendi assumenda, ipsum obcaecati dolorum quasi eius eveniet sunt, architecto sint voluptas! Ipsam inventore recusandae itaque molestias temporibus incidunt voluptas saepe tenetur, explicabo, dolorem, sint minima odit pariatur libero? Veniam!",
+            "courseSuccessPercentage": 93
       },
       "purchased": "true",
       "university": "queens",
@@ -791,7 +821,10 @@
           "courseAuthor": "Traver Brader",
           "courseRating": "4.2",
           "coursePrice": "$28.99",
-          "coursePercentage": 32
+          "coursePercentage": 32,
+           "courseShortDescription" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint quia laudantium a tempore. Incidunt unde animi ipsa, inventore necessitatibus fuga?",
+            "courseDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam ipsam numquam velit rerum vero sapiente quaerat exercitationem amet mollitia id eligendi assumenda, ipsum obcaecati dolorum quasi eius eveniet sunt, architecto sint voluptas! Ipsam inventore recusandae itaque molestias temporibus incidunt voluptas saepe tenetur, explicabo, dolorem, sint minima odit pariatur libero? Veniam!",
+            "courseSuccessPercentage": 93
       },
       "purchased": false,
       "university": "western",
@@ -862,7 +895,10 @@
           "courseAuthor": "Applo Jamer",
           "courseRating": "4.2",
           "coursePrice": "$28.99",
-          "coursePercentage": 32
+          "coursePercentage": 32,
+           "courseShortDescription" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint quia laudantium a tempore. Incidunt unde animi ipsa, inventore necessitatibus fuga?",
+            "courseDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam ipsam numquam velit rerum vero sapiente quaerat exercitationem amet mollitia id eligendi assumenda, ipsum obcaecati dolorum quasi eius eveniet sunt, architecto sint voluptas! Ipsam inventore recusandae itaque molestias temporibus incidunt voluptas saepe tenetur, explicabo, dolorem, sint minima odit pariatur libero? Veniam!",
+            "courseSuccessPercentage": 93
       },
       "purchased": false,
       "university": "western",
@@ -933,7 +969,10 @@
           "courseAuthor": "Kjamar loler",
           "courseRating": "4.2",
           "coursePrice": "$28.99",
-          "coursePercentage": 32
+          "coursePercentage": 32,
+           "courseShortDescription" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint quia laudantium a tempore. Incidunt unde animi ipsa, inventore necessitatibus fuga?",
+            "courseDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam ipsam numquam velit rerum vero sapiente quaerat exercitationem amet mollitia id eligendi assumenda, ipsum obcaecati dolorum quasi eius eveniet sunt, architecto sint voluptas! Ipsam inventore recusandae itaque molestias temporibus incidunt voluptas saepe tenetur, explicabo, dolorem, sint minima odit pariatur libero? Veniam!",
+            "courseSuccessPercentage": 93
       },
       "purchased": false,
       "university": "western",
@@ -1004,7 +1043,10 @@
           "courseAuthor": "Kalar Solman",
           "courseRating": "4.2",
           "coursePrice": "$28.99",
-          "coursePercentage": 32
+          "coursePercentage": 32,
+           "courseShortDescription" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint quia laudantium a tempore. Incidunt unde animi ipsa, inventore necessitatibus fuga?",
+            "courseDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam ipsam numquam velit rerum vero sapiente quaerat exercitationem amet mollitia id eligendi assumenda, ipsum obcaecati dolorum quasi eius eveniet sunt, architecto sint voluptas! Ipsam inventore recusandae itaque molestias temporibus incidunt voluptas saepe tenetur, explicabo, dolorem, sint minima odit pariatur libero? Veniam!",
+            "courseSuccessPercentage": 93
       },
       "purchased": false,
       "university": "western",
@@ -1075,7 +1117,10 @@
           "courseAuthor": "Joe Biden",
           "courseRating": "4.2",
           "coursePrice": "$28.99",
-          "coursePercentage": 32
+          "coursePercentage": 32,
+           "courseShortDescription" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint quia laudantium a tempore. Incidunt unde animi ipsa, inventore necessitatibus fuga?",
+            "courseDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam ipsam numquam velit rerum vero sapiente quaerat exercitationem amet mollitia id eligendi assumenda, ipsum obcaecati dolorum quasi eius eveniet sunt, architecto sint voluptas! Ipsam inventore recusandae itaque molestias temporibus incidunt voluptas saepe tenetur, explicabo, dolorem, sint minima odit pariatur libero? Veniam!",
+            "courseSuccessPercentage": 93
       },
       "purchased": false,
       "university": "western",
@@ -1146,7 +1191,10 @@
           "courseAuthor": "Danill Roberto",
           "courseRating": "4.2",
           "coursePrice": "$28.99",
-          "coursePercentage": 32
+          "coursePercentage": 32,
+          "courseShortDescription" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint quia laudantium a tempore. Incidunt unde animi ipsa, inventore necessitatibus fuga?",
+          "courseDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam ipsam numquam velit rerum vero sapiente quaerat exercitationem amet mollitia id eligendi assumenda, ipsum obcaecati dolorum quasi eius eveniet sunt, architecto sint voluptas! Ipsam inventore recusandae itaque molestias temporibus incidunt voluptas saepe tenetur, explicabo, dolorem, sint minima odit pariatur libero? Veniam!",
+          "courseSuccessPercentage": 93
       },
       "purchased": false,
       "university": "western",
@@ -1217,7 +1265,10 @@
           "courseAuthor": "Rafay Ali",
           "courseRating": "1.7",
           "coursePrice": "$28.99",
-          "coursePercentage": 32
+          "coursePercentage": 32,
+          "courseShortDescription" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint quia laudantium a tempore. Incidunt unde animi ipsa, inventore necessitatibus fuga?",
+          "courseDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam ipsam numquam velit rerum vero sapiente quaerat exercitationem amet mollitia id eligendi assumenda, ipsum obcaecati dolorum quasi eius eveniet sunt, architecto sint voluptas! Ipsam inventore recusandae itaque molestias temporibus incidunt voluptas saepe tenetur, explicabo, dolorem, sint minima odit pariatur libero? Veniam!",
+          "courseSuccessPercentage": 93
       },
       "purchased": false,
       "university": "western",
@@ -1288,7 +1339,10 @@
           "courseAuthor": "Laith Harb",
           "courseRating": "5.0",
           "coursePrice": "$28.99",
-          "coursePercentage": 32
+          "coursePercentage": 32,
+          "courseShortDescription" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint quia laudantium a tempore. Incidunt unde animi ipsa, inventore necessitatibus fuga?",
+          "courseDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam ipsam numquam velit rerum vero sapiente quaerat exercitationem amet mollitia id eligendi assumenda, ipsum obcaecati dolorum quasi eius eveniet sunt, architecto sint voluptas! Ipsam inventore recusandae itaque molestias temporibus incidunt voluptas saepe tenetur, explicabo, dolorem, sint minima odit pariatur libero? Veniam!",
+          "courseSuccessPercentage": 93
       },
       "purchased": false,
       "university": "western",
@@ -1359,7 +1413,10 @@
           "courseAuthor": "Rakesh Chino",
           "courseRating": "5.0",
           "coursePrice": "$28.99",
-          "coursePercentage": 32
+          "coursePercentage": 32,
+          "courseShortDescription" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint quia laudantium a tempore. Incidunt unde animi ipsa, inventore necessitatibus fuga?",
+          "courseDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam ipsam numquam velit rerum vero sapiente quaerat exercitationem amet mollitia id eligendi assumenda, ipsum obcaecati dolorum quasi eius eveniet sunt, architecto sint voluptas! Ipsam inventore recusandae itaque molestias temporibus incidunt voluptas saepe tenetur, explicabo, dolorem, sint minima odit pariatur libero? Veniam!",
+          "courseSuccessPercentage": 93
       },
       "purchased": false,
       "university": "uft",
@@ -1430,7 +1487,10 @@
           "courseAuthor": "John Blooder",
           "courseRating": "3.4",
           "coursePrice": "$28.99",
-          "coursePercentage": 32
+          "coursePercentage": 32,
+          "courseShortDescription" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint quia laudantium a tempore. Incidunt unde animi ipsa, inventore necessitatibus fuga?",
+          "courseDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam ipsam numquam velit rerum vero sapiente quaerat exercitationem amet mollitia id eligendi assumenda, ipsum obcaecati dolorum quasi eius eveniet sunt, architecto sint voluptas! Ipsam inventore recusandae itaque molestias temporibus incidunt voluptas saepe tenetur, explicabo, dolorem, sint minima odit pariatur libero? Veniam!",
+          "courseSuccessPercentage": 93
       },
       "purchased": false,
       "university": "uft",
@@ -1501,7 +1561,10 @@
           "courseAuthor": "Shelby Salamandar",
           "courseRating": "4.4",
           "coursePrice": "$28.99",
-          "coursePercentage": 32
+          "coursePercentage": 32,
+          "courseShortDescription" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint quia laudantium a tempore. Incidunt unde animi ipsa, inventore necessitatibus fuga?",
+          "courseDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam ipsam numquam velit rerum vero sapiente quaerat exercitationem amet mollitia id eligendi assumenda, ipsum obcaecati dolorum quasi eius eveniet sunt, architecto sint voluptas! Ipsam inventore recusandae itaque molestias temporibus incidunt voluptas saepe tenetur, explicabo, dolorem, sint minima odit pariatur libero? Veniam!",
+          "courseSuccessPercentage": 93
       },
       "purchased": false,
       "university": "uft",
@@ -1572,7 +1635,10 @@
           "courseAuthor": "G Wagon",
           "courseRating": "4.4",
           "coursePrice": "$28.99",
-          "coursePercentage": 32
+          "coursePercentage": 32,
+          "courseShortDescription" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint quia laudantium a tempore. Incidunt unde animi ipsa, inventore necessitatibus fuga?",
+          "courseDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam ipsam numquam velit rerum vero sapiente quaerat exercitationem amet mollitia id eligendi assumenda, ipsum obcaecati dolorum quasi eius eveniet sunt, architecto sint voluptas! Ipsam inventore recusandae itaque molestias temporibus incidunt voluptas saepe tenetur, explicabo, dolorem, sint minima odit pariatur libero? Veniam!",
+          "courseSuccessPercentage": 93
       },
       "purchased": false,
       "university": "uft",
@@ -1643,7 +1709,10 @@
           "courseAuthor": "Triller Tralo",
           "courseRating": "4.4",
           "coursePrice": "$28.99",
-          "coursePercentage": 32
+          "coursePercentage": 32,
+          "courseShortDescription" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint quia laudantium a tempore. Incidunt unde animi ipsa, inventore necessitatibus fuga?",
+          "courseDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam ipsam numquam velit rerum vero sapiente quaerat exercitationem amet mollitia id eligendi assumenda, ipsum obcaecati dolorum quasi eius eveniet sunt, architecto sint voluptas! Ipsam inventore recusandae itaque molestias temporibus incidunt voluptas saepe tenetur, explicabo, dolorem, sint minima odit pariatur libero? Veniam!",
+          "courseSuccessPercentage": 93
       },
       "purchased": false,
       "university": "ryerson",
@@ -1714,7 +1783,10 @@
           "courseAuthor": "Trevor Apollo",
           "courseRating": "4.4",
           "coursePrice": "$28.99",
-          "coursePercentage": 32
+          "coursePercentage": 32,
+          "courseShortDescription" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint quia laudantium a tempore. Incidunt unde animi ipsa, inventore necessitatibus fuga?",
+          "courseDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam ipsam numquam velit rerum vero sapiente quaerat exercitationem amet mollitia id eligendi assumenda, ipsum obcaecati dolorum quasi eius eveniet sunt, architecto sint voluptas! Ipsam inventore recusandae itaque molestias temporibus incidunt voluptas saepe tenetur, explicabo, dolorem, sint minima odit pariatur libero? Veniam!",
+          "courseSuccessPercentage": 93
       },
       "purchased": false,
       "university": "ryerson",
@@ -1785,7 +1857,10 @@
           "courseAuthor": "Trevor Apollo",
           "courseRating": "4.4",
           "coursePrice": "$28.99",
-          "coursePercentage": 32
+          "coursePercentage": 32,
+          "courseShortDescription" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint quia laudantium a tempore. Incidunt unde animi ipsa, inventore necessitatibus fuga?",
+          "courseDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam ipsam numquam velit rerum vero sapiente quaerat exercitationem amet mollitia id eligendi assumenda, ipsum obcaecati dolorum quasi eius eveniet sunt, architecto sint voluptas! Ipsam inventore recusandae itaque molestias temporibus incidunt voluptas saepe tenetur, explicabo, dolorem, sint minima odit pariatur libero? Veniam!",
+          "courseSuccessPercentage": 93
       },
       "purchased": false,
       "university": "ryerson",
@@ -1856,7 +1931,10 @@
           "courseAuthor": "Trevor Apollo",
           "courseRating": "4.4",
           "coursePrice": "$28.99",
-          "coursePercentage": 32
+          "coursePercentage": 32,
+          "courseShortDescription" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint quia laudantium a tempore. Incidunt unde animi ipsa, inventore necessitatibus fuga?",
+          "courseDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam ipsam numquam velit rerum vero sapiente quaerat exercitationem amet mollitia id eligendi assumenda, ipsum obcaecati dolorum quasi eius eveniet sunt, architecto sint voluptas! Ipsam inventore recusandae itaque molestias temporibus incidunt voluptas saepe tenetur, explicabo, dolorem, sint minima odit pariatur libero? Veniam!",
+          "courseSuccessPercentage": 93
       },
       "purchased": false,
       "university": "ryerson",
@@ -1927,7 +2005,10 @@
           "courseAuthor": "Indy Parker",
           "courseRating": "4.6",
           "coursePrice": "$28.99",
-          "coursePercentage": 32
+          "coursePercentage": 32,
+          "courseShortDescription" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint quia laudantium a tempore. Incidunt unde animi ipsa, inventore necessitatibus fuga?",
+          "courseDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam ipsam numquam velit rerum vero sapiente quaerat exercitationem amet mollitia id eligendi assumenda, ipsum obcaecati dolorum quasi eius eveniet sunt, architecto sint voluptas! Ipsam inventore recusandae itaque molestias temporibus incidunt voluptas saepe tenetur, explicabo, dolorem, sint minima odit pariatur libero? Veniam!",
+          "courseSuccessPercentage": 93
       },
       "purchased": false,
       "university": "ryerson",
@@ -1998,7 +2079,10 @@
           "courseAuthor": "Lonee Parent",
           "courseRating": "3.3",
           "coursePrice": "$28.99",
-          "coursePercentage": 32
+          "coursePercentage": 32,
+          "courseShortDescription" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint quia laudantium a tempore. Incidunt unde animi ipsa, inventore necessitatibus fuga?",
+          "courseDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam ipsam numquam velit rerum vero sapiente quaerat exercitationem amet mollitia id eligendi assumenda, ipsum obcaecati dolorum quasi eius eveniet sunt, architecto sint voluptas! Ipsam inventore recusandae itaque molestias temporibus incidunt voluptas saepe tenetur, explicabo, dolorem, sint minima odit pariatur libero? Veniam!",
+          "courseSuccessPercentage": 93
       },
       "purchased": false,
       "university": "mcgill",
@@ -2069,7 +2153,10 @@
           "courseAuthor": "Lonie Walker",
           "courseRating": "3.3",
           "coursePrice": "$28.99",
-          "coursePercentage": 32
+          "coursePercentage": 32,
+          "courseShortDescription" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint quia laudantium a tempore. Incidunt unde animi ipsa, inventore necessitatibus fuga?",
+          "courseDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam ipsam numquam velit rerum vero sapiente quaerat exercitationem amet mollitia id eligendi assumenda, ipsum obcaecati dolorum quasi eius eveniet sunt, architecto sint voluptas! Ipsam inventore recusandae itaque molestias temporibus incidunt voluptas saepe tenetur, explicabo, dolorem, sint minima odit pariatur libero? Veniam!",
+          "courseSuccessPercentage": 93
       },
       "purchased": false,
       "university": "mcgill",
@@ -2140,7 +2227,10 @@
           "courseAuthor": "Finch Parker",
           "courseRating": "3.3",
           "coursePrice": "$28.99",
-          "coursePercentage": 32
+          "coursePercentage": 32,
+          "courseShortDescription" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint quia laudantium a tempore. Incidunt unde animi ipsa, inventore necessitatibus fuga?",
+          "courseDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam ipsam numquam velit rerum vero sapiente quaerat exercitationem amet mollitia id eligendi assumenda, ipsum obcaecati dolorum quasi eius eveniet sunt, architecto sint voluptas! Ipsam inventore recusandae itaque molestias temporibus incidunt voluptas saepe tenetur, explicabo, dolorem, sint minima odit pariatur libero? Veniam!",
+          "courseSuccessPercentage": 93
       },
       "purchased": false,
       "university": "mcgill",
@@ -2211,7 +2301,10 @@
           "courseAuthor": "Fincher Labo",
           "courseRating": "3.3",
           "coursePrice": "$28.99",
-          "coursePercentage": 32
+          "coursePercentage": 32,
+          "courseShortDescription" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint quia laudantium a tempore. Incidunt unde animi ipsa, inventore necessitatibus fuga?",
+          "courseDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam ipsam numquam velit rerum vero sapiente quaerat exercitationem amet mollitia id eligendi assumenda, ipsum obcaecati dolorum quasi eius eveniet sunt, architecto sint voluptas! Ipsam inventore recusandae itaque molestias temporibus incidunt voluptas saepe tenetur, explicabo, dolorem, sint minima odit pariatur libero? Veniam!",
+          "courseSuccessPercentage": 93
       },
       "purchased": false,
       "university": "mcgill",
@@ -2282,7 +2375,10 @@
           "courseAuthor": "Linda Hu",
           "courseRating": "4.3",
           "coursePrice": "$28.99",
-          "coursePercentage": 32
+          "coursePercentage": 32,
+          "courseShortDescription" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint quia laudantium a tempore. Incidunt unde animi ipsa, inventore necessitatibus fuga?",
+          "courseDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam ipsam numquam velit rerum vero sapiente quaerat exercitationem amet mollitia id eligendi assumenda, ipsum obcaecati dolorum quasi eius eveniet sunt, architecto sint voluptas! Ipsam inventore recusandae itaque molestias temporibus incidunt voluptas saepe tenetur, explicabo, dolorem, sint minima odit pariatur libero? Veniam!",
+          "courseSuccessPercentage": 93
       },
       "purchased": false,
       "university": "carleton",
@@ -2353,7 +2449,10 @@
           "courseAuthor": "Kendall Hupp",
           "courseRating": "4.3",
           "coursePrice": "$28.99",
-          "coursePercentage": 32
+          "coursePercentage": 32,
+          "courseShortDescription" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint quia laudantium a tempore. Incidunt unde animi ipsa, inventore necessitatibus fuga?",
+          "courseDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam ipsam numquam velit rerum vero sapiente quaerat exercitationem amet mollitia id eligendi assumenda, ipsum obcaecati dolorum quasi eius eveniet sunt, architecto sint voluptas! Ipsam inventore recusandae itaque molestias temporibus incidunt voluptas saepe tenetur, explicabo, dolorem, sint minima odit pariatur libero? Veniam!",
+          "courseSuccessPercentage": 93
       },
       "purchased": false,
       "university": "carleton",
@@ -2424,7 +2523,10 @@
           "courseAuthor": "Shelby Boell",
           "courseRating": "4.3",
           "coursePrice": "$28.99",
-          "coursePercentage": 32
+          "coursePercentage": 32,
+          "courseShortDescription" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint quia laudantium a tempore. Incidunt unde animi ipsa, inventore necessitatibus fuga?",
+          "courseDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam ipsam numquam velit rerum vero sapiente quaerat exercitationem amet mollitia id eligendi assumenda, ipsum obcaecati dolorum quasi eius eveniet sunt, architecto sint voluptas! Ipsam inventore recusandae itaque molestias temporibus incidunt voluptas saepe tenetur, explicabo, dolorem, sint minima odit pariatur libero? Veniam!",
+          "courseSuccessPercentage": 93
       },
       "purchased": false,
       "university": "carleton",
@@ -2495,7 +2597,10 @@
           "courseAuthor": "Matt Scheinder",
           "courseRating": "4.3",
           "coursePrice": "$28.99",
-          "coursePercentage": 32
+          "coursePercentage": 32,
+          "courseShortDescription" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint quia laudantium a tempore. Incidunt unde animi ipsa, inventore necessitatibus fuga?",
+          "courseDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam ipsam numquam velit rerum vero sapiente quaerat exercitationem amet mollitia id eligendi assumenda, ipsum obcaecati dolorum quasi eius eveniet sunt, architecto sint voluptas! Ipsam inventore recusandae itaque molestias temporibus incidunt voluptas saepe tenetur, explicabo, dolorem, sint minima odit pariatur libero? Veniam!",
+          "courseSuccessPercentage": 93
       },
       "purchased": false,
       "university": "uottawa",
@@ -2566,7 +2671,10 @@
           "courseAuthor": "Dother Kober",
           "courseRating": "4.3",
           "coursePrice": "$28.99",
-          "coursePercentage": 32
+          "coursePercentage": 32,
+          "courseShortDescription" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint quia laudantium a tempore. Incidunt unde animi ipsa, inventore necessitatibus fuga?",
+          "courseDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam ipsam numquam velit rerum vero sapiente quaerat exercitationem amet mollitia id eligendi assumenda, ipsum obcaecati dolorum quasi eius eveniet sunt, architecto sint voluptas! Ipsam inventore recusandae itaque molestias temporibus incidunt voluptas saepe tenetur, explicabo, dolorem, sint minima odit pariatur libero? Veniam!",
+          "courseSuccessPercentage": 93
       },
       "purchased": false,
       "university": "uottawa",
@@ -2637,7 +2745,10 @@
           "courseAuthor": "Lesley Dent",
           "courseRating": "4.3",
           "coursePrice": "$28.99",
-          "coursePercentage": 32
+          "coursePercentage": 32,
+          "courseShortDescription" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint quia laudantium a tempore. Incidunt unde animi ipsa, inventore necessitatibus fuga?",
+          "courseDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam ipsam numquam velit rerum vero sapiente quaerat exercitationem amet mollitia id eligendi assumenda, ipsum obcaecati dolorum quasi eius eveniet sunt, architecto sint voluptas! Ipsam inventore recusandae itaque molestias temporibus incidunt voluptas saepe tenetur, explicabo, dolorem, sint minima odit pariatur libero? Veniam!",
+          "courseSuccessPercentage": 93
       },
       "purchased": false,
       "university": "uottawa",
@@ -2709,7 +2820,10 @@
           "courseAuthor": "Topical Tom",
           "courseRating": "4.3",
           "coursePrice": "$28.99",
-          "coursePercentage": 32
+          "coursePercentage": 32,
+          "courseShortDescription" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint quia laudantium a tempore. Incidunt unde animi ipsa, inventore necessitatibus fuga?",
+          "courseDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam ipsam numquam velit rerum vero sapiente quaerat exercitationem amet mollitia id eligendi assumenda, ipsum obcaecati dolorum quasi eius eveniet sunt, architecto sint voluptas! Ipsam inventore recusandae itaque molestias temporibus incidunt voluptas saepe tenetur, explicabo, dolorem, sint minima odit pariatur libero? Veniam!",
+          "courseSuccessPercentage": 93
       },
       "purchased": false,
       "university": "ubc",
@@ -2780,7 +2894,10 @@
           "courseAuthor": "Konner McGreggor",
           "courseRating": "4.3",
           "coursePrice": "$28.99",
-          "coursePercentage": 32
+          "coursePercentage": 32,
+          "courseShortDescription" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint quia laudantium a tempore. Incidunt unde animi ipsa, inventore necessitatibus fuga?",
+          "courseDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam ipsam numquam velit rerum vero sapiente quaerat exercitationem amet mollitia id eligendi assumenda, ipsum obcaecati dolorum quasi eius eveniet sunt, architecto sint voluptas! Ipsam inventore recusandae itaque molestias temporibus incidunt voluptas saepe tenetur, explicabo, dolorem, sint minima odit pariatur libero? Veniam!",
+          "courseSuccessPercentage": 93
       },
       "purchased": false,
       "university": "ubc",
@@ -2851,7 +2968,10 @@
           "courseAuthor": "Sehroz Market",
           "courseRating": "4.3",
           "coursePrice": "$28.99",
-          "coursePercentage": 32
+          "coursePercentage": 32,
+          "courseShortDescription" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint quia laudantium a tempore. Incidunt unde animi ipsa, inventore necessitatibus fuga?",
+          "courseDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam ipsam numquam velit rerum vero sapiente quaerat exercitationem amet mollitia id eligendi assumenda, ipsum obcaecati dolorum quasi eius eveniet sunt, architecto sint voluptas! Ipsam inventore recusandae itaque molestias temporibus incidunt voluptas saepe tenetur, explicabo, dolorem, sint minima odit pariatur libero? Veniam!",
+          "courseSuccessPercentage": 93
       },
       "purchased": false,
       "university": "ubc",
@@ -2922,7 +3042,10 @@
           "courseAuthor": "Rakesh Lee Jr",
           "courseRating": "4.3",
           "coursePrice": "$28.99",
-          "coursePercentage": 32
+          "coursePercentage": 32,
+          "courseShortDescription" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint quia laudantium a tempore. Incidunt unde animi ipsa, inventore necessitatibus fuga?",
+          "courseDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam ipsam numquam velit rerum vero sapiente quaerat exercitationem amet mollitia id eligendi assumenda, ipsum obcaecati dolorum quasi eius eveniet sunt, architecto sint voluptas! Ipsam inventore recusandae itaque molestias temporibus incidunt voluptas saepe tenetur, explicabo, dolorem, sint minima odit pariatur libero? Veniam!",
+          "courseSuccessPercentage": 93
       },
       "purchased": false,
       "university": "york",
@@ -2994,7 +3117,10 @@
           "courseAuthor": "Rakesh Lee Jr",
           "courseRating": "4.3",
           "coursePrice": "$28.99",
-          "coursePercentage": 32
+          "coursePercentage": 32,
+          "courseShortDescription" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint quia laudantium a tempore. Incidunt unde animi ipsa, inventore necessitatibus fuga?",
+          "courseDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam ipsam numquam velit rerum vero sapiente quaerat exercitationem amet mollitia id eligendi assumenda, ipsum obcaecati dolorum quasi eius eveniet sunt, architecto sint voluptas! Ipsam inventore recusandae itaque molestias temporibus incidunt voluptas saepe tenetur, explicabo, dolorem, sint minima odit pariatur libero? Veniam!",
+          "courseSuccessPercentage": 93
       },
       "purchased": false,
       "university": "york",

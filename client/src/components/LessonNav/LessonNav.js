@@ -14,10 +14,8 @@ class LessonNav extends Component {
 
     render() {
         return (
-            <div className="LessonNav__lesson-navigation-container">
-                <div className="LessonNav__toggle-container"> 
-                    {this.displayLessonBox()}          
-                </div>
+            <div className="LessonNav">
+                {this.displayLessonBox()}   
             </div>
         );
     }
