@@ -8,6 +8,7 @@ import './Modal.scss';
 import googleIcon from "../../assets/google-plus.svg"
 import axios from 'axios'
 
+
 const useStyles = makeStyles(theme => ({
   modal: {
     display: 'flex',
