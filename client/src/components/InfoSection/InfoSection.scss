@@ -95,32 +95,32 @@
     }
     
     &__cube-face--front{
-        background-color: $dark-orange;
+        background-color: $light-yellow-mo;
         transform: translateZ(15rem);
     }
     
     &__cube-face--back{
-        background-color: $dark-orange;
+        background-color: $light-yellow-mo;
         transform: translateZ(-15rem) rotateY(180deg);
     }
     
     &__cube-face--top{
-        background-color: $dark-orange;
+        background-color: $light-yellow-mo;
         transform: rotateX(90deg) translateZ(17.5rem) ;
     }
     
     &__cube-face--bottom{
-        background-color: $dark-orange;
+        background-color: $light-yellow-mo;
         transform: rotateX(-90deg) translateZ(17.5rem) ;
     }
     
     &__cube-face--right{
-        background-color: $dark-orange;
+        background-color: $light-yellow-mo;
         transform: rotateY(-90deg) translateZ(17.5rem) ;
     }
     
     &__cube-face--left{
-        background-color: $dark-orange;
+        background-color: $light-yellow-mo;
         transform: rotateY(90deg) translateZ(17.5rem) ;
     }
     

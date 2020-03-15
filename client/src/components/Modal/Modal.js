@@ -5,8 +5,7 @@ import Modal from '@material-ui/core/Modal';
 import Backdrop from '@material-ui/core/Backdrop';
 import { useSpring, animated } from 'react-spring'; // web.cjs is required for IE 11 support
 import './Modal.scss';
-import googleBtn from '../../assets/google-sign-in-btn.png'
-import facebookBtn from '../../assets/facebook-sign-in-button.png'
+import googleIcon from "../../assets/google-plus.svg"
 import axios from 'axios'
 
 const useStyles = makeStyles(theme => ({
@@ -110,9 +109,11 @@ export default function SpringModal() {
                   Log into Blumber to access your current courses or to buy new ones
                 </p>
               </div>
+  
               <div className="Modal__btns-container">
-                  <a className="Modal__btn-container" href="http://localhost:8080/auth/google">
-                    Sign In with Google
+                  <a className="Modal__btn-container Modal__btn-container--google" href="http://localhost:8080/auth/google">
+                    <img src={googleIcon} className="Modal__icon"/>
+                     <span>Sign in with Google</span>
                   </a>
                   <div className="Modal__btn-container">
                     hi

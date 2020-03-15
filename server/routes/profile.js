@@ -1,3 +1,5 @@
+
+
 const courseData = require('../data/courses.json')
 const router = require('express').Router()
 
@@ -30,3 +32,5 @@ router.get('/purchased', (req, res) => {
 
 
 module.exports = router
+
+

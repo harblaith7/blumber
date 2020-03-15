@@ -1,4 +1,57 @@
 const express = require('express')
+const cors = require('cors');
+const profileRoutes = require('./routes/profile')
+const keys = require("./config/keys")
+const mongoose = require('mongoose')
+const cookieSession = require('cookie-session')
+const passport = require('passport')
+require('./models/User')
+require('./services/passport')
+
+mongoose.connect(keys.mongoURI, {
+   useUnifiedTopology: true,
+   useNewUrlParser: true
+})
+
+const app = express()
+
+app.use(
+  cookieSession({
+    maxAge: 30 * 24 * 60* 60 * 1000,
+    keys: [keys.cookieKey]
+  })
+)
+
+app.use(passport.initialize())
+app.use(passport.session())
+
+require('./routes/authRoutes')(app)
+
+
+// MIDDLEWARE 
+app.use(cors())
+
+
+// ROUTES 
+app.get('/', (req, res) => {
+  res.send('Why the hell did my authentication break asshole')
+})
+
+
+
+
+
+const PORT = 8080
+
+app.listen(PORT, () => {
+  console.log(`Now listening on port ${PORT}`)
+})
+
+app.use("/course", profileRoutes)
+
+/*
+
+const express = require('express')
 const keys = require('./config/keys')
 const profileRoutes = require('./routes/profile')
 const mongoose = require('mongoose')
@@ -43,6 +96,8 @@ app.listen(PORT, () => {
     console.log(`Now listening at PORT ${PORT}`)
 })
 
+
+*/
 
 
 
