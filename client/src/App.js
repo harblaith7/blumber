@@ -12,7 +12,7 @@ class App extends Component {
 
   componentDidMount(){
     this.props.fetchUser()
-    axios.get("http://localhost:8080/api/current_user")
+    axios.get("/api/current_user")
       .then(response => {
         console.log(response)
       })
