@@ -34,7 +34,7 @@ class Nav extends Component {
                         <a href="" className="Nav__link">
                             My Courses
                         </a>
-                        <a href="" className="Nav__link">
+                        <a href="/api/logout" className="Nav__link">
                             Log out
                         </a>
                     </li> 
