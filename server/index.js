@@ -5,6 +5,8 @@ const keys = require("./config/keys")
 const mongoose = require('mongoose')
 const cookieSession = require('cookie-session')
 const passport = require('passport')
+const bodyParser = require('body-parser')
+
 require('./models/User')
 require('./services/passport')
 
@@ -22,10 +24,16 @@ app.use(
   })
 )
 
+app.use( bodyParser.json() );       // to support JSON-encoded bodies
+app.use(bodyParser.urlencoded({     // to support URL-encoded bodies
+  extended: true
+})); 
+
 app.use(passport.initialize())
 app.use(passport.session())
 
 require('./routes/authRoutes')(app)
+require('./routes/billingRoutes')(app)
 
 
 // MIDDLEWARE 
