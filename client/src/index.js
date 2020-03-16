@@ -15,5 +15,8 @@ ReactDOM.render(
         <App /> 
     </Provider>
 , document.getElementById('root'));
+
+// NOT WORKING
+console.log(process.env.REACT_APP_STRIPE_KEY)
    
 

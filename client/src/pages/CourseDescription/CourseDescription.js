@@ -4,7 +4,8 @@ import StarRatings from 'react-star-ratings';
 import axios from 'axios'
 import rightArrow from '../../assets/next.svg'
 import backBtn from '../../assets/backBtn.svg';
-import {Link} from 'react-router-dom'
+import {Link} from 'react-router-dom';
+import StripeCheckout from 'react-stripe-checkout'
 
 const API_URL = 'http://localhost:8080'
 
@@ -83,9 +84,17 @@ class CourseDescription extends Component {
                                     <span>Add to Cart</span>
                                     <img src={rightArrow} alt=""/>
                                 </button>
-                                <button className="CourseDescription__purchase-btn CourseDescription__purchase-btn--buy">
-                                    Buy Now
-                                </button>
+                                <StripeCheckout
+                                    name="blumber"
+                                    description={courseInfo && courseInfo.courseName}
+                                    amount={2899}
+                                    token={token => console.log(token)}
+                                    stripeKey="pk_test_oMT5cfppt04vWhvnFVzd4eRQ00nR1VMwO7"
+                                >
+                                    <button className="CourseDescription__purchase-btn CourseDescription__purchase-btn--buy">
+                                        Buy Now
+                                    </button>
+                                </StripeCheckout>
                                 <p className="CourseDescription__refund-policy">
                                     14 days no questions asked refund policy
                                 </p>
