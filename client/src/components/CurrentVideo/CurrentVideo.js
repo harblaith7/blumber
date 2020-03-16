@@ -4,7 +4,8 @@ import LessonNav from '../LessonNav/LessonNav';
 import axios from 'axios';
 import playBtn from "../../assets/play-btn.svg"
 import volumeBtn from "../../assets/volume-btn.svg"
-import fullScreen from "../../assets/fullscreen.svg"
+import fullScreen from "../../assets/fullscreen.svg";
+import Nav from '../Nav/Nav'
 
 const API_URL = 'http://localhost:8080'
 
@@ -47,6 +48,7 @@ class CurrentVideo extends Component {
     render() {
         return (
             <div className="CurrentVideo"> 
+            <Nav/>
                 <h2 className="CurrentVideo__heading">
                     {this.state.lessonsInfo && this.state.lessonsInfo[0].courseName}
                 </h2>
