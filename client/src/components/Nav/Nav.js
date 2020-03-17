@@ -18,9 +18,9 @@ class Nav extends Component {
                         <Link to="/wolfandbird" className="Nav__link">
                              Wolf Tracker
                         </Link>
-                        <a href="#CourseDisplay" className="Nav__link">
+                        <Link to="/" className="Nav__link">
                             Courses
-                        </a>
+                        </Link>
                         <a href="" className="Nav__link">
                             Login 
                         </a>
@@ -30,16 +30,16 @@ class Nav extends Component {
                
                 return (
                     <li className="Nav__list-item">
-                        <a href="" className="Nav__link Nav__link--logged">
+                        <a href="" className="Nav__link Nav__link">
                             Wolf Tracker
                         </a>
-                        <a href="" className="Nav__link Nav__link--logged">
+                        <a href="" className="Nav__link Nav__link">
                             Courses
                         </a>
-                        <a href="" className="Nav__link Nav__link--logged">
+                        <a href="" className="Nav__link Nav__link">
                             My Courses
                         </a>
-                        <a href="/api/logout" className="Nav__link Nav__link--logged">
+                        <a href="/api/logout" className="Nav__link Nav__link">
                             {this.props.auth.name}
                         </a>
                     </li> 

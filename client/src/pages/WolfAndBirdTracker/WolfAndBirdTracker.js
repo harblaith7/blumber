@@ -14,7 +14,7 @@ class WolfAndBirdTracker extends Component {
                         </h2>
                         <p className="WolfAndBirdTracker__description">
                             Find out which course is right for you by viewing its average GPA over the past few years and by what previous students are saying about it.
-                            Use the scale to the right as a guide to the courses difficulty level.
+                            Use the scale to the right as a guide to assess a course's difficulty level.
                         </p>
                     </div>
                     <div className="WolfAndBirdTracker__scale-container">

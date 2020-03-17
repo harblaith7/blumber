@@ -1,13 +1,13 @@
 @import "../../sass/variables.scss";
 
 .CurrentVideo {
-    background-color: $dark-blue;
+    background-color: $light-yellow;
     height: 90vh;
     position: relative;
 
     &__heading {
         position: absolute;
-        color: $off-white;
+        color: $black;
         left: 5%;
         top: 12.5%;
         font-size: 3rem;
@@ -33,6 +33,7 @@
         width: 75%;
         position: relative;
         overflow: hidden;
+        border: 0.1rem solid $black-transparent;
 
         &:hover .CurrentVideo__video-nav {
             bottom: 0%

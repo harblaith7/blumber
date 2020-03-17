@@ -8,16 +8,16 @@
         width: 100%;
         padding: 1rem 0rem 1rem 1rem;
         position: relative;
-        border-bottom: 0.1rem solid rgba(255, 166, 0, 0.308);
+        border-bottom: 0.1rem solid rgba(255, 166, 0, 0.849);
         cursor: pointer;
         transition: 0.3s;
-        color: $off-white;
+        color: $black;
         display: flex;
         align-items: center;
         justify-content: space-between;
 
         &:hover {
-            background-color: $dark-orange;
+            background-color: $orange;
         }
     }
 
@@ -56,7 +56,7 @@
 
     &__lesson-container {
         height: 4.5rem;
-        color: $light-grey;
+        color: $grey;
         padding: 1rem;
         display: flex;
         align-items: center;
