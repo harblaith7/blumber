@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './LessonBox.scss';
 import { v4 as uuidv4 } from 'uuid';
+import Checkout from '../Checkbox/Checkbox'
 
 class LessonBox extends Component {
 
@@ -21,7 +22,7 @@ class LessonBox extends Component {
         return this.props.lessonInfo.sectionInfo.map(videoSection => {
             return (
                 <div className="LessonBox__lesson-container" key={uuidv4()}>
-                    <input type="checkbox" className="LessonBox__checkbox"/>
+                    <Checkout/>
                     <h5 className="LessonBox__lesson-title">
                         {videoSection.title}
                     </h5>

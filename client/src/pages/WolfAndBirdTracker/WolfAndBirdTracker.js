@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './WolfAndBirdTracker.scss'
 import Nav from '../../components/Nav/Nav'
+import Checkbox from "../../components/Checkbox/Checkbox"
 
 class WolfAndBirdTracker extends Component {
     render() {
