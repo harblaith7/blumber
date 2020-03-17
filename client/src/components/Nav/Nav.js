@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux'
-import './Nav.scss'
+import './Nav.scss';
+import {Link} from 'react-router-dom'
 
 class Nav extends Component {
 
@@ -11,10 +12,13 @@ class Nav extends Component {
             case false:
                 return (
                     <li className="Nav__list-item">
-                        <a href="" className="Nav__link">
+                        <Link to="/" className="Nav__link"> 
+                            Home
+                        </Link>
+                        <Link to="/wolfandbird" className="Nav__link">
                              Wolf Tracker
-                        </a>
-                        <a href="" className="Nav__link">
+                        </Link>
+                        <a href="#CourseDisplay" className="Nav__link">
                             Courses
                         </a>
                         <a href="" className="Nav__link">

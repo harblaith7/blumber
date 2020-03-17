@@ -20,7 +20,7 @@ class CourseDisplay extends Component {
 
     render() {
         return (
-            <div className="CourseDisplay">
+            <div className="CourseDisplay" id="CourseDisplay">
                 <div className="CourseDisplay__container">
                     <div className="CourseDisplay__heading-container">
                         <h2 className="CourseDisplay__heading">

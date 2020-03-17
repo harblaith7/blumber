@@ -1,9 +1,11 @@
 @import "../../sass/variables.scss";
 
+
+
 .Nav {
  
     height: 7.5vh;
-
+    z-index: 2;
     &__container {
         height: 100%
     }
@@ -26,6 +28,12 @@
         font-size: 1.5rem;
         letter-spacing: 0.2rem;
         text-decoration: none;
-        color: $black
+        color: $black;
+        position: relative;
+
+        &--logged {
+            color: $off-white
+        }
+
     }
 }

@@ -3,10 +3,11 @@ import './App.scss';
 import SignInHomePage from './pages/SignInHomePage/SignInHomePage'
 import LoggedInHomePage from './pages/LoggedInHomePage/LoggedInHomePage';
 import CourseDescription from './pages/CourseDescription/CourseDescription'
+import WolfAndBirdTracker from './pages/WolfAndBirdTracker/WolfAndBirdTracker'
 import {BrowserRouter, Switch, Route} from 'react-router-dom';
 import { connect } from 'react-redux';
 import * as actions from './actions'
-import axios from 'axios'
+
 
 class App extends Component {
 
@@ -21,6 +22,7 @@ class App extends Component {
           <Switch>
             <Route exact path="/course/:courseId" component={CourseDescription}/>
             <Route exact path="/log" component={LoggedInHomePage}/>
+            <Route exact path="/wolfandbird" component={WolfAndBirdTracker}/>
             <Route exact strict path="/" component={SignInHomePage}/>
           </Switch>
         </BrowserRouter>
