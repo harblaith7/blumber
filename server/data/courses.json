@@ -13,6 +13,23 @@
             "courseDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam ipsam numquam velit rerum vero sapiente quaerat exercitationem amet mollitia id eligendi assumenda, ipsum obcaecati dolorum quasi eius eveniet sunt, architecto sint voluptas! Ipsam inventore recusandae itaque molestias temporibus incidunt voluptas saepe tenetur, explicabo, dolorem, sint minima odit pariatur libero? Veniam!",
             "courseSuccessPercentage": 93
         },
+        "courseDifficulty" : {
+            "enrollement" : 142,
+            "gpaAverage": 2.9,
+            "aPlus": "3%",
+            "A": "2%",
+            "A-": "3%",
+            "B+": "23%",
+            "B": "20%",
+            "B-": "22%",
+            "C+": "12%",
+            "C": "2%",
+            "C-": "10%",
+            "D+": "2%",
+            "D": "0%",
+            "D-": "1%",
+            "F": "4%"
+        },
         "purchased": true,
         "university": "queens",
         "courseMaterial" : [
@@ -89,6 +106,23 @@
           "courseDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam ipsam numquam velit rerum vero sapiente quaerat exercitationem amet mollitia id eligendi assumenda, ipsum obcaecati dolorum quasi eius eveniet sunt, architecto sint voluptas! Ipsam inventore recusandae itaque molestias temporibus incidunt voluptas saepe tenetur, explicabo, dolorem, sint minima odit pariatur libero? Veniam!",
           "courseSuccessPercentage": 93
       },
+      "courseDifficulty" : {
+         "enrollement" : 342,
+         "gpaAverage": 3.56,
+         "aPlus": "10%",
+         "A": "12%",
+         "A-": "13%",
+         "B+": "3%",
+         "B": "30%",
+         "B-": "12%",
+         "C+": "12%",
+         "C": "2%",
+         "C-": "10%",
+         "D+": "2%",
+         "D": "0%",
+         "D-": "1%",
+         "F": "4%"
+     },
       "purchased": false,
       "university": "queens",
       "courseMaterial" : [
@@ -163,6 +197,23 @@
             "courseDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam ipsam numquam velit rerum vero sapiente quaerat exercitationem amet mollitia id eligendi assumenda, ipsum obcaecati dolorum quasi eius eveniet sunt, architecto sint voluptas! Ipsam inventore recusandae itaque molestias temporibus incidunt voluptas saepe tenetur, explicabo, dolorem, sint minima odit pariatur libero? Veniam!",
             "courseSuccessPercentage": 93
       },
+      "courseDifficulty" : {
+         "enrollement" : 98,
+         "gpaAverage": 3.8,
+         "aPlus": "10%",
+         "A": "20%",
+         "A-": "13%",
+         "B+": "13%",
+         "B": "15%",
+         "B-": "12%",
+         "C+": "12%",
+         "C": "4%",
+         "C-": "10%",
+         "D+": "2%",
+         "D": "10%",
+         "D-": "1%",
+         "F": "1%"
+     },
       "purchased" : true,
       "university": "queens",
       "courseMaterial" : [
@@ -234,6 +285,23 @@
           "coursePrice": "$28.99",
           "coursePercentage": 68
       },
+      "courseDifficulty" : {
+         "enrollement" : 76,
+         "gpaAverage": 2.6,
+         "aPlus": "0%",
+         "A": "1%",
+         "A-": "3%",
+         "B+": "13%",
+         "B": "23%",
+         "B-": "10%",
+         "C+": "32%",
+         "C": "2%",
+         "C-": "10%",
+         "D+": "2%",
+         "D": "0%",
+         "D-": "1%",
+         "F": "1%"
+     },
       "purchased" : true,
       "university": "queens",
       "courseMaterial" : [
@@ -308,6 +376,23 @@
             "courseDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam ipsam numquam velit rerum vero sapiente quaerat exercitationem amet mollitia id eligendi assumenda, ipsum obcaecati dolorum quasi eius eveniet sunt, architecto sint voluptas! Ipsam inventore recusandae itaque molestias temporibus incidunt voluptas saepe tenetur, explicabo, dolorem, sint minima odit pariatur libero? Veniam!",
             "courseSuccessPercentage": 93
       },
+      "courseDifficulty" : {
+         "enrollement" : 98,
+         "gpaAverage": 3.2,
+         "aPlus": "3%",
+         "A": "4%",
+         "A-": "23%",
+         "B+": "13%",
+         "B": "19%",
+         "B-": "12%",
+         "C+": "13%",
+         "C": "2%",
+         "C-": "10%",
+         "D+": "2%",
+         "D": "0%",
+         "D-": "1%",
+         "F": "1%"
+     },
       "purchased": false,
       "university" : "queens",
       "courseMaterial" : [
@@ -382,6 +467,23 @@
             "courseDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam ipsam numquam velit rerum vero sapiente quaerat exercitationem amet mollitia id eligendi assumenda, ipsum obcaecati dolorum quasi eius eveniet sunt, architecto sint voluptas! Ipsam inventore recusandae itaque molestias temporibus incidunt voluptas saepe tenetur, explicabo, dolorem, sint minima odit pariatur libero? Veniam!",
             "courseSuccessPercentage": 93
       },
+      "courseDifficulty" : {
+         "enrollement" : 402,
+         "gpaAverage": 3.72,
+         "aPlus": "10%",
+         "A": "9%",
+         "A-": "32%",
+         "B+": "16%",
+         "B": "20%",
+         "B-": "3%",
+         "C+": "2%",
+         "C": "2%",
+         "C-": "10%",
+         "D+": "2%",
+         "D": "0%",
+         "D-": "1%",
+         "F": "1%"
+     },
       "purchased": true,
       "university": "queens",
       "courseMaterial" : [
@@ -456,6 +558,23 @@
             "courseDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam ipsam numquam velit rerum vero sapiente quaerat exercitationem amet mollitia id eligendi assumenda, ipsum obcaecati dolorum quasi eius eveniet sunt, architecto sint voluptas! Ipsam inventore recusandae itaque molestias temporibus incidunt voluptas saepe tenetur, explicabo, dolorem, sint minima odit pariatur libero? Veniam!",
             "courseSuccessPercentage": 93
       },
+      "courseDifficulty" : {
+         "enrollement" : 35,
+         "gpaAverage": 3.93,
+         "aPlus": "30%",
+         "A": "25%",
+         "A-": "17%",
+         "B+": "3%",
+         "B": "4%",
+         "B-": "3%",
+         "C+": "3%",
+         "C": "1%",
+         "C-": "0%",
+         "D+": "0%",
+         "D": "0%",
+         "D-": "0%",
+         "F": "0%"
+     },
       "purchased" : true,
       "university": "queens",
       "courseMaterial" : [
@@ -530,6 +649,23 @@
             "courseDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam ipsam numquam velit rerum vero sapiente quaerat exercitationem amet mollitia id eligendi assumenda, ipsum obcaecati dolorum quasi eius eveniet sunt, architecto sint voluptas! Ipsam inventore recusandae itaque molestias temporibus incidunt voluptas saepe tenetur, explicabo, dolorem, sint minima odit pariatur libero? Veniam!",
             "courseSuccessPercentage": 93
       },
+      "courseDifficulty" : {
+         "enrollement" : 177,
+         "gpaAverage": 3.2,
+         "aPlus": "7%",
+         "A": "12%",
+         "A-": "13%",
+         "B+": "32%",
+         "B": "2%",
+         "B-": "12%",
+         "C+": "17%",
+         "C": "2%",
+         "C-": "0%",
+         "D+": "2%",
+         "D": "0%",
+         "D-": "1%",
+         "F": "0%"
+     },
       "purchased": false,
       "university": "queens",
       "courseMaterial" : [
@@ -604,6 +740,23 @@
             "courseDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam ipsam numquam velit rerum vero sapiente quaerat exercitationem amet mollitia id eligendi assumenda, ipsum obcaecati dolorum quasi eius eveniet sunt, architecto sint voluptas! Ipsam inventore recusandae itaque molestias temporibus incidunt voluptas saepe tenetur, explicabo, dolorem, sint minima odit pariatur libero? Veniam!",
             "courseSuccessPercentage": 93
       },
+      "courseDifficulty" : {
+         "enrollement" : 98,
+         "gpaAverage": 3.7,
+         "aPlus": "10%",
+         "A": "21%",
+         "A-": "31%",
+         "B+": "23%",
+         "B": "20%",
+         "B-": "12%",
+         "C+": "12%",
+         "C": "2%",
+         "C-": "10%",
+         "D+": "2%",
+         "D": "0%",
+         "D-": "1%",
+         "F": "1%"
+     },
       "purchased" : true,
       "university": "queens",
       "courseMaterial" : [
@@ -678,6 +831,23 @@
             "courseDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam ipsam numquam velit rerum vero sapiente quaerat exercitationem amet mollitia id eligendi assumenda, ipsum obcaecati dolorum quasi eius eveniet sunt, architecto sint voluptas! Ipsam inventore recusandae itaque molestias temporibus incidunt voluptas saepe tenetur, explicabo, dolorem, sint minima odit pariatur libero? Veniam!",
             "courseSuccessPercentage": 93
       },
+      "courseDifficulty" : {
+         "enrollement" : 112,
+         "gpaAverage": 3.21,
+         "aPlus": "12%",
+         "A": "3%",
+         "A-": "23%",
+         "B+": "20%",
+         "B": "20%",
+         "B-": "22%",
+         "C+": "12%",
+         "C": "2%",
+         "C-": "10%",
+         "D+": "2%",
+         "D": "0%",
+         "D-": "1%",
+         "F": "1%"
+     },
       "purchased" : false,
       "university":"queens",
       "courseMaterial" : [
@@ -752,6 +922,23 @@
             "courseDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam ipsam numquam velit rerum vero sapiente quaerat exercitationem amet mollitia id eligendi assumenda, ipsum obcaecati dolorum quasi eius eveniet sunt, architecto sint voluptas! Ipsam inventore recusandae itaque molestias temporibus incidunt voluptas saepe tenetur, explicabo, dolorem, sint minima odit pariatur libero? Veniam!",
             "courseSuccessPercentage": 93
       },
+      "courseDifficulty" : {
+         "enrollement" : 98,
+         "gpaAverage": 3.42,
+         "aPlus": "7%",
+         "A": "12%",
+         "A-": "11%",
+         "B+": "13%",
+         "B": "43%",
+         "B-": "12%",
+         "C+": "12%",
+         "C": "2%",
+         "C-": "10%",
+         "D+": "2%",
+         "D": "0%",
+         "D-": "1%",
+         "F": "1%"
+     },
       "purchased": "true",
       "university": "queens",
       "courseMaterial" : [
@@ -826,6 +1013,23 @@
             "courseDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam ipsam numquam velit rerum vero sapiente quaerat exercitationem amet mollitia id eligendi assumenda, ipsum obcaecati dolorum quasi eius eveniet sunt, architecto sint voluptas! Ipsam inventore recusandae itaque molestias temporibus incidunt voluptas saepe tenetur, explicabo, dolorem, sint minima odit pariatur libero? Veniam!",
             "courseSuccessPercentage": 93
       },
+      "courseDifficulty" : {
+         "enrollement" : 23,
+         "gpaAverage": 3.46,
+         "aPlus": "1%",
+         "A": "9%",
+         "A-": "13%",
+         "B+": "23%",
+         "B": "20%",
+         "B-": "12%",
+         "C+": "12%",
+         "C": "2%",
+         "C-": "10%",
+         "D+": "2%",
+         "D": "0%",
+         "D-": "1%",
+         "F": "1%"
+     },
       "purchased": false,
       "university": "western",
       "courseMaterial" : [
@@ -900,6 +1104,23 @@
             "courseDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam ipsam numquam velit rerum vero sapiente quaerat exercitationem amet mollitia id eligendi assumenda, ipsum obcaecati dolorum quasi eius eveniet sunt, architecto sint voluptas! Ipsam inventore recusandae itaque molestias temporibus incidunt voluptas saepe tenetur, explicabo, dolorem, sint minima odit pariatur libero? Veniam!",
             "courseSuccessPercentage": 93
       },
+      "courseDifficulty" : {
+         "enrollement" : 98,
+         "gpaAverage": 3.46,
+         "aPlus": "1%",
+         "A": "9%",
+         "A-": "13%",
+         "B+": "23%",
+         "B": "20%",
+         "B-": "12%",
+         "C+": "12%",
+         "C": "2%",
+         "C-": "10%",
+         "D+": "2%",
+         "D": "0%",
+         "D-": "1%",
+         "F": "1%"
+     },
       "purchased": false,
       "university": "western",
       "courseMaterial" : [
@@ -974,6 +1195,23 @@
             "courseDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam ipsam numquam velit rerum vero sapiente quaerat exercitationem amet mollitia id eligendi assumenda, ipsum obcaecati dolorum quasi eius eveniet sunt, architecto sint voluptas! Ipsam inventore recusandae itaque molestias temporibus incidunt voluptas saepe tenetur, explicabo, dolorem, sint minima odit pariatur libero? Veniam!",
             "courseSuccessPercentage": 93
       },
+      "courseDifficulty" : {
+         "enrollement" : 98,
+         "gpaAverage": 3.46,
+         "aPlus": "1%",
+         "A": "9%",
+         "A-": "13%",
+         "B+": "23%",
+         "B": "20%",
+         "B-": "12%",
+         "C+": "12%",
+         "C": "2%",
+         "C-": "10%",
+         "D+": "2%",
+         "D": "0%",
+         "D-": "1%",
+         "F": "1%"
+     },
       "purchased": false,
       "university": "western",
       "courseMaterial" : [
@@ -1048,6 +1286,23 @@
             "courseDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam ipsam numquam velit rerum vero sapiente quaerat exercitationem amet mollitia id eligendi assumenda, ipsum obcaecati dolorum quasi eius eveniet sunt, architecto sint voluptas! Ipsam inventore recusandae itaque molestias temporibus incidunt voluptas saepe tenetur, explicabo, dolorem, sint minima odit pariatur libero? Veniam!",
             "courseSuccessPercentage": 93
       },
+      "courseDifficulty" : {
+         "enrollement" : 98,
+         "gpaAverage": 3.46,
+         "aPlus": "1%",
+         "A": "9%",
+         "A-": "13%",
+         "B+": "23%",
+         "B": "20%",
+         "B-": "12%",
+         "C+": "12%",
+         "C": "2%",
+         "C-": "10%",
+         "D+": "2%",
+         "D": "0%",
+         "D-": "1%",
+         "F": "1%"
+     },
       "purchased": false,
       "university": "western",
       "courseMaterial" : [
@@ -1122,6 +1377,23 @@
             "courseDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam ipsam numquam velit rerum vero sapiente quaerat exercitationem amet mollitia id eligendi assumenda, ipsum obcaecati dolorum quasi eius eveniet sunt, architecto sint voluptas! Ipsam inventore recusandae itaque molestias temporibus incidunt voluptas saepe tenetur, explicabo, dolorem, sint minima odit pariatur libero? Veniam!",
             "courseSuccessPercentage": 93
       },
+      "courseDifficulty" : {
+         "enrollement" : 98,
+         "gpaAverage": 3.46,
+         "aPlus": "1%",
+         "A": "9%",
+         "A-": "13%",
+         "B+": "23%",
+         "B": "20%",
+         "B-": "12%",
+         "C+": "12%",
+         "C": "2%",
+         "C-": "10%",
+         "D+": "2%",
+         "D": "0%",
+         "D-": "1%",
+         "F": "1%"
+     },
       "purchased": false,
       "university": "western",
       "courseMaterial" : [
@@ -1196,6 +1468,23 @@
           "courseDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam ipsam numquam velit rerum vero sapiente quaerat exercitationem amet mollitia id eligendi assumenda, ipsum obcaecati dolorum quasi eius eveniet sunt, architecto sint voluptas! Ipsam inventore recusandae itaque molestias temporibus incidunt voluptas saepe tenetur, explicabo, dolorem, sint minima odit pariatur libero? Veniam!",
           "courseSuccessPercentage": 93
       },
+      "courseDifficulty" : {
+         "enrollement" : 98,
+         "gpaAverage": 3.46,
+         "aPlus": "1%",
+         "A": "9%",
+         "A-": "13%",
+         "B+": "23%",
+         "B": "20%",
+         "B-": "12%",
+         "C+": "12%",
+         "C": "2%",
+         "C-": "10%",
+         "D+": "2%",
+         "D": "0%",
+         "D-": "1%",
+         "F": "1%"
+     },
       "purchased": false,
       "university": "western",
       "courseMaterial" : [
@@ -1261,15 +1550,32 @@
       "courseId": "W5325342534",
       "thumbnail": "https://prod-discovery.edx-cdn.org/media/course/image/d64fa565-a848-4f82-8c07-f2a2d98c3e4e-1cf577279324.small.jpeg",
       "courseInfo": {
-          "courseLength" : "19 hours",
+          "courseLength" : "2 hours",
           "courseAuthor": "Rafay Ali",
           "courseRating": "1.7",
           "coursePrice": "$28.99",
           "coursePercentage": 32,
           "courseShortDescription" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint quia laudantium a tempore. Incidunt unde animi ipsa, inventore necessitatibus fuga?",
           "courseDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam ipsam numquam velit rerum vero sapiente quaerat exercitationem amet mollitia id eligendi assumenda, ipsum obcaecati dolorum quasi eius eveniet sunt, architecto sint voluptas! Ipsam inventore recusandae itaque molestias temporibus incidunt voluptas saepe tenetur, explicabo, dolorem, sint minima odit pariatur libero? Veniam!",
-          "courseSuccessPercentage": 93
+          "courseSuccessPercentage": 2
       },
+      "courseDifficulty" : {
+         "enrollement" : 98,
+         "gpaAverage": 3.46,
+         "aPlus": "1%",
+         "A": "9%",
+         "A-": "13%",
+         "B+": "23%",
+         "B": "20%",
+         "B-": "12%",
+         "C+": "12%",
+         "C": "2%",
+         "C-": "10%",
+         "D+": "2%",
+         "D": "0%",
+         "D-": "1%",
+         "F": "1%"
+     },
       "purchased": false,
       "university": "western",
       "courseMaterial" : [
@@ -1344,6 +1650,23 @@
           "courseDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam ipsam numquam velit rerum vero sapiente quaerat exercitationem amet mollitia id eligendi assumenda, ipsum obcaecati dolorum quasi eius eveniet sunt, architecto sint voluptas! Ipsam inventore recusandae itaque molestias temporibus incidunt voluptas saepe tenetur, explicabo, dolorem, sint minima odit pariatur libero? Veniam!",
           "courseSuccessPercentage": 93
       },
+      "courseDifficulty" : {
+         "enrollement" : 98,
+         "gpaAverage": 3.46,
+         "aPlus": "1%",
+         "A": "9%",
+         "A-": "13%",
+         "B+": "23%",
+         "B": "20%",
+         "B-": "12%",
+         "C+": "12%",
+         "C": "2%",
+         "C-": "10%",
+         "D+": "2%",
+         "D": "0%",
+         "D-": "1%",
+         "F": "1%"
+     },
       "purchased": false,
       "university": "western",
       "courseMaterial" : [
@@ -1418,6 +1741,23 @@
           "courseDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam ipsam numquam velit rerum vero sapiente quaerat exercitationem amet mollitia id eligendi assumenda, ipsum obcaecati dolorum quasi eius eveniet sunt, architecto sint voluptas! Ipsam inventore recusandae itaque molestias temporibus incidunt voluptas saepe tenetur, explicabo, dolorem, sint minima odit pariatur libero? Veniam!",
           "courseSuccessPercentage": 93
       },
+      "courseDifficulty" : {
+         "enrollement" : 98,
+         "gpaAverage": 3.46,
+         "aPlus": "1%",
+         "A": "9%",
+         "A-": "13%",
+         "B+": "23%",
+         "B": "20%",
+         "B-": "12%",
+         "C+": "12%",
+         "C": "2%",
+         "C-": "10%",
+         "D+": "2%",
+         "D": "0%",
+         "D-": "1%",
+         "F": "1%"
+     },
       "purchased": false,
       "university": "uft",
       "courseMaterial" : [
@@ -1492,6 +1832,23 @@
           "courseDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam ipsam numquam velit rerum vero sapiente quaerat exercitationem amet mollitia id eligendi assumenda, ipsum obcaecati dolorum quasi eius eveniet sunt, architecto sint voluptas! Ipsam inventore recusandae itaque molestias temporibus incidunt voluptas saepe tenetur, explicabo, dolorem, sint minima odit pariatur libero? Veniam!",
           "courseSuccessPercentage": 93
       },
+      "courseDifficulty" : {
+         "enrollement" : 98,
+         "gpaAverage": 3.46,
+         "aPlus": "1%",
+         "A": "9%",
+         "A-": "13%",
+         "B+": "23%",
+         "B": "20%",
+         "B-": "12%",
+         "C+": "12%",
+         "C": "2%",
+         "C-": "10%",
+         "D+": "2%",
+         "D": "0%",
+         "D-": "1%",
+         "F": "1%"
+     },
       "purchased": false,
       "university": "uft",
       "courseMaterial" : [
@@ -1566,6 +1923,23 @@
           "courseDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam ipsam numquam velit rerum vero sapiente quaerat exercitationem amet mollitia id eligendi assumenda, ipsum obcaecati dolorum quasi eius eveniet sunt, architecto sint voluptas! Ipsam inventore recusandae itaque molestias temporibus incidunt voluptas saepe tenetur, explicabo, dolorem, sint minima odit pariatur libero? Veniam!",
           "courseSuccessPercentage": 93
       },
+      "courseDifficulty" : {
+         "enrollement" : 98,
+         "gpaAverage": 3.46,
+         "aPlus": "1%",
+         "A": "9%",
+         "A-": "13%",
+         "B+": "23%",
+         "B": "20%",
+         "B-": "12%",
+         "C+": "12%",
+         "C": "2%",
+         "C-": "10%",
+         "D+": "2%",
+         "D": "0%",
+         "D-": "1%",
+         "F": "1%"
+     },
       "purchased": false,
       "university": "uft",
       "courseMaterial" : [
@@ -1640,6 +2014,23 @@
           "courseDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam ipsam numquam velit rerum vero sapiente quaerat exercitationem amet mollitia id eligendi assumenda, ipsum obcaecati dolorum quasi eius eveniet sunt, architecto sint voluptas! Ipsam inventore recusandae itaque molestias temporibus incidunt voluptas saepe tenetur, explicabo, dolorem, sint minima odit pariatur libero? Veniam!",
           "courseSuccessPercentage": 93
       },
+      "courseDifficulty" : {
+         "enrollement" : 98,
+         "gpaAverage": 3.46,
+         "aPlus": "1%",
+         "A": "9%",
+         "A-": "13%",
+         "B+": "23%",
+         "B": "20%",
+         "B-": "12%",
+         "C+": "12%",
+         "C": "2%",
+         "C-": "10%",
+         "D+": "2%",
+         "D": "0%",
+         "D-": "1%",
+         "F": "1%"
+     },
       "purchased": false,
       "university": "uft",
       "courseMaterial" : [
@@ -1714,6 +2105,23 @@
           "courseDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam ipsam numquam velit rerum vero sapiente quaerat exercitationem amet mollitia id eligendi assumenda, ipsum obcaecati dolorum quasi eius eveniet sunt, architecto sint voluptas! Ipsam inventore recusandae itaque molestias temporibus incidunt voluptas saepe tenetur, explicabo, dolorem, sint minima odit pariatur libero? Veniam!",
           "courseSuccessPercentage": 93
       },
+      "courseDifficulty" : {
+         "enrollement" : 98,
+         "gpaAverage": 3.46,
+         "aPlus": "1%",
+         "A": "9%",
+         "A-": "13%",
+         "B+": "23%",
+         "B": "20%",
+         "B-": "12%",
+         "C+": "12%",
+         "C": "2%",
+         "C-": "10%",
+         "D+": "2%",
+         "D": "0%",
+         "D-": "1%",
+         "F": "1%"
+     },
       "purchased": false,
       "university": "ryerson",
       "courseMaterial" : [
@@ -1788,6 +2196,23 @@
           "courseDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam ipsam numquam velit rerum vero sapiente quaerat exercitationem amet mollitia id eligendi assumenda, ipsum obcaecati dolorum quasi eius eveniet sunt, architecto sint voluptas! Ipsam inventore recusandae itaque molestias temporibus incidunt voluptas saepe tenetur, explicabo, dolorem, sint minima odit pariatur libero? Veniam!",
           "courseSuccessPercentage": 93
       },
+      "courseDifficulty" : {
+         "enrollement" : 98,
+         "gpaAverage": 3.46,
+         "aPlus": "1%",
+         "A": "9%",
+         "A-": "13%",
+         "B+": "23%",
+         "B": "20%",
+         "B-": "12%",
+         "C+": "12%",
+         "C": "2%",
+         "C-": "10%",
+         "D+": "2%",
+         "D": "0%",
+         "D-": "1%",
+         "F": "1%"
+     },
       "purchased": false,
       "university": "ryerson",
       "courseMaterial" : [
@@ -1862,6 +2287,23 @@
           "courseDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam ipsam numquam velit rerum vero sapiente quaerat exercitationem amet mollitia id eligendi assumenda, ipsum obcaecati dolorum quasi eius eveniet sunt, architecto sint voluptas! Ipsam inventore recusandae itaque molestias temporibus incidunt voluptas saepe tenetur, explicabo, dolorem, sint minima odit pariatur libero? Veniam!",
           "courseSuccessPercentage": 93
       },
+      "courseDifficulty" : {
+         "enrollement" : 98,
+         "gpaAverage": 3.46,
+         "aPlus": "1%",
+         "A": "9%",
+         "A-": "13%",
+         "B+": "23%",
+         "B": "20%",
+         "B-": "12%",
+         "C+": "12%",
+         "C": "2%",
+         "C-": "10%",
+         "D+": "2%",
+         "D": "0%",
+         "D-": "1%",
+         "F": "1%"
+     },
       "purchased": false,
       "university": "ryerson",
       "courseMaterial" : [
@@ -1936,6 +2378,23 @@
           "courseDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam ipsam numquam velit rerum vero sapiente quaerat exercitationem amet mollitia id eligendi assumenda, ipsum obcaecati dolorum quasi eius eveniet sunt, architecto sint voluptas! Ipsam inventore recusandae itaque molestias temporibus incidunt voluptas saepe tenetur, explicabo, dolorem, sint minima odit pariatur libero? Veniam!",
           "courseSuccessPercentage": 93
       },
+      "courseDifficulty" : {
+         "enrollement" : 98,
+         "gpaAverage": 3.46,
+         "aPlus": "1%",
+         "A": "9%",
+         "A-": "13%",
+         "B+": "23%",
+         "B": "20%",
+         "B-": "12%",
+         "C+": "12%",
+         "C": "2%",
+         "C-": "10%",
+         "D+": "2%",
+         "D": "0%",
+         "D-": "1%",
+         "F": "1%"
+     },
       "purchased": false,
       "university": "ryerson",
       "courseMaterial" : [
@@ -2010,6 +2469,23 @@
           "courseDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam ipsam numquam velit rerum vero sapiente quaerat exercitationem amet mollitia id eligendi assumenda, ipsum obcaecati dolorum quasi eius eveniet sunt, architecto sint voluptas! Ipsam inventore recusandae itaque molestias temporibus incidunt voluptas saepe tenetur, explicabo, dolorem, sint minima odit pariatur libero? Veniam!",
           "courseSuccessPercentage": 93
       },
+      "courseDifficulty" : {
+         "enrollement" : 98,
+         "gpaAverage": 3.46,
+         "aPlus": "1%",
+         "A": "9%",
+         "A-": "13%",
+         "B+": "23%",
+         "B": "20%",
+         "B-": "12%",
+         "C+": "12%",
+         "C": "2%",
+         "C-": "10%",
+         "D+": "2%",
+         "D": "0%",
+         "D-": "1%",
+         "F": "1%"
+     },
       "purchased": false,
       "university": "ryerson",
       "courseMaterial" : [
@@ -2084,6 +2560,23 @@
           "courseDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam ipsam numquam velit rerum vero sapiente quaerat exercitationem amet mollitia id eligendi assumenda, ipsum obcaecati dolorum quasi eius eveniet sunt, architecto sint voluptas! Ipsam inventore recusandae itaque molestias temporibus incidunt voluptas saepe tenetur, explicabo, dolorem, sint minima odit pariatur libero? Veniam!",
           "courseSuccessPercentage": 93
       },
+      "courseDifficulty" : {
+         "enrollement" : 98,
+         "gpaAverage": 3.46,
+         "aPlus": "1%",
+         "A": "9%",
+         "A-": "13%",
+         "B+": "23%",
+         "B": "20%",
+         "B-": "12%",
+         "C+": "12%",
+         "C": "2%",
+         "C-": "10%",
+         "D+": "2%",
+         "D": "0%",
+         "D-": "1%",
+         "F": "1%"
+     },
       "purchased": false,
       "university": "mcgill",
       "courseMaterial" : [
@@ -2158,6 +2651,23 @@
           "courseDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam ipsam numquam velit rerum vero sapiente quaerat exercitationem amet mollitia id eligendi assumenda, ipsum obcaecati dolorum quasi eius eveniet sunt, architecto sint voluptas! Ipsam inventore recusandae itaque molestias temporibus incidunt voluptas saepe tenetur, explicabo, dolorem, sint minima odit pariatur libero? Veniam!",
           "courseSuccessPercentage": 93
       },
+      "courseDifficulty" : {
+         "enrollement" : 98,
+         "gpaAverage": 3.46,
+         "aPlus": "1%",
+         "A": "9%",
+         "A-": "13%",
+         "B+": "23%",
+         "B": "20%",
+         "B-": "12%",
+         "C+": "12%",
+         "C": "2%",
+         "C-": "10%",
+         "D+": "2%",
+         "D": "0%",
+         "D-": "1%",
+         "F": "1%"
+     },
       "purchased": false,
       "university": "mcgill",
       "courseMaterial" : [
@@ -2232,6 +2742,23 @@
           "courseDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam ipsam numquam velit rerum vero sapiente quaerat exercitationem amet mollitia id eligendi assumenda, ipsum obcaecati dolorum quasi eius eveniet sunt, architecto sint voluptas! Ipsam inventore recusandae itaque molestias temporibus incidunt voluptas saepe tenetur, explicabo, dolorem, sint minima odit pariatur libero? Veniam!",
           "courseSuccessPercentage": 93
       },
+      "courseDifficulty" : {
+         "enrollement" : 98,
+         "gpaAverage": 3.46,
+         "aPlus": "1%",
+         "A": "9%",
+         "A-": "13%",
+         "B+": "23%",
+         "B": "20%",
+         "B-": "12%",
+         "C+": "12%",
+         "C": "2%",
+         "C-": "10%",
+         "D+": "2%",
+         "D": "0%",
+         "D-": "1%",
+         "F": "1%"
+     },
       "purchased": false,
       "university": "mcgill",
       "courseMaterial" : [
@@ -2306,6 +2833,23 @@
           "courseDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam ipsam numquam velit rerum vero sapiente quaerat exercitationem amet mollitia id eligendi assumenda, ipsum obcaecati dolorum quasi eius eveniet sunt, architecto sint voluptas! Ipsam inventore recusandae itaque molestias temporibus incidunt voluptas saepe tenetur, explicabo, dolorem, sint minima odit pariatur libero? Veniam!",
           "courseSuccessPercentage": 93
       },
+      "courseDifficulty" : {
+         "enrollement" : 98,
+         "gpaAverage": 3.46,
+         "aPlus": "1%",
+         "A": "9%",
+         "A-": "13%",
+         "B+": "23%",
+         "B": "20%",
+         "B-": "12%",
+         "C+": "12%",
+         "C": "2%",
+         "C-": "10%",
+         "D+": "2%",
+         "D": "0%",
+         "D-": "1%",
+         "F": "1%"
+     },
       "purchased": false,
       "university": "mcgill",
       "courseMaterial" : [
@@ -2380,6 +2924,23 @@
           "courseDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam ipsam numquam velit rerum vero sapiente quaerat exercitationem amet mollitia id eligendi assumenda, ipsum obcaecati dolorum quasi eius eveniet sunt, architecto sint voluptas! Ipsam inventore recusandae itaque molestias temporibus incidunt voluptas saepe tenetur, explicabo, dolorem, sint minima odit pariatur libero? Veniam!",
           "courseSuccessPercentage": 93
       },
+      "courseDifficulty" : {
+         "enrollement" : 98,
+         "gpaAverage": 3.46,
+         "aPlus": "1%",
+         "A": "9%",
+         "A-": "13%",
+         "B+": "23%",
+         "B": "20%",
+         "B-": "12%",
+         "C+": "12%",
+         "C": "2%",
+         "C-": "10%",
+         "D+": "2%",
+         "D": "0%",
+         "D-": "1%",
+         "F": "1%"
+     },
       "purchased": false,
       "university": "carleton",
       "courseMaterial" : [
@@ -2454,6 +3015,23 @@
           "courseDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam ipsam numquam velit rerum vero sapiente quaerat exercitationem amet mollitia id eligendi assumenda, ipsum obcaecati dolorum quasi eius eveniet sunt, architecto sint voluptas! Ipsam inventore recusandae itaque molestias temporibus incidunt voluptas saepe tenetur, explicabo, dolorem, sint minima odit pariatur libero? Veniam!",
           "courseSuccessPercentage": 93
       },
+      "courseDifficulty" : {
+         "enrollement" : 98,
+         "gpaAverage": 3.46,
+         "aPlus": "1%",
+         "A": "9%",
+         "A-": "13%",
+         "B+": "23%",
+         "B": "20%",
+         "B-": "12%",
+         "C+": "12%",
+         "C": "2%",
+         "C-": "10%",
+         "D+": "2%",
+         "D": "0%",
+         "D-": "1%",
+         "F": "1%"
+     },
       "purchased": false,
       "university": "carleton",
       "courseMaterial" : [
@@ -2528,6 +3106,23 @@
           "courseDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam ipsam numquam velit rerum vero sapiente quaerat exercitationem amet mollitia id eligendi assumenda, ipsum obcaecati dolorum quasi eius eveniet sunt, architecto sint voluptas! Ipsam inventore recusandae itaque molestias temporibus incidunt voluptas saepe tenetur, explicabo, dolorem, sint minima odit pariatur libero? Veniam!",
           "courseSuccessPercentage": 93
       },
+      "courseDifficulty" : {
+         "enrollement" : 98,
+         "gpaAverage": 3.46,
+         "aPlus": "1%",
+         "A": "9%",
+         "A-": "13%",
+         "B+": "23%",
+         "B": "20%",
+         "B-": "12%",
+         "C+": "12%",
+         "C": "2%",
+         "C-": "10%",
+         "D+": "2%",
+         "D": "0%",
+         "D-": "1%",
+         "F": "1%"
+     },
       "purchased": false,
       "university": "carleton",
       "courseMaterial" : [
@@ -2602,6 +3197,23 @@
           "courseDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam ipsam numquam velit rerum vero sapiente quaerat exercitationem amet mollitia id eligendi assumenda, ipsum obcaecati dolorum quasi eius eveniet sunt, architecto sint voluptas! Ipsam inventore recusandae itaque molestias temporibus incidunt voluptas saepe tenetur, explicabo, dolorem, sint minima odit pariatur libero? Veniam!",
           "courseSuccessPercentage": 93
       },
+      "courseDifficulty" : {
+         "enrollement" : 98,
+         "gpaAverage": 3.46,
+         "aPlus": "1%",
+         "A": "9%",
+         "A-": "13%",
+         "B+": "23%",
+         "B": "20%",
+         "B-": "12%",
+         "C+": "12%",
+         "C": "2%",
+         "C-": "10%",
+         "D+": "2%",
+         "D": "0%",
+         "D-": "1%",
+         "F": "1%"
+     },
       "purchased": false,
       "university": "uottawa",
       "courseMaterial" : [
@@ -2676,6 +3288,23 @@
           "courseDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam ipsam numquam velit rerum vero sapiente quaerat exercitationem amet mollitia id eligendi assumenda, ipsum obcaecati dolorum quasi eius eveniet sunt, architecto sint voluptas! Ipsam inventore recusandae itaque molestias temporibus incidunt voluptas saepe tenetur, explicabo, dolorem, sint minima odit pariatur libero? Veniam!",
           "courseSuccessPercentage": 93
       },
+      "courseDifficulty" : {
+         "enrollement" : 98,
+         "gpaAverage": 3.46,
+         "aPlus": "1%",
+         "A": "9%",
+         "A-": "13%",
+         "B+": "23%",
+         "B": "20%",
+         "B-": "12%",
+         "C+": "12%",
+         "C": "2%",
+         "C-": "10%",
+         "D+": "2%",
+         "D": "0%",
+         "D-": "1%",
+         "F": "1%"
+     },
       "purchased": false,
       "university": "uottawa",
       "courseMaterial" : [
@@ -2750,6 +3379,23 @@
           "courseDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam ipsam numquam velit rerum vero sapiente quaerat exercitationem amet mollitia id eligendi assumenda, ipsum obcaecati dolorum quasi eius eveniet sunt, architecto sint voluptas! Ipsam inventore recusandae itaque molestias temporibus incidunt voluptas saepe tenetur, explicabo, dolorem, sint minima odit pariatur libero? Veniam!",
           "courseSuccessPercentage": 93
       },
+      "courseDifficulty" : {
+         "enrollement" : 98,
+         "gpaAverage": 3.46,
+         "aPlus": "1%",
+         "A": "9%",
+         "A-": "13%",
+         "B+": "23%",
+         "B": "20%",
+         "B-": "12%",
+         "C+": "12%",
+         "C": "2%",
+         "C-": "10%",
+         "D+": "2%",
+         "D": "0%",
+         "D-": "1%",
+         "F": "1%"
+     },
       "purchased": false,
       "university": "uottawa",
       "courseMaterial" : [
@@ -2825,6 +3471,23 @@
           "courseDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam ipsam numquam velit rerum vero sapiente quaerat exercitationem amet mollitia id eligendi assumenda, ipsum obcaecati dolorum quasi eius eveniet sunt, architecto sint voluptas! Ipsam inventore recusandae itaque molestias temporibus incidunt voluptas saepe tenetur, explicabo, dolorem, sint minima odit pariatur libero? Veniam!",
           "courseSuccessPercentage": 93
       },
+      "courseDifficulty" : {
+         "enrollement" : 98,
+         "gpaAverage": 3.46,
+         "aPlus": "1%",
+         "A": "9%",
+         "A-": "13%",
+         "B+": "23%",
+         "B": "20%",
+         "B-": "12%",
+         "C+": "12%",
+         "C": "2%",
+         "C-": "10%",
+         "D+": "2%",
+         "D": "0%",
+         "D-": "1%",
+         "F": "1%"
+     },
       "purchased": false,
       "university": "ubc",
       "courseMaterial" : [
@@ -2899,6 +3562,23 @@
           "courseDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam ipsam numquam velit rerum vero sapiente quaerat exercitationem amet mollitia id eligendi assumenda, ipsum obcaecati dolorum quasi eius eveniet sunt, architecto sint voluptas! Ipsam inventore recusandae itaque molestias temporibus incidunt voluptas saepe tenetur, explicabo, dolorem, sint minima odit pariatur libero? Veniam!",
           "courseSuccessPercentage": 93
       },
+      "courseDifficulty" : {
+         "enrollement" : 98,
+         "gpaAverage": 3.46,
+         "aPlus": "1%",
+         "A": "9%",
+         "A-": "13%",
+         "B+": "23%",
+         "B": "20%",
+         "B-": "12%",
+         "C+": "12%",
+         "C": "2%",
+         "C-": "10%",
+         "D+": "2%",
+         "D": "0%",
+         "D-": "1%",
+         "F": "1%"
+     },
       "purchased": false,
       "university": "ubc",
       "courseMaterial" : [
@@ -2973,6 +3653,23 @@
           "courseDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam ipsam numquam velit rerum vero sapiente quaerat exercitationem amet mollitia id eligendi assumenda, ipsum obcaecati dolorum quasi eius eveniet sunt, architecto sint voluptas! Ipsam inventore recusandae itaque molestias temporibus incidunt voluptas saepe tenetur, explicabo, dolorem, sint minima odit pariatur libero? Veniam!",
           "courseSuccessPercentage": 93
       },
+      "courseDifficulty" : {
+         "enrollement" : 98,
+         "gpaAverage": 3.46,
+         "aPlus": "1%",
+         "A": "9%",
+         "A-": "13%",
+         "B+": "23%",
+         "B": "20%",
+         "B-": "12%",
+         "C+": "12%",
+         "C": "2%",
+         "C-": "10%",
+         "D+": "2%",
+         "D": "0%",
+         "D-": "1%",
+         "F": "1%"
+     },
       "purchased": false,
       "university": "ubc",
       "courseMaterial" : [
@@ -3047,6 +3744,23 @@
           "courseDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam ipsam numquam velit rerum vero sapiente quaerat exercitationem amet mollitia id eligendi assumenda, ipsum obcaecati dolorum quasi eius eveniet sunt, architecto sint voluptas! Ipsam inventore recusandae itaque molestias temporibus incidunt voluptas saepe tenetur, explicabo, dolorem, sint minima odit pariatur libero? Veniam!",
           "courseSuccessPercentage": 93
       },
+      "courseDifficulty" : {
+         "enrollement" : 98,
+         "gpaAverage": 3.46,
+         "aPlus": "1%",
+         "A": "9%",
+         "A-": "13%",
+         "B+": "23%",
+         "B": "20%",
+         "B-": "12%",
+         "C+": "12%",
+         "C": "2%",
+         "C-": "10%",
+         "D+": "2%",
+         "D": "0%",
+         "D-": "1%",
+         "F": "1%"
+     },
       "purchased": false,
       "university": "york",
       "courseMaterial" : [
@@ -3122,6 +3836,23 @@
           "courseDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam ipsam numquam velit rerum vero sapiente quaerat exercitationem amet mollitia id eligendi assumenda, ipsum obcaecati dolorum quasi eius eveniet sunt, architecto sint voluptas! Ipsam inventore recusandae itaque molestias temporibus incidunt voluptas saepe tenetur, explicabo, dolorem, sint minima odit pariatur libero? Veniam!",
           "courseSuccessPercentage": 93
       },
+      "courseDifficulty" : {
+         "enrollement" : 98,
+         "gpaAverage": 3.46,
+         "aPlus": "1%",
+         "A": "9%",
+         "A-": "13%",
+         "B+": "23%",
+         "B": "20%",
+         "B-": "12%",
+         "C+": "12%",
+         "C": "2%",
+         "C-": "10%",
+         "D+": "2%",
+         "D": "0%",
+         "D-": "1%",
+         "F": "1%"
+     },
       "purchased": false,
       "university": "york",
       "courseMaterial" : [

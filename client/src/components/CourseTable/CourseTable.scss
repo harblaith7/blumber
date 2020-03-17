@@ -1,0 +1,75 @@
+@import "../../sass/variables.scss";
+
+.CourseTable {
+    border: 0.1rem solid grey;
+    margin: 3rem 5rem;
+    padding: 1rem 0;
+
+    &__title-container {
+ 
+        width: 95%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    &__grades-container {
+        display: flex;
+        
+    }
+
+    &__title {
+        font-size: 1.5rem;
+        width: 3rem;
+        
+        &--grade {
+            margin-right: 0.75rem;
+            width: 2.5rem;
+        }
+
+        &--grade-info {
+            font-size: 1.2rem;
+        }
+
+        &--name {
+            width: 5rem;
+        }
+
+        &--gpa {
+            margin-left: -5rem;
+        }
+
+        &--score {
+            margin-right: 5rem;
+        }
+
+        &--info {
+            width: 9rem
+        }
+
+    }
+
+    &__courses-info-container {
+        @extend .CourseTable__title-container;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__course-info-container {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        position: relative;
+        align-items: center;
+        height: 5rem;
+        border-bottom: 0.1rem solid grey;
+    }
+
+    &__score {
+        width: 2.5rem
+    }
+
+
+}

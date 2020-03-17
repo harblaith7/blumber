@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './WolfAndBirdTracker.scss'
 import Nav from '../../components/Nav/Nav'
-import Checkbox from "../../components/Checkbox/Checkbox"
+import CourseTable from '../../components/CourseTable/CourseTable'
 
 class WolfAndBirdTracker extends Component {
     render() {
@@ -47,6 +47,18 @@ class WolfAndBirdTracker extends Component {
                                 Very Easy
                             </h4>
                         </div>
+                    </div>
+                </div>
+
+                <div className="WolfAndBirdTracker__course-info-container">
+                    <div className="WolfAndBirdTracker__table-container">
+                        <h3 className="WolfAndBirdTracker__university">
+                            Queens
+                        </h3>
+                        <CourseTable/>
+                    </div>
+                    <div className="WolfAndBirdTracker__nav-container">
+
                     </div>
                 </div>
             </div>

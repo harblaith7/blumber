@@ -101,4 +101,24 @@
         }
         
     }
+
+    &__course-info-container {
+        margin-top: 5rem;
+        display: flex;
+    }
+
+    &__table-container {
+        width: 70%;
+
+    }
+
+    &__nav-container {
+        width: 30%;
+        background-color: yellow;
+    }
+
+    &__university {
+        font-size: 4rem;
+        margin-left: 5rem;
+    }
 }
