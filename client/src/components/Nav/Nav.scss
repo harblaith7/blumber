@@ -35,5 +35,14 @@
             color: $off-white
         }
 
+        &--cart {
+            top: 0.5rem;
+            margin-right: 2rem;
+        }
+
+    }
+
+    &__icon {
+        width: 2rem
     }
 }

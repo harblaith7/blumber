@@ -4,6 +4,7 @@ import SignInHomePage from './pages/SignInHomePage/SignInHomePage'
 import LoggedInHomePage from './pages/LoggedInHomePage/LoggedInHomePage';
 import CourseDescription from './pages/CourseDescription/CourseDescription'
 import WolfAndBirdTracker from './pages/WolfAndBirdTracker/WolfAndBirdTracker'
+import ShoppingCart from './pages/ShoppingCart/ShoppingCart'
 import {BrowserRouter, Switch, Route} from 'react-router-dom';
 import { connect } from 'react-redux';
 import * as actions from './actions'
@@ -23,6 +24,7 @@ class App extends Component {
             <Route exact path="/course/:courseId" component={CourseDescription}/>
             <Route exact path="/log" component={LoggedInHomePage}/>
             <Route exact path="/wolfandbird" component={WolfAndBirdTracker}/>
+            <Route exact path="/shopping-cart" component={ShoppingCart}/>
             <Route exact strict path="/" component={SignInHomePage}/>
           </Switch>
         </BrowserRouter>

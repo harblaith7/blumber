@@ -5,7 +5,7 @@ import axios from 'axios'
 import rightArrow from '../../assets/next.svg'
 import backBtn from '../../assets/backBtn.svg';
 import {Link} from 'react-router-dom';
-import StripeCheckout from 'react-stripe-checkout'
+
 import Payment from '../../components/Payments/Payments'
 
 const API_URL = 'http://localhost:8080'

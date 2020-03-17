@@ -3,6 +3,8 @@ import { connect } from 'react-redux'
 import './Nav.scss';
 import {Link} from 'react-router-dom'
 import {HashLink} from 'react-router-hash-link'
+import shoppingCart from '../../assets/shopping-cart.svg'
+
 
 class Nav extends Component {
 
@@ -22,6 +24,9 @@ class Nav extends Component {
                         <Link to="/" className="Nav__link">
                             Courses
                         </Link>
+                        <Link to="/shopping-cart" className="Nav__link Nav__link--cart">
+                            <img src={shoppingCart} alt="" className="Nav__icon"/>
+                        </Link>
                         <a href="/auth/google" className="Nav__link">
                             Login 
                         </a>
@@ -39,6 +44,9 @@ class Nav extends Component {
                         </HashLink>
                         <Link to="/log" className="Nav__link Nav__link">
                             My Courses
+                        </Link>
+                        <Link to="/shopping-cart" className="Nav__link Nav__link--cart">
+                            <img src={shoppingCart} alt="" className="Nav__icon"/>
                         </Link>
                         <a href="/api/logout" className="Nav__link Nav__link">
                             {this.props.auth.name}
