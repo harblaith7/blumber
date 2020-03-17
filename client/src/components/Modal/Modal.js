@@ -112,7 +112,7 @@ export default function SpringModal() {
               </div>
   
               <div className="Modal__btns-container">
-                  <a className="Modal__btn-container Modal__btn-container--google" href="http://localhost:8080/auth/google">
+                  <a className="Modal__btn-container Modal__btn-container--google" href="/auth/google">
                     <img src={googleIcon} className="Modal__icon"/>
                      <span>Sign in with Google</span>
                   </a>

@@ -25,16 +25,16 @@ class Nav extends Component {
             default: 
                 return (
                     <li className="Nav__list-item">
-                        <a href="" className="Nav__link">
+                        <a href="" className="Nav__link Nav__link--logged">
                             Wolf Tracker
                         </a>
-                        <a href="" className="Nav__link">
+                        <a href="" className="Nav__link Nav__link--logged">
                             Courses
                         </a>
-                        <a href="" className="Nav__link">
+                        <a href="" className="Nav__link Nav__link--logged">
                             My Courses
                         </a>
-                        <a href="/api/logout" className="Nav__link">
+                        <a href="/api/logout" className="Nav__link Nav__link--logged">
                             Log out
                         </a>
                     </li> 
