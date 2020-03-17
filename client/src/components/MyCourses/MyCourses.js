@@ -29,7 +29,6 @@ class MyCourses extends Component {
     }
 
     transferId = (id) => {
-        console.log('Inside MyCourses: ', id)
         this.props.transferCurrentId(id)
         
     }

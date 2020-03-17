@@ -65,17 +65,6 @@ export default function SpringModal() {
   const handleClose = () => {
     setOpen(false);
   };
-
-  
-  const signInGoogle = () => {
-    axios.get('https://github.com/Rob--W/cors-anywhere/localhost:8080/auth/google')
-      .then(response => {
-        console.log(response)
-      })
-      .catch(e => {
-        console.log(e)
-      })
-  }
   
 
   return (

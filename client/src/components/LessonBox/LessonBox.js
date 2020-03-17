@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './LessonBox.scss';
-import dropDownArrow from '../../assets/drop-down-icon.png';
+import { v4 as uuidv4 } from 'uuid';
 
 class LessonBox extends Component {
 
@@ -20,7 +20,7 @@ class LessonBox extends Component {
     displayLessons = () => {
         return this.props.lessonInfo.sectionInfo.map(videoSection => {
             return (
-                <div className="LessonBox__lesson-container">
+                <div className="LessonBox__lesson-container" key={uuidv4()}>
                     <input type="checkbox" className="LessonBox__checkbox"/>
                     <h5 className="LessonBox__lesson-title">
                         {videoSection.title}

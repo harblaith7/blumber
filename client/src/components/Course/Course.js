@@ -10,13 +10,9 @@ class Course extends Component {
         this.courseRef = React.createRef()
     }
 
-    test = () => {
-        console.log(this.courseRef.current.id)
-    }
-
     render() {
         return (
-            <Link to={`/course/${this.props.course.courseId}`} className="Course" id={this.props.course.courseId} ref={this.courseRef}  onClick={this.test}>
+            <Link to={`/course/${this.props.course.courseId}`} className="Course" id={this.props.course.courseId} ref={this.courseRef}>
                 <img src={this.props.course.thumbnail} alt="" className="Course__thumbnail"/>
                 <div className="Course__description-container">
                     <h4 className="Course__course-title">{this.props.course.courseName}</h4>

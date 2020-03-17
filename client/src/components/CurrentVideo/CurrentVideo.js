@@ -31,7 +31,6 @@ class CurrentVideo extends Component {
     }
 
     componentDidUpdate(prevProps){
-        console.log('From update', this.props.currentVideoId)
         if(this.props.currentVideoId !== prevProps.currentVideoId){
             axios.get(`${API_URL}/course/current/laith/${this.props.currentVideoId}`)
                 .then(response => {

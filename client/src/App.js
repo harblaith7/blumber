@@ -12,10 +12,6 @@ class App extends Component {
 
   componentDidMount(){
     this.props.fetchUser()
-    axios.get("/api/current_user")
-      .then(response => {
-        console.log(response)
-      })
   }
 
   render() {

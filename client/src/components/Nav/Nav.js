@@ -23,6 +23,7 @@ class Nav extends Component {
                     </li>
                 )
             default: 
+               
                 return (
                     <li className="Nav__list-item">
                         <a href="" className="Nav__link Nav__link--logged">
@@ -35,7 +36,7 @@ class Nav extends Component {
                             My Courses
                         </a>
                         <a href="/api/logout" className="Nav__link Nav__link--logged">
-                            Log out
+                            {this.props.auth.name}
                         </a>
                     </li> 
                 )
@@ -43,7 +44,6 @@ class Nav extends Component {
     }
 
     render() {
-        console.log('In Nav', this.props.auth)
         return (
             <div className="Nav">
                 <div className="Nav__container">
