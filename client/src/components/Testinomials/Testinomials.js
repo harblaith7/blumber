@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './Testinomails.scss'
 import quotationMark from '../../assets/quotation-mark.svg'
+import { v4 as uuidv4 } from 'uuid';
 
 class Testinomials extends Component {
 
@@ -36,8 +37,8 @@ class Testinomials extends Component {
         return this.state.allTestinomails.map(testimonial => {
             return (
                 
-                    <div className="Testinomails__testimonial-container">
-                        <img src={quotationMark} className="Testinomails__quotes-icon"/>
+                    <div className="Testinomails__testimonial-container" key={uuidv4()}>
+                        <img src={quotationMark} className="Testinomails__quotes-icon" alt=""/>
                         <p className="Testinomails__testimonial">
                             {testimonial.testimonial}
                         </p>

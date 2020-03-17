@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './Slider.scss';
 import graduationHat from '../../assets/graduation-hat.svg';
 import Modal from '../Modal/Modal'
+import { v4 as uuidv4 } from 'uuid';
 
 class Slider extends Component {
 
@@ -41,7 +42,7 @@ class Slider extends Component {
     displaySlides = () => {
         return this.state.content.map(slide => {
             return (
-                <div className="Slider__content">
+                <div className="Slider__content" key={uuidv4()}>
                     <h2 className="Slider__title">{slide.title}</h2> 
                     <p className="Slider__description">{slide.description}</p>
                 </div>

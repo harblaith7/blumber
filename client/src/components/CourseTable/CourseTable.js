@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './CourseTable.scss'
 import axios from 'axios'
+import { v4 as uuidv4 } from 'uuid';
 
 const API_URL = 'http://localhost:8080'
 
@@ -43,7 +44,7 @@ class CourseTable extends Component {
                 image = "https://image.flaticon.com/icons/png/512/141/141850.png"
             }
             return (
-                <div className="CourseTable__course-info-container">
+                <div className="CourseTable__course-info-container" key={uuidv4()}>
                     <h5 className="CourseTable__title CourseTable__title--info">
                         {course.courseName.split("-")[0]}
                     </h5>

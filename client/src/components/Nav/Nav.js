@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux'
 import './Nav.scss';
 import {Link} from 'react-router-dom'
+import {HashLink} from 'react-router-hash-link'
 
 class Nav extends Component {
 
@@ -21,7 +22,7 @@ class Nav extends Component {
                         <Link to="/" className="Nav__link">
                             Courses
                         </Link>
-                        <a href="" className="Nav__link">
+                        <a href="/auth/google" className="Nav__link">
                             Login 
                         </a>
                     </li>
@@ -30,15 +31,15 @@ class Nav extends Component {
                
                 return (
                     <li className="Nav__list-item">
-                        <a href="" className="Nav__link Nav__link">
+                        <Link to="/wolfandbird" className="Nav__link Nav__link">
                             Wolf Tracker
-                        </a>
-                        <a href="" className="Nav__link Nav__link">
+                        </Link>
+                        <HashLink to="/#course-display" className="Nav__link Nav__link">
                             Courses
-                        </a>
-                        <a href="" className="Nav__link Nav__link">
+                        </HashLink>
+                        <Link to="/log" className="Nav__link Nav__link">
                             My Courses
-                        </a>
+                        </Link>
                         <a href="/api/logout" className="Nav__link Nav__link">
                             {this.props.auth.name}
                         </a>

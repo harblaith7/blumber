@@ -12,7 +12,9 @@ class SignInHomePage extends Component {
         return (
             <>
                 <Header />
-                <CourseDisplay/>
+                <div id="course-display">
+                    <CourseDisplay/>
+                </div>
                 <Testinomails/>
                 <InfoSection/>
             </>

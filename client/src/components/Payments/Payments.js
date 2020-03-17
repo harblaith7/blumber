@@ -10,7 +10,7 @@ class Payments extends Component {
                 name="blumber"
                 description={this.props.courseInfo}
                 amount={2899}
-                token={token => this.props.handleToken(token)}
+                token={token => this.props.handleToken(token, "Monkeys")}
                 stripeKey="pk_test_oMT5cfppt04vWhvnFVzd4eRQ00nR1VMwO7"
             >
                 {this.props.children}

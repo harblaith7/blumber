@@ -34,7 +34,7 @@ class CourseDescription extends Component {
     render() {
         const { courseInfo } = this.state
         return (
-            <div className="CourseDescription">
+            <div className="CourseDescription" id="top">
                 <div className="CourseDescription__container">
                     <div className="CourseDescription__header-container">
                         <Link to="/" className="CourseDescription__back-link">
@@ -60,7 +60,7 @@ class CourseDescription extends Component {
                                     />
                                     <p className="CourseDescription__stats-info">{courseInfo && parseFloat(courseInfo.courseInfo.courseRating)}</p>
                                     <p className="CourseDescription__stats-info CourseDescription__stats-info--margin">
-                                        <span>74%</span> of our students got an A in this course 
+                                        <span>{courseInfo && courseInfo.courseInfo.courseSuccessPercentage}%</span> of our students got an A in this course 
                                     </p>
                                     <p className="CourseDescription__stats-info CourseDescription__stats-info--margin">
                                         Over <span>{courseInfo && courseInfo.courseInfo.courseLength}</span> of content

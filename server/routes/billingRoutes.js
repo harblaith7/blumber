@@ -10,7 +10,13 @@ module.exports = app => {
             description: 'Paid $28.99 for one course',
             source: req.body.id
         })
-        console.log(charge)
+        
+        //console.log(req.user)
+        console.log(req.test)
+        req.user.credits += 5
+        const user = await req.user.save()
+        res.send(user)
+
     })
 }
 
