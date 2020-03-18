@@ -77,7 +77,10 @@ class ShoppingCart extends Component {
                             <p className="ShoppingCart__detail">
                                 Taxes included at checkout
                             </p>
-                            <Payment price={this.props.cart.length * 28.99*100}>
+                            <Payment 
+                                price={this.props.cart.length * 28.99*100}
+                                insideCart={true}
+                            >
                                 <div className="ShoppingCart__buy-btn box-3">
                                     <div className="design">
                                         <span>Checkout</span>

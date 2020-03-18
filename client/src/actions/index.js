@@ -1,5 +1,5 @@
 import axios from 'axios'
-import {FETCH_USER, ADD_TO_CART} from './types'
+import {FETCH_USER, ADD_TO_CART, CLEAR_CART} from './types'
 
 
 export const fetchUser = () => {
@@ -24,5 +24,12 @@ export const addToCart = (course) => dispatch => {
     dispatch({
         type: ADD_TO_CART,
         payload: course
+    })
+}
+
+export const clearCart = () => dispatch => {
+    dispatch({
+        type: CLEAR_CART,
+        payload: []
     })
 }
