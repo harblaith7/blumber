@@ -1,9 +1,41 @@
 import React, { Component } from 'react';
 import './WolfAndBirdTracker.scss'
 import Nav from '../../components/Nav/Nav'
-import CourseTable from '../../components/CourseTable/CourseTable'
+import CourseTable from '../../components/CourseTable/CourseTable';
+import SideNavItem from '../../components/SideNavItem/SideNavItem'
 
 class WolfAndBirdTracker extends Component {
+
+    constructor(props){
+        super(props)
+        this.state = {
+            universities : [
+                {name: "Queens", specifier:"queens"},
+                {name: "Western", specifier:"western"},
+                {name: "York", specifier:"york"},
+                {name: "UofT", specifier:"uft"},
+                {name: "Ryerson", specifier:"ryerson"},
+                {name: "McGill", specifier:"mcgill"},
+                {name: "UOttawa", specifier:"uottawa"},
+                {name: "Carleton", specifier:"carleton"},
+                {name: "UBC", specifier:"ubc"}
+            ],
+            currentUniversity : ""
+        }
+    }
+
+    updateCurrentUni = (currentUni) => {
+        this.setState({
+            currentUniversity : currentUni
+        })
+    }
+
+    displaySideItems = () => {
+        return this.state.universities.map(university => {
+            return <SideNavItem name={university.name} specifier={university.specifier} transferCurrentUni={this.updateCurrentUni}/>
+        })
+    }
+
     render() {
         return (
             <div className="WolfAndBirdTracker">
@@ -55,10 +87,12 @@ class WolfAndBirdTracker extends Component {
                         <h3 className="WolfAndBirdTracker__university">
                             Queens
                         </h3>
-                        <CourseTable/>
+                        <CourseTable currentUni = {this.state.currentUniversity}/>
                     </div>
-                    <div className="WolfAndBirdTracker__nav-container">
-
+                    <div className="WolfAndBirdTracker__nav">
+                        <div className="WolfAndBirdTracker__nav-container">
+                            {this.displaySideItems()}
+                        </div>
                     </div>
                 </div>
             </div>
