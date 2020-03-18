@@ -1,4 +1,5 @@
 @import '../../sass/variables.scss';
+@import '../../sass/media-queries.scss';
 
 
 .Slider {
@@ -126,6 +127,56 @@
         transform: translateY(-0.5rem);
     }
 }
+
+@include width-1000px {
+    .Slider {
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@include width-650px {
+    .Slider {
+        &__title {
+            font-size: 3rem;
+        }
+
+        &__description {
+            font-size: 1.75rem;
+        }
+    }
+}
+
+@include width-600px {
+    .Slider {
+        width: 50rem;
+
+        &__title {
+            font-size: 2.5rem;
+        }
+
+        &__description {
+            font-size: 1.5rem;
+            width: 60%;
+            margin: 0 auto;
+        }
+
+        &__button-container {
+            margin-top: 2rem;
+        }
+
+        
+    }
+}
+
+@include width-450px {
+    .Slider {
+        display: none;   
+    }
+}
+
+
 
 
 

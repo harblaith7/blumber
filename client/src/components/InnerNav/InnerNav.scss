@@ -7,6 +7,12 @@
         width: 80%
 
     }
+
+    &__container {
+        width: 100%;
+        overflow-x: auto;
+        overflow-y: hidden;
+    }
     
     &__list-item {
         list-style: none;

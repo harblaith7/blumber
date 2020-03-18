@@ -10,16 +10,25 @@ class SignInHomePage extends Component {
 
     render() {
         return (
-            <>
+            <div className="SignInHomePage">
                 <Header />
                 <div id="course-display">
                     <CourseDisplay/>
                 </div>
                 <Testinomails/>
                 <InfoSection/>
-            </>
+            </div>
         );
     }
 }
 
 export default SignInHomePage;
+
+
+/*
+
+                
+                <Testinomails/>
+                <InfoSection/>
+
+                */
