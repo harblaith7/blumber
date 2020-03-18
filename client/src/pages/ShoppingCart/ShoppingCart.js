@@ -3,6 +3,7 @@ import "./ShoppingCart.scss";
 import Nav from '../../components/Nav/Nav';
 import Payment from '../../components/Payments/Payments';
 import {connect} from 'react-redux';
+import ShoppingCartItem from "../../components/ShoppingCartItem/ShoppingCartItem"
 
 class ShoppingCart extends Component {
 
@@ -14,24 +15,7 @@ class ShoppingCart extends Component {
         if(this.props.cart.length){
             return this.props.cart.map(cartItem => {
                 return (
-                    <div className="ShoppingCart__item-row-container">
-                        <div className="ShoppingCart__row-item">
-                            <img src={cartItem.thumbnail} alt="" className=" ShoppingCart__row-item--item ShoppingCart__row-item--image"/>    
-                        </div>
-                        <div className="ShoppingCart__row-item ShoppingCart__row-item--description-container">
-                            <h4 className="ShoppingCart__title">
-                                {cartItem.courseName}
-                            </h4>
-                            <p>
-                                {cartItem.courseInfo.courseShortDescription}
-                            </p>
-                        </div>
-                        <div className="ShoppingCart__row-item">
-                            <p className="ShoppingCart__price">
-                                {cartItem.courseInfo.coursePrice}
-                            </p>
-                        </div>
-                    </div>
+                    <ShoppingCartItem cartItem = {cartItem}/>
                 )
             })
         } else {

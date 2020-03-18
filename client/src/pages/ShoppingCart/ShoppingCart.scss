@@ -143,6 +143,37 @@
         padding: 2rem 0;
         justify-content: space-between;
         border-bottom: 0.1rem solid $grey;
+        position: relative
+    }
+
+    &__remove-btn {
+        position: absolute;
+        left: 98%;
+        width: .32rem;
+        height: .32rem;
+        opacity: 0.3;
+        cursor: pointer;
+
+        &:hover {
+            opacity: 1;
+        }
+
+        &:before, &:after {
+            position: absolute;
+            left: 15px;
+            content: ' ';
+            height: 1.3rem;
+            width: .15rem;
+            background-color: #333;
+        }
+
+        &:before {
+            transform: rotate(45deg);
+        }
+
+        &:after {
+        transform: rotate(-45deg);
+        }
     }
 
     &__row-item {
