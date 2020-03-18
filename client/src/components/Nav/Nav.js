@@ -21,10 +21,13 @@ class Nav extends Component {
                         <Link to="/wolfandbird" className="Nav__link">
                              Wolf Tracker
                         </Link>
-                        <Link to="/" className="Nav__link">
+                        <HashLink to="/#course-display" className="Nav__link Nav__link">
                             Courses
-                        </Link>
+                        </HashLink>
                         <Link to="/shopping-cart" className="Nav__link Nav__link--cart">
+                            <span className="Nav__cart-number">
+                                3
+                            </span>
                             <img src={shoppingCart} alt="" className="Nav__icon"/>
                         </Link>
                         <a href="/auth/google" className="Nav__link">
@@ -69,9 +72,10 @@ class Nav extends Component {
     }
 }
 
-function mapStateToProps({auth}){
+function mapStateToProps({auth, cart}){
     return {
-        auth
+        auth,
+        cart
     }
 }
 

@@ -1,5 +1,5 @@
 import axios from 'axios'
-import {FETCH_USER} from './types'
+import {FETCH_USER, ADD_TO_CART} from './types'
 
 
 export const fetchUser = () => {
@@ -17,5 +17,12 @@ export const handleToken = (token) => async dispatch => {
     dispatch({
         type: FETCH_USER,
         payload: {...res.data}
+    })
+}
+
+export const addToCart = (course) => dispatch => {
+    dispatch({
+        type: ADD_TO_CART,
+        payload: course
     })
 }

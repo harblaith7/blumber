@@ -38,8 +38,13 @@
         &--cart {
             top: 0.5rem;
             margin-right: 2rem;
+            position: relative;
         }
 
+    }
+
+    &__cart-number{
+          position: absolute;  
     }
 
     &__icon {

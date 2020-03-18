@@ -5,9 +5,9 @@ import axios from 'axios'
 import rightArrow from '../../assets/next.svg'
 import backBtn from '../../assets/backBtn.svg';
 import {Link} from 'react-router-dom';
-
+import {connect} from 'react-redux';
 import Payment from '../../components/Payments/Payments'
-
+import {addToCart} from '../../actions/index'
 const API_URL = 'http://localhost:8080'
 
 class CourseDescription extends Component {
@@ -29,6 +29,10 @@ class CourseDescription extends Component {
         .catch(e => {
             console.log(e)
         })
+    }
+
+    handleClick = () => {
+        this.props.addToCart(this.state.courseInfo)   
     }
 
     render() {
@@ -80,7 +84,7 @@ class CourseDescription extends Component {
                                 <h2 className="CourseDescription__price">
                                     CA {courseInfo && courseInfo.courseInfo.coursePrice}
                                 </h2>
-                                <button className="CourseDescription__purchase-btn CourseDescription__purchase-btn--cart">
+                                <button className="CourseDescription__purchase-btn CourseDescription__purchase-btn--cart" onClick={this.handleClick}>
                                     <span>Add to Cart</span>
                                     <img src={rightArrow} alt=""/>
                                 </button>
@@ -173,4 +177,8 @@ class CourseDescription extends Component {
     }
 }
 
-export default CourseDescription;
+const mapStateToProps= state => ({
+    cart : state.cart
+})
+
+export default connect(mapStateToProps, {addToCart})(CourseDescription);
