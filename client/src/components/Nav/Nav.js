@@ -25,9 +25,7 @@ class Nav extends Component {
                             Courses
                         </HashLink>
                         <Link to="/shopping-cart" className="Nav__link Nav__link--cart">
-                            <span className="Nav__cart-number">
-                                3
-                            </span>
+                            
                             <img src={shoppingCart} alt="" className="Nav__icon"/>
                         </Link>
                         <a href="/auth/google" className="Nav__link">

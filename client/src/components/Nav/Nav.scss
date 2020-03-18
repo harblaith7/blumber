@@ -29,7 +29,7 @@
         letter-spacing: 0.2rem;
         text-decoration: none;
         color: $black;
-        position: relative;
+      
 
         &--logged {
             color: $off-white
@@ -41,10 +41,6 @@
             position: relative;
         }
 
-    }
-
-    &__cart-number{
-          position: absolute;  
     }
 
     &__icon {

@@ -1,9 +1,10 @@
 @import "../../sass/variables.scss";
 
 .ShoppingCart {
-    height: 90vh;
+
     position: relative;
     font-family: "Bellota Text";
+
 
     &__container {
         height: 100%;
@@ -16,13 +17,13 @@
     &__buy-container {
         background-color: $light-yellow;
         width:40%;
-        height: 100%
+        padding-bottom: 10rem;
     }
 
     &__item-cart-container {
         width: 60%;
         height: 100%;
-        background-color: white;
+       
     }
 
     &__buy-content-container {
@@ -149,7 +150,12 @@
         font-size: 1.75rem;
         text-transform: uppercase;
 
+        &--description {
+            width: 25rem;
+        }
+
         &--description-container {
+            width: 25rem;
 
             & h4 {
                 font-weight: 900;

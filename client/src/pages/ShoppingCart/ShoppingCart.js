@@ -10,6 +10,35 @@ class ShoppingCart extends Component {
         console.log(this.props.cart)
     }
 
+    displayCartItems = () => {
+        if(this.props.cart.length){
+            return this.props.cart.map(cartItem => {
+                return (
+                    <div className="ShoppingCart__item-row-container">
+                        <div className="ShoppingCart__row-item">
+                            <img src={cartItem.thumbnail} alt="" className=" ShoppingCart__row-item--item ShoppingCart__row-item--image"/>    
+                        </div>
+                        <div className="ShoppingCart__row-item ShoppingCart__row-item--description-container">
+                            <h4 className="ShoppingCart__title">
+                                {cartItem.courseName}
+                            </h4>
+                            <p>
+                                {cartItem.courseInfo.courseShortDescription}
+                            </p>
+                        </div>
+                        <div className="ShoppingCart__row-item">
+                            <p className="ShoppingCart__price">
+                                {cartItem.courseInfo.coursePrice}
+                            </p>
+                        </div>
+                    </div>
+                )
+            })
+        } else {
+            return <h1>No item in cart</h1>
+        }
+    }
+
     render() {
         return (
             <div className="ShoppingCart">
@@ -21,7 +50,7 @@ class ShoppingCart extends Component {
                                 <h3 className="ShoppingCart__row-item">
                                     Course
                                 </h3>
-                                <h3 className="ShoppingCart__row-item">
+                                <h3 className="ShoppingCart__row-item ShoppingCart__row-item--description">
                                     Description
                                 </h3>
                                 <h3 className="ShoppingCart__row-item">
@@ -29,24 +58,7 @@ class ShoppingCart extends Component {
                                 </h3>
                             </div>
 
-                            <div className="ShoppingCart__item-row-container">
-                                <div className="ShoppingCart__row-item">
-                                    <img src="https://lh3.googleusercontent.com/proxy/q1cMFTR4AI7bK9mnq1VXqQ3QgCCeLRqGsvt0gfwO6O_ggCteRrSf_h2h6Ivoe9fSKz33wFsyTmizoxXIUF2TgSdTi659xwyZJ3wIVOSOG3Ggm9u_SY4ifVO4F0Vj_dwyzyw5pWXMKUfRaTiejKxT1ejo7TisovCvaoD_wDlt5zCR" alt="" className=" ShoppingCart__row-item--item ShoppingCart__row-item--image"/>    
-                                </div>
-                                <div className="ShoppingCart__row-item ShoppingCart__row-item--description-container">
-                                    <h4 className="ShoppingCart__title">
-                                        Chem 222
-                                    </h4>
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore aut eveniet nostrum quasi similique? 
-                                    </p>
-                                </div>
-                                <div className="ShoppingCart__row-item">
-                                    <p className="ShoppingCart__price">
-                                        $28.99
-                                    </p>
-                                </div>
-                            </div>
+                            {this.displayCartItems()}
                         </div>
                     </div>
 
@@ -59,15 +71,15 @@ class ShoppingCart extends Component {
                                     Cart Total
                                 </h5>
                                 <h3 className="ShoppingCart__total">
-                                    $150.99
+                                    ${this.props.cart.length * 28.99}
                                 </h3>
                             </div>
                             <p className="ShoppingCart__detail">
                                 Taxes included at checkout
                             </p>
-                            <Payment>
-                                <div class="ShoppingCart__buy-btn box-3">
-                                    <div class="design">
+                            <Payment price={this.props.cart.length * 28.99*100}>
+                                <div className="ShoppingCart__buy-btn box-3">
+                                    <div className="design">
                                         <span>Checkout</span>
                                     </div>
                                 </div>
