@@ -129,6 +129,12 @@
             }
         }
 
+        &--go-to-cart {
+            background-image: linear-gradient(to right bottom, rgb(8, 233, 19), rgb(78, 187, 6));
+            text-decoration: none;
+            font-size: 1.4rem;
+        }
+
         &--buy {
             background: linear-gradient(to right bottom, $black, rgb(46, 45, 45));
         }

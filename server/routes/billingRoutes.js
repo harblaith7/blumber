@@ -12,10 +12,7 @@ module.exports = app => {
         })
         
         //console.log(req.user)
-        console.log(req.test)
-        req.user.credits += 5
-        const user = await req.user.save()
-        res.send(user)
+        
 
     })
 }

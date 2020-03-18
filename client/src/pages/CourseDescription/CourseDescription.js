@@ -35,7 +35,13 @@ class CourseDescription extends Component {
         this.props.addToCart(this.state.courseInfo)   
     }
 
+    courseIncluded = () => {
+        return this.props.cart.some(course => course.courseName === this.state.courseInfo.courseName)
+    }
+
     render() {
+        console.log(this.props.cart)
+        console.log(this.courseIncluded())
         const { courseInfo } = this.state
         return (
             <div className="CourseDescription" id="top">
@@ -84,10 +90,17 @@ class CourseDescription extends Component {
                                 <h2 className="CourseDescription__price">
                                     CA {courseInfo && courseInfo.courseInfo.coursePrice}
                                 </h2>
-                                <button className="CourseDescription__purchase-btn CourseDescription__purchase-btn--cart" onClick={this.handleClick}>
-                                    <span>Add to Cart</span>
-                                    <img src={rightArrow} alt=""/>
-                                </button>
+                                {this.courseIncluded() ? (
+                                    <Link to="/shopping-cart" className="CourseDescription__purchase-btn CourseDescription__purchase-btn--go-to-cart">
+                                        <span>Checkout</span>
+                                    </Link>
+                                ) : (
+                                    <button className="CourseDescription__purchase-btn CourseDescription__purchase-btn--cart" onClick={this.handleClick}>
+                                        <span>Add to Cart</span>
+                                        <img src={rightArrow} alt=""/>
+                                    </button>
+                                )}
+                                
                                 <Payment courseInfo={courseInfo && courseInfo.courseName}>
                                     <button className="CourseDescription__purchase-btn CourseDescription__purchase-btn--buy">
                                         Buy Now
