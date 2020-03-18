@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-import {connect} from 'react-redux'
+import {connect} from 'react-redux';
+import {removeItem} from '../../actions/index'
 
 class ShoppingCartItem extends Component {
 
@@ -8,10 +9,14 @@ class ShoppingCartItem extends Component {
         this.cartCourseRefs = React.createRef()
     }
 
+    removeCourse = () => {
+        this.props.removeItem(this.cartCourseRefs.current.id)
+    }
+
     render() {
         return (
-            <div className="ShoppingCart__item-row-container" ref={this.cartCourseRefs}>
-                <div className="ShoppingCart__remove-btn"/>
+            <div className="ShoppingCart__item-row-container" ref={this.cartCourseRefs} id={this.props.cartItem.courseId}>
+                <div className="ShoppingCart__remove-btn" onClick={this.removeCourse}/>
                 <div className="ShoppingCart__row-item">
                     <img src={this.props.cartItem.thumbnail} alt="" className=" ShoppingCart__row-item--item ShoppingCart__row-item--image"/>    
                 </div>
@@ -37,4 +42,4 @@ const mapStateToProps = state => ({
     cart: state.cart
 })
 
-export default connect(mapStateToProps, null)(ShoppingCartItem)
+export default connect(mapStateToProps, {removeItem})(ShoppingCartItem)

@@ -6,7 +6,7 @@ export default (state = [], action) => {
         case ADD_TO_CART:
             return [...state, action.payload];
         case REMOVE_FROM_CART:
-                return state.filter(course => course.courseName !== action.payload.courseName);
+                return state.filter(course => course.courseId !== action.payload);
         case CLEAR_CART:
             return [];
         default: 
