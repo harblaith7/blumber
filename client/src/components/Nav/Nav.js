@@ -83,7 +83,7 @@ class Nav extends Component {
         return (
             <div className="Nav">
                 <div className="Nav__container">
-                    <ul className={`Nav__list ${this.state.isToggled && "Nav__list--active"}`} >
+                    <ul className={`Nav__list  ${this.state.isToggled && "Nav__active"}`} >
                         {this.displayContent()}
                     </ul>
                     <div className="Nav__burger" onClick={this.toggleNav}>

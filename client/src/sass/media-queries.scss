@@ -23,6 +23,12 @@
     }
 };
 
+@mixin width-850px {
+    @media (max-width: 850px){
+        @content
+    }
+};
+
 @mixin width-800px {
     @media (max-width: 800px){
         @content

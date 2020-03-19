@@ -148,6 +148,12 @@
     }
 }
 
+@include width-850px {
+    .Slider {
+        z-index: -2;
+    }
+}
+
 @include width-600px {
     .Slider {
         width: 50rem;
