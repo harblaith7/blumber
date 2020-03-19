@@ -17,6 +17,18 @@
     }
 };
 
+@mixin width-950px {
+    @media (max-width: 950px){
+        @content
+    }
+};
+
+@mixin width-800px {
+    @media (max-width: 800px){
+        @content
+    }
+};
+
 @mixin width-740px {
     @media (max-width: 740px){
         @content

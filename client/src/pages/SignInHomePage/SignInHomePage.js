@@ -3,6 +3,7 @@ import Header from '../../components/Header/Header'
 import CourseDisplay from '../../components/CourseDisplay/CourseDisplay';
 import Testinomails from '../../components/Testinomials/Testinomials';
 import InfoSection from '../../components/InfoSection/InfoSection'
+import Nav from '../../components/Nav/Nav'
 
 class SignInHomePage extends Component {
 
@@ -16,7 +17,7 @@ class SignInHomePage extends Component {
                     <CourseDisplay/>
                 </div>
                 <Testinomails/>
-                <InfoSection/>
+                <InfoSection/> 
             </div>
         );
     }
