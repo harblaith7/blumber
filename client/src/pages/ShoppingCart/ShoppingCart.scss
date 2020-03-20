@@ -1,5 +1,6 @@
 @import "../../sass/variables.scss";
 
+
 .ShoppingCart {
 
     position: relative;
@@ -210,6 +211,25 @@
             border: 0.1rem solid $black;
             border-radius: 0.4rem;
         }
+    }
+
+    &__empty-cart-container {
+        margin-top: 22.5rem;
+        text-align: center;
+        height: 100%;
+        font-size: 2rem;
+        position: relative;
+        
+    }
+
+    &__background-image {
+        position: absolute;
+        top: 70%;
+        left: 52.5%;
+        transform: translate(-50%, -50%);
+        z-index: -2;
+        width: 45rem;
+        opacity: 0.1;
     }
 
 }

@@ -4,6 +4,7 @@ import Nav from '../../components/Nav/Nav';
 import Payment from '../../components/Payments/Payments';
 import {connect} from 'react-redux';
 import ShoppingCartItem from "../../components/ShoppingCartItem/ShoppingCartItem"
+import shoppingCartIcon from "../../assets/shopping-cart.svg"
 
 class ShoppingCart extends Component {
 
@@ -19,7 +20,12 @@ class ShoppingCart extends Component {
                 )
             })
         } else {
-            return <h1>No item in cart</h1>
+            return (
+                <div className="ShoppingCart__empty-cart-container">
+                    <h1>No items in cart</h1>
+                    <img src={shoppingCartIcon} alt="" className="ShoppingCart__background-image"/>
+                </div>
+            )
         }
     }
 

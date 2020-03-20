@@ -58,7 +58,7 @@ class CourseTable extends Component {
                         {course.courseName.split("-")[0]}
                     </h5>
                     <h5 className="CourseTable__title">
-                        {course.courseDifficulty.gpaAverage}
+                        {course.courseDifficulty.enrollement}
                     </h5>
                     <div className="CourseTable__grades-container">
                         <h5 className="CourseTable__title CourseTable__title--grade CourseTable__title--grade-info">
@@ -98,7 +98,7 @@ class CourseTable extends Component {
                             {course.courseDifficulty['D-']}
                         </h5>
                         <h5 className="CourseTable__title CourseTable__title--grade CourseTable__title--grade-info">
-                            {course.courseDifficulty['D-']}
+                            {course.courseDifficulty['F']}
                         </h5>
                     </div>
                     <h5 className="CourseTable__title CourseTable__title--gpa">
@@ -113,6 +113,7 @@ class CourseTable extends Component {
     }
 
     render() {
+        console.log(this.state.courseInfo)
         return (
             <div className="CourseTable">
                 <div className="CourseTable__container">

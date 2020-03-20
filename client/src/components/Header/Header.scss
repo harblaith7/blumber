@@ -10,7 +10,7 @@
     
     
     &__background-design {
-        width: 55rem;
+        width: 65rem;
         position: absolute;
         top: 0%;
         
@@ -24,7 +24,7 @@
     }
 }
 
-@include width-1000px {
+@include width-1050px {
     .Header {
     
         &__image {
@@ -32,7 +32,7 @@
         }
 
         &__background-design {
-            width: 45rem;
+            width: 65rem;
             right: 50%;
             height: 75rem
         }

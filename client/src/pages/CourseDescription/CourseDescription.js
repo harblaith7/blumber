@@ -40,8 +40,7 @@ class CourseDescription extends Component {
     }
 
     render() {
-        console.log(this.props.cart)
-        console.log(this.courseIncluded())
+
         const { courseInfo } = this.state
         return (
             <div className="CourseDescription" id="top">
@@ -68,7 +67,7 @@ class CourseDescription extends Component {
                                         numberOfStars={5}
                                         name='rating'
                                     />
-                                    <p className="CourseDescription__stats-info">{courseInfo && parseFloat(courseInfo.courseInfo.courseRating)}</p>
+                                    <p className="CourseDescription__stats-info CourseDescription__stats-info--number-rating">{courseInfo && parseFloat(courseInfo.courseInfo.courseRating)}</p>
                                     <p className="CourseDescription__stats-info CourseDescription__stats-info--margin">
                                         <span>{courseInfo && courseInfo.courseInfo.courseSuccessPercentage}%</span> of our students got an A in this course 
                                     </p>
@@ -79,6 +78,24 @@ class CourseDescription extends Component {
                                 <p className="CourseDescription__author">
                                    Course created by: {courseInfo && courseInfo.courseInfo.courseAuthor}
                                 </p>
+                                <div className="CourseDescription__buy-buttons-container">
+                                    {this.courseIncluded() ? (
+                                        <Link to="/shopping-cart" className="CourseDescription__purchase-btn CourseDescription__purchase-btn--go-to-cart">
+                                            <span>Checkout</span>
+                                        </Link>
+                                    ) : (
+                                        <button className="CourseDescription__purchase-btn CourseDescription__purchase-btn--cart" onClick={this.handleClick}>
+                                            <span>Add to Cart</span>
+                                            <img src={rightArrow} alt=""/>
+                                        </button>
+                                    )}
+                                    
+                                    <Payment courseInfo={courseInfo && courseInfo.courseName}>
+                                        <button className="CourseDescription__purchase-btn CourseDescription__purchase-btn--buy">
+                                            Buy Now
+                                        </button>
+                                    </Payment>
+                                </div>
                             </div>
 
                             <div className="CourseDescription__purchase-container">

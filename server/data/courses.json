@@ -1017,8 +1017,8 @@
             "courseSuccessPercentage": 93
       },
       "courseDifficulty" : {
-         "enrollement" : 23,
-         "gpaAverage": 3.46,
+         "enrollement" : 123,
+         "gpaAverage": 3.26,
          "aPlus": "1%",
          "A": "9%",
          "A-": "13%",
@@ -1108,10 +1108,10 @@
             "courseSuccessPercentage": 93
       },
       "courseDifficulty" : {
-         "enrollement" : 98,
-         "gpaAverage": 3.46,
-         "aPlus": "1%",
-         "A": "9%",
+         "enrollement" : 138,
+         "gpaAverage": 3.86,
+         "aPlus": "13%",
+         "A": "19%",
          "A-": "13%",
          "B+": "23%",
          "B": "20%",
@@ -1199,8 +1199,8 @@
             "courseSuccessPercentage": 93
       },
       "courseDifficulty" : {
-         "enrollement" : 98,
-         "gpaAverage": 3.46,
+         "enrollement" : 239,
+         "gpaAverage": 3.56,
          "aPlus": "1%",
          "A": "9%",
          "A-": "13%",
@@ -1290,11 +1290,11 @@
             "courseSuccessPercentage": 93
       },
       "courseDifficulty" : {
-         "enrollement" : 98,
-         "gpaAverage": 3.46,
+         "enrollement" : 23,
+         "gpaAverage": 2.86,
          "aPlus": "1%",
-         "A": "9%",
-         "A-": "13%",
+         "A": "2%",
+         "A-": "3%",
          "B+": "23%",
          "B": "20%",
          "B-": "12%",
@@ -1381,10 +1381,10 @@
             "courseSuccessPercentage": 93
       },
       "courseDifficulty" : {
-         "enrollement" : 98,
-         "gpaAverage": 3.46,
-         "aPlus": "1%",
-         "A": "9%",
+         "enrollement" : 498,
+         "gpaAverage": 3.66,
+         "aPlus": "5%",
+         "A": "12%",
          "A-": "13%",
          "B+": "23%",
          "B": "20%",
@@ -1472,10 +1472,10 @@
           "courseSuccessPercentage": 93
       },
       "courseDifficulty" : {
-         "enrollement" : 98,
-         "gpaAverage": 3.46,
+         "enrollement" : 324,
+         "gpaAverage": 3.36,
          "aPlus": "1%",
-         "A": "9%",
+         "A": "5%",
          "A-": "13%",
          "B+": "23%",
          "B": "20%",
@@ -1563,7 +1563,7 @@
           "courseSuccessPercentage": 2
       },
       "courseDifficulty" : {
-         "enrollement" : 98,
+         "enrollement" : 237,
          "gpaAverage": 3.95,
          "aPlus": "98%",
          "A": "1%",
@@ -1654,12 +1654,12 @@
           "courseSuccessPercentage": 93
       },
       "courseDifficulty" : {
-         "enrollement" : 98,
-         "gpaAverage": 3.46,
-         "aPlus": "1%",
+         "enrollement" : 178,
+         "gpaAverage": 3.36,
+         "aPlus": "4%",
          "A": "9%",
-         "A-": "13%",
-         "B+": "23%",
+         "A-": "3%",
+         "B+": "13%",
          "B": "20%",
          "B-": "12%",
          "C+": "12%",
@@ -1836,15 +1836,15 @@
           "courseSuccessPercentage": 93
       },
       "courseDifficulty" : {
-         "enrollement" : 98,
-         "gpaAverage": 3.46,
-         "aPlus": "1%",
-         "A": "9%",
-         "A-": "13%",
+         "enrollement" : 198,
+         "gpaAverage": 3.96,
+         "aPlus": "19%",
+         "A": "19%",
+         "A-": "23%",
          "B+": "23%",
          "B": "20%",
-         "B-": "12%",
-         "C+": "12%",
+         "B-": "13%",
+         "C+": "2%",
          "C": "2%",
          "C-": "10%",
          "D+": "2%",
@@ -1918,7 +1918,7 @@
       "thumbnail": "https://previews.123rf.com/images/radiantskies/radiantskies1211/radiantskies121102449/16528568-abstract-word-cloud-for-microeconomics-with-related-tags-and-terms.jpg",
       "courseInfo": {
           "courseLength" : "14 hours",
-          "courseAuthor": "Shelby Salamandar",
+          "courseAuthor": "Peter Chiasos",
           "courseRating": "4.4",
           "coursePrice": "$28.99",
           "coursePercentage": 32,
@@ -1927,11 +1927,11 @@
           "courseSuccessPercentage": 93
       },
       "courseDifficulty" : {
-         "enrollement" : 98,
-         "gpaAverage": 3.46,
-         "aPlus": "1%",
+         "enrollement" : 48,
+         "gpaAverage": 2.16,
+         "aPlus": "3%",
          "A": "9%",
-         "A-": "13%",
+         "A-": "3%",
          "B+": "23%",
          "B": "20%",
          "B-": "12%",
@@ -1941,7 +1941,7 @@
          "D+": "2%",
          "D": "0%",
          "D-": "1%",
-         "F": "1%"
+         "F": "51%"
      },
       "purchased": false,
       "university": "uft",
@@ -2019,9 +2019,9 @@
       },
       "courseDifficulty" : {
          "enrollement" : 98,
-         "gpaAverage": 3.46,
-         "aPlus": "1%",
-         "A": "9%",
+         "gpaAverage": 3.76,
+         "aPlus": "14%",
+         "A": "4%",
          "A-": "13%",
          "B+": "23%",
          "B": "20%",
@@ -2032,7 +2032,7 @@
          "D+": "2%",
          "D": "0%",
          "D-": "1%",
-         "F": "1%"
+         "F": "0%"
      },
       "purchased": false,
       "university": "uft",
@@ -2109,10 +2109,10 @@
           "courseSuccessPercentage": 93
       },
       "courseDifficulty" : {
-         "enrollement" : 98,
-         "gpaAverage": 3.46,
-         "aPlus": "1%",
-         "A": "9%",
+         "enrollement" : 28,
+         "gpaAverage": 3.86,
+         "aPlus": "22%",
+         "A": "19%",
          "A-": "13%",
          "B+": "23%",
          "B": "20%",
@@ -2200,11 +2200,11 @@
           "courseSuccessPercentage": 93
       },
       "courseDifficulty" : {
-         "enrollement" : 98,
-         "gpaAverage": 3.46,
-         "aPlus": "1%",
-         "A": "9%",
-         "A-": "13%",
+         "enrollement" : 428,
+         "gpaAverage": 3.66,
+         "aPlus": "3%",
+         "A": "19%",
+         "A-": "18%",
          "B+": "23%",
          "B": "20%",
          "B-": "12%",
@@ -2291,11 +2291,11 @@
           "courseSuccessPercentage": 93
       },
       "courseDifficulty" : {
-         "enrollement" : 98,
-         "gpaAverage": 3.46,
-         "aPlus": "1%",
-         "A": "9%",
-         "A-": "13%",
+         "enrollement" : 151,
+         "gpaAverage": 3.16,
+         "aPlus": "4%",
+         "A": "19%",
+         "A-": "10%",
          "B+": "23%",
          "B": "20%",
          "B-": "12%",
@@ -2382,17 +2382,17 @@
           "courseSuccessPercentage": 93
       },
       "courseDifficulty" : {
-         "enrollement" : 98,
-         "gpaAverage": 3.46,
-         "aPlus": "1%",
-         "A": "9%",
-         "A-": "13%",
-         "B+": "23%",
-         "B": "20%",
-         "B-": "12%",
-         "C+": "12%",
+         "enrollement" : 42,
+         "gpaAverage": 3.94,
+         "aPlus": "40%",
+         "A": "10%",
+         "A-": "20%",
+         "B+": "4%",
+         "B": "4%",
+         "B-": "2%",
+         "C+": "0%",
          "C": "2%",
-         "C-": "10%",
+         "C-": "0%",
          "D+": "2%",
          "D": "0%",
          "D-": "1%",
@@ -2473,9 +2473,9 @@
           "courseSuccessPercentage": 93
       },
       "courseDifficulty" : {
-         "enrollement" : 98,
-         "gpaAverage": 3.46,
-         "aPlus": "1%",
+         "enrollement" : 78,
+         "gpaAverage": 3.56,
+         "aPlus": "5%",
          "A": "9%",
          "A-": "13%",
          "B+": "23%",
