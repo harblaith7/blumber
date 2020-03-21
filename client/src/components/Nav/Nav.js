@@ -3,7 +3,7 @@ import { connect } from 'react-redux'
 import './Nav.scss';
 import {Link} from 'react-router-dom'
 import {HashLink} from 'react-router-hash-link'
-import shoppingCart from '../../assets/shopping-cart.svg'
+
 
 
 class Nav extends Component {
