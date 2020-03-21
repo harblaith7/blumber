@@ -32,7 +32,7 @@ class ShoppingCart extends Component {
     render() {
         return (
             <div className="ShoppingCart">
-                
+            <Nav/>
                 <div className="ShoppingCart__container">
                     <div className="ShoppingCart__item-cart-container">
                         <div className="ShoppingCart__table-container">
@@ -53,7 +53,7 @@ class ShoppingCart extends Component {
                     </div>
 
                     <div className="ShoppingCart__buy-container">
-                        <Nav/>
+
                         <div className="ShoppingCart__buy-content-container">
                             <div className="ShoppingCart__line"/>
                             <div className="ShoppingCart__cart-info-container">

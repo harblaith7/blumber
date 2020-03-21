@@ -3,7 +3,8 @@ import './Header.scss';
 import headerImage from '../../assets/read-textbook.svg'
 import Slider from '../Slider/Slider';
 import backgroundDesign from '../../assets/purple-background.svg'
-import Nav from '../Nav/Nav'
+import Nav from '../Nav/Nav';
+
 
 class Header extends Component {
     render() {

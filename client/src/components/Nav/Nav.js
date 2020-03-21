@@ -38,8 +38,8 @@ class Nav extends Component {
                                 Wolf Tracker
                             </Link>
                         </li>
-                        <li className="Nav__list-item">
-                            <HashLink to="/#course-display" className="Nav__link Nav__link">
+                        <li className="Nav__list-item Nav__list-item--margin">
+                            <HashLink to="/#course-display" className="Nav__link Nav__link--margin">
                                 Courses
                             </HashLink>
                         </li>

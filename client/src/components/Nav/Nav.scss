@@ -5,7 +5,7 @@
 .Nav {
  
     height: 7.5vh;
-    z-index: 2;
+    z-index: 100;
     
 
     &__container {
@@ -25,6 +25,10 @@
     &__list-item {
         list-style: none;
         margin-left: 3rem;
+
+        &--margin {
+            margin-right: auto;
+        }
     }
 
     &__link {
@@ -33,8 +37,29 @@
         letter-spacing: 0.2rem;
         text-decoration: none;
         color: $black;
+        position: relative;
+
+        &::after {
+            content: "";
+            position: absolute;
+            width: 0%;
+            height: 0.1rem;
+            background-color: $black;
+            transform: translate(-50%, -50%);
+            top: 130%;
+            left: 50%;
+            transition: 0.5s cubic-bezier(.07,1.39,.91,1.02);
+            
+        }
         
-      
+        &:hover::after {
+            width: 105%
+        }
+
+        &--margin {
+            justify-self: flex-end;
+            width: 80%
+        }
 
         &--logged {
             color: $off-white

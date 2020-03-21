@@ -24,7 +24,7 @@ class ShoppingCartItem extends Component {
                     <h4 className="ShoppingCart__title">
                         {this.props.cartItem.courseName}
                     </h4>
-                    <p>
+                    <p className="ShoppingCart__short-description">
                         {this.props.cartItem.courseInfo.courseShortDescription}
                     </p>
                 </div>
