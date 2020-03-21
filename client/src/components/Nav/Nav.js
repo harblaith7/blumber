@@ -3,7 +3,8 @@ import { connect } from 'react-redux'
 import './Nav.scss';
 import {Link} from 'react-router-dom'
 import {HashLink} from 'react-router-hash-link'
-
+import userSilhouette from '../../assets/man-user.svg'
+import Dropdown from '../Dropdown/Dropdown'
 
 
 class Nav extends Component {
@@ -84,9 +85,9 @@ class Nav extends Component {
                                 Cart
                             </Link>
                         </li>
-                        <li className="Nav__list-item">
-                            <a href="/api/logout" className="Nav__link Nav__link">
-                                {this.props.auth.name}
+                        <li className="Nav__list-item-icon">
+                            <a href="/api/logout" className="Nav__link--icon ">
+                                <img src={userSilhouette} alt="" className="Nav__icon"/>
                             </a>
                         </li> 
                     </>

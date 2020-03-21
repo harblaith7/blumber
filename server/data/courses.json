@@ -86,6 +86,194 @@
                      "time":"8min"
                   }
             ]
+         },
+         {
+            "mainInfo":{
+               "title":"Section 3: IR Spectroscopy",
+               "courses":"0/9",
+               "time":"3h 12min"
+            },
+            "sectionInfo":[
+               {
+                  "title":"What is IR spectroscopy",
+                  "time":"26min"
+               },
+               {
+                  "title":"Spotting the hydroxyl group",
+                  "time":"19min"
+               },
+               {
+                  "title":"Spotting the carbonyl group",
+                  "time":"24min"
+               },
+               {
+                  "title":"Spotting the amino groups",
+                  "time":"13min"
+               },
+               {
+                  "title":"Other patterns",
+                  "time":"12min"
+               },
+               {
+                  "title":"Example question #1",
+                  "time":"8min"
+               },
+               {
+                  "title":"Solution #1",
+                  "time":"30min"
+               },
+               {
+                  "title":"Example question #2",
+                  "time":"12min"
+               },
+               {
+                  "title":"Solution #2",
+                  "time":"43min"
+               },
+               {
+                  "title":"Example question #3",
+                  "time":"2min"
+               },
+               {
+                  "title":"Solution #3",
+                  "time":"37min"
+               }
+            ]
+         },
+         {
+            "mainInfo":{
+               "title":"Section 4: NMR Spectroscopy",
+               "courses":"0/9",
+               "time":"2h 47min"
+            },
+            "sectionInfo":[
+               {
+                  "title":"The structure of the atom",
+                  "time":"16min"
+               },
+               {
+                  "title":"What we will be learning",
+                  "time":"12min"
+               },
+               {
+                  "title":"CHEM 112 overview",
+                  "time":"8min"
+               },
+               {
+                  "title":"How to get help",
+                  "time":"4min"
+               },
+               {
+                  "title":"CHEM 112 overview",
+                  "time":"8min"
+               }
+            ]
+         },
+         {
+            "mainInfo":{
+               "title":"Section 5: UV Spectroscopy",
+               "courses":"0/9",
+               "time":"1h 2min"
+            },
+            "sectionInfo":[
+               {
+                  "title":"What is IR spectroscopy",
+                  "time":"26min"
+               },
+               {
+                  "title":"Spotting the hydroxyl group",
+                  "time":"19min"
+               },
+               {
+                  "title":"Spotting the carbonyl group",
+                  "time":"24min"
+               },
+               {
+                  "title":"Spotting the amino groups",
+                  "time":"13min"
+               },
+               {
+                  "title":"Other patterns",
+                  "time":"12min"
+               },
+               {
+                  "title":"Example question #1",
+                  "time":"8min"
+               },
+               {
+                  "title":"Solution #1",
+                  "time":"30min"
+               },
+               {
+                  "title":"Example question #2",
+                  "time":"12min"
+               },
+               {
+                  "title":"Solution #2",
+                  "time":"43min"
+               },
+               {
+                  "title":"Example question #3",
+                  "time":"2min"
+               },
+               {
+                  "title":"Solution #3",
+                  "time":"37min"
+               }
+            ]
+         },
+         {
+            "mainInfo":{
+               "title":"Section 6: Putting it all together",
+               "courses":"0/4",
+               "time":"2h 22min"
+            },
+            "sectionInfo":[
+               {
+                  "title":"What is IR spectroscopy",
+                  "time":"26min"
+               },
+               {
+                  "title":"Spotting the hydroxyl group",
+                  "time":"19min"
+               },
+               {
+                  "title":"Spotting the carbonyl group",
+                  "time":"24min"
+               },
+               {
+                  "title":"Spotting the amino groups",
+                  "time":"13min"
+               },
+               {
+                  "title":"Other patterns",
+                  "time":"12min"
+               },
+               {
+                  "title":"Example question #1",
+                  "time":"8min"
+               },
+               {
+                  "title":"Solution #1",
+                  "time":"30min"
+               },
+               {
+                  "title":"Example question #2",
+                  "time":"12min"
+               },
+               {
+                  "title":"Solution #2",
+                  "time":"43min"
+               },
+               {
+                  "title":"Example question #3",
+                  "time":"2min"
+               },
+               {
+                  "title":"Solution #3",
+                  "time":"37min"
+               }
+            ]
          }
       ]
    },

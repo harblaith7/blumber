@@ -13,6 +13,11 @@
         position: relative;
     }
 
+    &__list-item-icon {
+        list-style: none;
+        margin-left: 3rem;
+    }
+
     &__list {
         height: 100%;
         display: flex;
@@ -31,6 +36,15 @@
         }
     }
 
+    &__link--icon {
+        margin-right: 1.5rem;
+        font-size: 1.5rem;
+        letter-spacing: 0.2rem;
+        text-decoration: none;
+        color: $black;
+        position: relative;
+    }
+
     &__link {
         margin-right: 1.5rem;
         font-size: 1.5rem;
@@ -38,6 +52,10 @@
         text-decoration: none;
         color: $black;
         position: relative;
+
+        &--icon {
+
+        }
 
         &::after {
             content: "";
