@@ -44,6 +44,12 @@
         }
     }
 
+    &__icon {
+        &--facebook {
+            width: 2rem
+        }
+    }
+
     &__modal {
         background-color: white;
         height: 60vh;
@@ -101,10 +107,12 @@
         &--google {
             background-color: $google-red;
             color: $white;
-            
         }
 
-     
+        &--facebook {
+            background-color: rgb(60,102,196);
+            color: $white;
+        }
 
     }
 

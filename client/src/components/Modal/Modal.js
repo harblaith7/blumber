@@ -6,7 +6,7 @@ import Backdrop from '@material-ui/core/Backdrop';
 import { useSpring, animated } from 'react-spring'; // web.cjs is required for IE 11 support
 import './Modal.scss';
 import googleIcon from "../../assets/google-plus.svg"
-import axios from 'axios'
+import facebookIcon from "../../assets/facebook.svg"
 
 
 const useStyles = makeStyles(theme => ({
@@ -105,9 +105,10 @@ export default function SpringModal() {
                     <img src={googleIcon} className="Modal__icon"/>
                      <span>Sign in with Google</span>
                   </a>
-                  <div className="Modal__btn-container">
-                    hi
-                  </div>
+                  <a className="Modal__btn-container Modal__btn-container--facebook" href="/auth/google">
+                    <img src={facebookIcon} className="Modal__icon Modal__icon--facebook"/>
+                     <span>Sign in with Facebook</span>
+                  </a>
               </div>
           </div>
         </Fade>
