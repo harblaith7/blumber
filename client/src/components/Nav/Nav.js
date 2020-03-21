@@ -58,23 +58,38 @@ class Nav extends Component {
             default: 
                
                 return (
-                    <li className="Nav__list-item">
-                        <Link to="/wolfandbird" className="Nav__link Nav__link">
-                            Wolf Tracker
-                        </Link>
-                        <HashLink to="/#course-display" className="Nav__link Nav__link">
-                            Courses
-                        </HashLink>
-                        <Link to="/log" className="Nav__link Nav__link">
-                            My Courses
-                        </Link>
-                        <Link to="/shopping-cart" className="Nav__link">
-                            Cart
-                        </Link>
-                        <a href="/api/logout" className="Nav__link Nav__link">
-                            {this.props.auth.name}
-                        </a>
-                    </li> 
+                    <>
+                        <li className="Nav__list-item">
+                            <Link to="/" className="Nav__link Nav__link">
+                                Home
+                            </Link>
+                        </li>
+                        <li className="Nav__list-item">
+                            <Link to="/wolfandbird" className="Nav__link Nav__link">
+                                Wolf Tracker
+                            </Link>
+                        </li>
+                        <li className="Nav__list-item Nav__list-item--margin">
+                            <HashLink to="/#course-display" className="Nav__link Nav__link">
+                                Courses
+                            </HashLink>
+                        </li>
+                        <li className="Nav__list-item">
+                            <Link to="/log" className="Nav__link Nav__link">
+                                My Courses
+                            </Link>
+                        </li>
+                        <li className="Nav__list-item">
+                            <Link to="/shopping-cart" className="Nav__link">
+                                Cart
+                            </Link>
+                        </li>
+                        <li className="Nav__list-item">
+                            <a href="/api/logout" className="Nav__link Nav__link">
+                                {this.props.auth.name}
+                            </a>
+                        </li> 
+                    </>
                 )
         }
     }

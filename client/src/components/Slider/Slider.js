@@ -3,6 +3,7 @@ import './Slider.scss';
 import graduationHat from '../../assets/graduation-hat.svg';
 import Modal from '../Modal/Modal'
 import { v4 as uuidv4 } from 'uuid';
+import {connect} from 'react-redux';
 
 class Slider extends Component {
 
@@ -79,7 +80,20 @@ class Slider extends Component {
         }
     }
 
+    displayButton = () => {
+        if(this.props.auth){
+            return (
+                <a href="/api/logout" type="button" className="Slider__log-out">
+                    Log Out
+                </a>
+            )
+        } else {
+            return <Modal/>
+        }
+    }
+
     render() {
+        console.log(this.props.auth)
         return (
             <div className="Slider">
                 <div className="Slider__graduation-img-container">
@@ -97,7 +111,7 @@ class Slider extends Component {
                     <button className={`Slider__btn ${this.state.btnState[3] && "Slider__btn--active"}`} onClick={this.transitionSlide} id="3"></button>
                 </div>
                 <div className="Slider__sign-in-container">
-                    <Modal/>
+                    {this.displayButton()}
                 </div>
                 
             </div>
@@ -105,7 +119,11 @@ class Slider extends Component {
     }
 }
 
-export default Slider;
+const mapStateToProps = state => ({
+    auth : state.auth
+})
+
+export default connect(mapStateToProps, null)(Slider);
 
 
 /*Slider__btn--active
