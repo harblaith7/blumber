@@ -105,7 +105,7 @@ export default function SpringModal() {
                     <img src={googleIcon} className="Modal__icon"/>
                      <span>Sign in with Google</span>
                   </a>
-                  <a className="Modal__btn-container Modal__btn-container--facebook" href="/auth/google">
+                  <a className="Modal__btn-container Modal__btn-container--facebook" href="/auth/facebook">
                     <img src={facebookIcon} className="Modal__icon Modal__icon--facebook"/>
                      <span>Sign in with Facebook</span>
                   </a>

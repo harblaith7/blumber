@@ -13,7 +13,20 @@ module.exports = (app) => {
     (req, res) => {
       res.redirect('/log')
     }
+  )
+  
+  
+
+  
+  app.get('/auth/facebook', passport.authenticate('facebook'))
+  
+  app.get('/auth/facebook/callback', passport.authenticate('facebook'),
+    (req, res) => {
+      res.redirect('/log')
+    }
   ) 
+
+
   
   app.get('/api/current_user', (req, res) => {
     res.send(req.user)
