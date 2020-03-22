@@ -269,6 +269,10 @@
         &__short-description {
             display: none
         }
+
+        &__buy-content-container {
+            width: 55%
+        }
     }
 }
 
@@ -324,6 +328,10 @@
         &__short-description {
             display: none
         }
+
+        &__buy-content-container {
+            width: 65%
+        }
     }
 }
 
@@ -353,6 +361,9 @@
         &__buy-container {
             padding-bottom: 50rem;
         }
+        &__buy-content-container {
+            width: 75%
+        }
     }
 }
 
@@ -364,6 +375,9 @@
 
         &__price {
             width: 30%
+        }
+        &__buy-content-container {
+            width: 85%
         }
     }
 }
@@ -397,6 +411,25 @@
             width: 30%;
             left: 5%;
             margin-top: 3rem;
+        }
+
+        &__cart-info-container {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &__title {
+            margin: 0;
+            font-size: 3rem;
+            margin-bottom: 2rem;
+        }
+
+        &__total {
+            font-size: 3.5rem;
+        }
+
+        &__buy-content-container {
+            text-align: center;
         }
     }
 }
