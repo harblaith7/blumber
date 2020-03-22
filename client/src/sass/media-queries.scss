@@ -1,4 +1,16 @@
 
+@mixin width-1450px {
+    @media (max-width: 1450px){
+        @content
+    }
+};
+
+@mixin width-1350px {
+    @media (max-width: 1450px){
+        @content
+    }
+};
+
 @mixin width-1260px {
     @media (max-width: 1260px){
         @content
@@ -67,6 +79,12 @@
 
 @mixin width-550px {
     @media (max-width: 550px){
+        @content
+    }
+};
+
+@mixin width-500px {
+    @media (max-width: 500px){
         @content
     }
 };

@@ -43,7 +43,7 @@ class ShoppingCart extends Component {
                                 <h3 className="ShoppingCart__row-item ShoppingCart__row-item--description">
                                     Description
                                 </h3>
-                                <h3 className="ShoppingCart__row-item">
+                                <h3 className="ShoppingCart__row-item Shopping__row-item--price">
                                     Price
                                 </h3>
                             </div>
