@@ -56,17 +56,21 @@ class CourseDescription extends Component {
                                     {courseInfo && courseInfo.courseName}
                                 </h2>
                                 <p className="CourseDescription__short-description">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus officiis a corrupti at nam id possimus exercitationem mollitia ipsum laudantium!
+                                    {courseInfo && courseInfo.courseInfo.courseShortDescription}
                                 </p>
                                 <div className="CourseDescription__stats-container">
-                                    <StarRatings
-                                        rating={4.6}
-                                        starRatedColor="gold"
-                                        starDimension="2rem"
-                                        starSpacing="0.2rem"
-                                        numberOfStars={5}
-                                        name='rating'
-                                    />
+                                    {
+                                        courseInfo && (
+                                            <StarRatings
+                                                rating={parseFloat(courseInfo.courseInfo.courseRating)}
+                                                starRatedColor="gold"
+                                                starDimension="2rem"
+                                                starSpacing="0.2rem"
+                                                numberOfStars={5}
+                                                name='rating'
+                                            />
+                                        )
+                                    }
                                     <p className="CourseDescription__stats-info CourseDescription__stats-info--number-rating">{courseInfo && parseFloat(courseInfo.courseInfo.courseRating)}</p>
                                     <p className="CourseDescription__stats-info CourseDescription__stats-info--margin">
                                         <span>{courseInfo && courseInfo.courseInfo.courseSuccessPercentage}%</span> of our students got an A in this course 

@@ -1743,10 +1743,10 @@
       "courseInfo": {
           "courseLength" : "2 hours",
           "courseAuthor": "Rafay Ali",
-          "courseRating": "1.7",
+          "courseRating": "0.4",
           "coursePrice": "$28.99",
           "coursePercentage": 32,
-          "courseShortDescription" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint quia laudantium a tempore. Incidunt unde animi ipsa, inventore necessitatibus fuga?",
+          "courseShortDescription" : "This is a CSS course that will dive deep into the different types of header elements that exist. By the end of the course you will be an expert at choosing which header tag to use in your HTML",
           "courseDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam ipsam numquam velit rerum vero sapiente quaerat exercitationem amet mollitia id eligendi assumenda, ipsum obcaecati dolorum quasi eius eveniet sunt, architecto sint voluptas! Ipsam inventore recusandae itaque molestias temporibus incidunt voluptas saepe tenetur, explicabo, dolorem, sint minima odit pariatur libero? Veniam!",
           "courseSuccessPercentage": 2
       },

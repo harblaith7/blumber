@@ -106,7 +106,7 @@ class WolfAndBirdTracker extends Component {
                 <div className="WolfAndBirdTracker__course-info-container">
                     <div className="WolfAndBirdTracker__table-container">
                         <h3 className="WolfAndBirdTracker__university">
-                            Queens
+                            Grade Distribution
                         </h3>
                         <CourseTable currentUni = {this.state.currentUniversity}/>
                     </div>

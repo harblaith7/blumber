@@ -9,7 +9,7 @@ class InfoSection extends Component {
                         <div className="InfoSection__info-container">
                             <div className="InfoSection__heading-container">
                                 <h2 className="InfoSection__heading">
-                                    We teach a ranges of all subjects 
+                                    We teach a range of all subjects 
                                 </h2>
                                 <p className="InfoSection__description">
                                     You don't have to be a science, math, engineering, or business student to use our platform. We having in depth tutorials in a range of subjects including ones like psychology, history and english. Below is a list of all the subjects we teach.
