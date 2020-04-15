@@ -15,7 +15,7 @@ class CourseTable extends Component {
     }
 
     async componentDidMount(){
-        const res = await axios.get(`${API_URL}/course/search/queens`)
+        const res = await axios.get(`/api/search/queens`)
         this.setState({
             courseInfo : res.data
         })
@@ -23,7 +23,7 @@ class CourseTable extends Component {
 
     async componentDidUpdate(prevProps){
         if(prevProps.currentUni !== this.props.currentUni){
-            const res = await axios.get(`${API_URL}/course/search/${this.props.currentUni}`)
+            const res = await axios.get(`/api/search/${this.props.currentUni}`)
             this.setState({
                 courseInfo : res.data
             })

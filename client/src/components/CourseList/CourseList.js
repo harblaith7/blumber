@@ -17,7 +17,7 @@ class CourseList extends Component {
     }
 
     componentDidMount(){
-        axios.get(`${API_URL}/course/search/queens`)
+        axios.get(`/api/search/queens`)
             .then(response => {
                 this.setState({
                     courseList : response.data
@@ -31,7 +31,7 @@ class CourseList extends Component {
     componentDidUpdate(prevProps){
         if(this.props.currentUni !== prevProps.currentUni){
             
-            axios.get(`${API_URL}/course/search/${this.props.currentUni}`)
+            axios.get(`/api/search/${this.props.currentUni}`)
             .then(response => {
                 this.setState({
                     courseList : response.data

@@ -40,22 +40,28 @@ require('./routes/billingRoutes')(app)
 app.use(cors())
 
 
-// ROUTES 
-app.get('/', (req, res) => {
-  res.send('Why the hell did my authentication break asshole')
-})
 
-
-
+app.use("/api", profileRoutes)
 
 
 const PORT = process.env.PORT || 8080
+
+if (process.env.NODE_ENV === "production"){
+
+  app.use(express.static("client/build"))
+
+  const path = require("path")
+  app.get("*", (req, res) => {
+    res.sendFile(path.resolve(__dirname, "client", "build", "index.html"))
+  })
+  
+}
 
 app.listen(PORT, () => {
   console.log(`Now listening on port ${PORT}`)
 })
 
-app.use("/course", profileRoutes)
+
 
 /*
 

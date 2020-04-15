@@ -20,7 +20,7 @@ class CourseDescription extends Component {
     }
 
     componentDidMount(){
-        axios.get(`${API_URL}/course/current/laith/${this.props.match.params.courseId}`)
+        axios.get(`/api/current/laith/${this.props.match.params.courseId}`)
         .then(response => {
             this.setState({
                 courseInfo : response.data[0]

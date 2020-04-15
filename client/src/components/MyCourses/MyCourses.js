@@ -17,7 +17,7 @@ class MyCourses extends Component {
     }
 
     componentDidMount(){
-        axios.get(`${API_URL}/course/purchased`)
+        axios.get(`/api/purchased`)
             .then(response => {
                 this.setState({
                     myCourses : response.data
